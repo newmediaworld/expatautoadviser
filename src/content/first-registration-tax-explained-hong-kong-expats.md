@@ -67,6 +67,7 @@ What that means in practice:
 
 - **Private EVs registered on or after 1 April 2026:** full FRT, no concession.
 - **Private EVs registered before 31 March 2026:** eligible for the general ~HK$58,500 concession and, where applicable, the "One-for-One" Replacement Scheme (up to ~HK$172,500 if you scrapped a qualifying old ICE vehicle owned for 3+ years). These figures applied to the 1 April 2024 – 31 March 2026 window and are now closed for private cars.
+- **Transitional arrangement** for buyers caught mid-order: per the 2026-27 Budget (announced 25 February 2026), private EVs **ordered on or before 25 February 2026** (with documented order or HK-shipping arrangement) retain the concession if first registered and the FRT application is submitted by **24 February 2027**. This was a one-off concession to protect customers who'd already committed under the old rules; it does not apply to orders placed after 25 Feb 2026.
 - **Commercial EVs, electric motorcycles, and electric motor tricycles:** FRT waivers continue until 31 March 2028 (per Transport Department, 2026 Budget).
 
 Translation: the EV-vs-petrol price gap that the concession used to close for private buyers has now widened again. If you're budgeting for a private EV, plan on full FRT. Always confirm the applicable concession (or lack thereof) with the dealer at time of purchase, since the position can shift in future budgets.
