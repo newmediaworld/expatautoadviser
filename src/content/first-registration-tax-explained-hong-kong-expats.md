@@ -72,6 +72,8 @@ What that means in practice:
 
 Translation: the EV-vs-petrol price gap that the concession used to close for private buyers has now widened again. If you're budgeting for a private EV, plan on full FRT. Always confirm the applicable concession (or lack thereof) with the dealer at time of purchase, since the position can shift in future budgets.
 
+> **2026 fuel-cost backdrop.** While the EV concession was being closed, HK petrol prices were running at multi-year highs: **HK$32.39/L in March 2026 — the highest since July 2022** — sustained into Q2 2026 (HK$32.84/L as of late May 2026). The government has explicitly declined consumer-side relief: per the 13 May 2026 LCQ13 LegCo reply, the Environment & Ecology Bureau noted that "private vehicles for self-use shall not be considered a primary priority" for cost intervention. The Q2 2026 50% tunnel-toll waiver (17 May → 16 July 2026) covers commercial vehicles only. For private-EV buyers this is a mixed picture — sustained-high petrol prices strengthen the operating-cost case for going electric, but the closure of the FRT concession on 1 April 2026 raised the up-front cost by ~HK$58,500 to ~HK$172,500 depending on whether you qualified for One-for-One. Run both numbers when you're modelling it.
+
 ## Why Expats Get Caught Out
 
 The most common expat mistake: assuming the "list price" they see online is the actual price. It isn't. The list price is typically the dealer's PRP exclusive of FRT — the number that goes on the actual cheque is two to three times higher.

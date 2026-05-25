@@ -24,6 +24,8 @@ If the building's spaces are sold/rented separately, you're looking at:
 
 These are illustrative ranges from market data and our reader feedback in 2025-2026. They vary by building class, private vs government provision, and availability. Treat them as planning anchors, not quotes.
 
+> **2026 fuel-cost context worth noting alongside parking.** HK petrol prices reached **HK$32.39/L in March 2026 — the highest since July 2022** — and have held at that elevated tier through Q2 2026 (HK$32.84/L as of late May 2026). The government has explicitly stated that "private vehicles for self-use shall not be considered a primary priority" for cost relief (13 May 2026 LCQ13 LegCo reply, Environment & Ecology Bureau). The Q2 2026 50% tunnel-toll waiver (17 May → 16 July 2026) covers commercial vehicles only — buses, minibuses, taxis, goods vehicles. Private-car owners get nothing. The point for budgeting: parking + sustained-high fuel + standard tolls is the 2026 base case; don't assume relief packages.
+
 The Transport Department also runs **government-managed car parks** in Central (City Hall, Star Ferry, Edinburgh Place) at significantly lower published rates — around **HK$4,850–HK$6,200/month** for monthly contracts, with a queue. If you can secure one of these, you're paying meaningfully less than the private commercial alternative — but waiting lists can be long, particularly for Star Ferry.
 
 ### 2. Office or daytime parking (where you keep the car while at work)

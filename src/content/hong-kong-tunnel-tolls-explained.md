@@ -35,6 +35,8 @@ Two practical takeaways from this structure:
 
 For the most current rates, check [the HK Transport Department's tunnel toll pages](https://www.td.gov.hk) or the HKeToll app — TVT is reviewed periodically and rates have moved a few dollars at the margins since launch.
 
+> **The 2026 fuel-cost context.** Tolls aren't the only line that's been moving. HK petrol pump prices hit **HK$32.39/L in March 2026 — the highest level since July 2022** — and have stayed at that elevated tier through Q2 2026 (HK$32.84/L as of late May 2026). The government has explicitly declined consumer-side fuel relief: in the 13 May 2026 LCQ13 LegCo reply, the Environment & Ecology Bureau noted that "private vehicles for self-use shall not be considered a primary priority" for cost intervention. The Transport Department's 50% tunnel-toll waiver running 17 May → 16 July 2026 covers commercial vehicles only — buses, minibuses, taxis, goods vehicles. Private cars and motorcycles continue to pay the standard TVT bands above. If you're modelling HK car-ownership cost in 2026, assume sustained high fuel + standard tolls, not a relief package.
+
 ## The Other Tunnels Worth Knowing About
 
 Beyond the cross-harbour three, several tunnels affect expat tunnel exposure depending on where you live and where you drive.

@@ -118,6 +118,17 @@ The COE bidding process is identical: the dealer bids on your behalf in the next
 
 Total timeline from deposit to driving home: 3-6 weeks, similar to AD.
 
+## Why Due-Diligence on the PI Matters (the Concordway Case)
+
+In April 2026, LTA and Singapore Customs jointly announced one of the largest parallel-import enforcement actions in recent memory. Concordway Pte Ltd's sole director, Subash Indrajith, was charged with nine counts under the Customs Act covering 34 vehicles imported between October 2018 and February 2024, with suppressed-value declarations and undeclared "commission" fees of S$3,000-S$4,000 per vehicle. He pleaded guilty on 24 April 2026 and was fined a combined S$1.068 million, with a 25 May 2026 payment deadline — failing which a 12-month custodial sentence kicks in.
+
+What does this mean for you as a buyer? Two things:
+
+1. **It validates the warning above about CASE-Trust accreditation and reputable PIs.** This wasn't a household-name PI — and that's the point. The major PIs (Vincar, Republic, Cars & Stars) have decades of track record and clear declared-value paper trails. Smaller operators carry more risk, and "more risk" is what eventually surfaced as a criminal customs case here.
+2. **It changes nothing about the legitimate side of the industry.** Parallel importing is fully legal and tax-compliant when done properly. The Concordway case is enforcement against under-declaration of taxable value at the import gate, not a verdict on PI buying as a route.
+
+The practical takeaway is the same as before — check CASE accreditation, ask for the original import paperwork (the value declared to Customs / LTA is on it), and avoid any PI that's reluctant to show it.
+
 ## Common Mistakes
 
 A non-exhaustive list, drawn from what I've watched colleagues run into:

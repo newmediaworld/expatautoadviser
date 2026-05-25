@@ -41,7 +41,7 @@ For typical EVs UK expats actually buy:
 - 130-160 kW (Tesla Model 3 Long Range, BMW iX1): roughly S$1,400-1,800/year
 - 200+ kW (Tesla Model Y Performance, BMW i4 M50): S$2,500+/year
 
-EVs in Singapore also benefit from the EV Early Adoption Incentive (EEAI), which delivers up to 45% off the Additional Registration Fee (ARF) at first registration, capped at S$15,000. This is a one-off saving rather than a recurring rebate, but it materially shifts the ownership maths in favour of EVs over comparable petrol cars.
+EVs in Singapore also benefit from the EV Early Adoption Incentive (EEAI), which delivers up to 45% off the Additional Registration Fee (ARF) at first registration. The cap is now **S$7,500** for cars registered on or after 1 January 2026 — halved from the previous S$15,000 ceiling under the tier-shift announced in 2025. This is a one-off saving rather than a recurring rebate, but the smaller cap still moves the ownership maths in favour of EVs over comparable petrol cars (and the gap closes further once you factor in lower road tax and VES rebates).
 
 EVs also avoid Special Tax surcharges and typically benefit from VES banding rebates (see next section). Net annual recurring cost for an EV is generally below the equivalent petrol on road tax alone — and well below diesel.
 

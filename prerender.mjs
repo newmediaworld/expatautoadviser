@@ -195,8 +195,8 @@ const META = {
     ],
   },
   '/hong-kong/buying-guide': {
-    title: `Buying a Car in Hong Kong 2026: Real Cost After FRT Bands`,
-    desc: `Hong Kong car prices nearly double once FRT (46–132%) bites. Worked HKD 200k vs 800k buyer stacks, dealer vs private, and the buy-vs-lease calc for short postings.`,
+    title: `Buying a Car in Hong Kong 2026 (UK Expat Guide)`,
+    desc: `Real all-in cost of buying a car in Hong Kong 2026 — HKD 200k vs 800k stacks after FRT (46–132%), dealer vs private, financing, buy-vs-lease maths.`,
     type: `article`,
     faq: [
       {
@@ -225,17 +225,17 @@ const META = {
     ],
   },
   '/hong-kong/frt-tax-explained': {
-    title: `Hong Kong First Registration Tax: Private Car Rates 2026`,
-    desc: `Hong Kong first registration tax rates for private cars in 2026 — full progressive bands (46–132%), how taxable value is set, EV concessions and worked HKD examples.`,
+    title: `Hong Kong First Registration Tax Rates 2026 (Private Cars)`,
+    desc: `Hong Kong FRT bands for private cars 2026: 46% on first HK$150k rising to 132% above HK$500k, how taxable value is set, EV concession closure, worked examples.`,
     type: `article`,
     faq: [
       {
-        q: `How is First Registration Tax calculated in Hong Kong?`,
-        a: `FRT is calculated on a progressive scale based on the taxable value of the vehicle. Rates range from 40 percent on the first HKD 150,000 of value up to 115 percent on the portion above HKD 500,000.`,
+        q: `What are the Hong Kong First Registration Tax rates for private cars in 2026?`,
+        a: `FRT is charged on the taxable value in four progressive bands: 46% on the first HK$150,000, 86% on HK$150,001–HK$300,000, 115% on HK$300,001–HK$500,000, and 132% above HK$500,000.`,
       },
       {
-        q: `Are electric vehicles exempt from FRT in Hong Kong?`,
-        a: `Electric vehicles have historically received FRT concessions in Hong Kong. The government has offered full or partial FRT waivers for EVs as part of its green transport policy, though the exact terms change periodically.`,
+        q: `Do electric private cars still get an FRT concession in Hong Kong?`,
+        a: `No. The general FRT concession for private electric cars expired on 31 March 2026 and was not extended. Private EVs registered on or after 1 April 2026 pay full FRT. A transitional carve-out applies to orders placed on or before 25 February 2026 with FRT submission by 24 February 2027. Commercial EVs, electric motorcycles and motor tricycles retain FRT waivers until 31 March 2028.`,
       },
     ],
   },
