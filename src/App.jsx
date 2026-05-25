@@ -8,6 +8,7 @@ import SGLeasingGuide from './pages/singapore/LeasingGuide';
 import SGInsuranceGuide from './pages/singapore/InsuranceGuide';
 import SGLicenceConversion from './pages/singapore/LicenceConversion';
 import SGEVGuide from './pages/singapore/EVGuide';
+import SGEVCharging from './pages/singapore/EVCharging';
 import SGCalculators from './pages/singapore/Calculators';
 import SGGarageFinder from './pages/singapore/GarageFinder';
 import SGBuyingGuide from './pages/singapore/BuyingGuide';
@@ -116,6 +117,7 @@ export function AppRoutes() {
       <Route path="/singapore/insurance-guide" element={<SGInsuranceGuide />} />
       <Route path="/singapore/licence-conversion" element={<SGLicenceConversion />} />
       <Route path="/singapore/ev-guide" element={<SGEVGuide />} />
+      <Route path="/singapore/ev-charging" element={<SGEVCharging />} />
       <Route path="/singapore/calculators" element={<SGCalculators />} />
       <Route path="/singapore/garage-finder" element={<SGGarageFinder />} />
       <Route path="/singapore/lease-checker" element={<SGLeaseChecker />} />

@@ -145,6 +145,11 @@ const META = {
       },
     ],
   },
+  '/singapore/ev-charging': {
+    title: `EV Charging Singapore 2026: UK Expat Networks + Cost Guide`,
+    desc: `EV charging in Singapore 2026 for UK expats — SP/Charge+/Shell Recharge tariffs, HDB vs condo vs landed home charging, EEAI rebate, and which EVs expats pick.`,
+    type: `article`,
+  },
   '/singapore/ev-guide': {
     title: `Electric Cars Singapore 2026: EEAI S$7,500 + Charging Guide`,
     desc: `Buy an electric car in Singapore 2026 as a UK expat — EEAI S$7,500 rebate, VES bands, COE impact, public charging, and best expat EV picks.`,
