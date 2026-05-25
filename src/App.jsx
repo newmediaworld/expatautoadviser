@@ -80,7 +80,7 @@ function ExitIntent() {
   }
 
   if (!show) return null;
-  const PATRICK_IMG = "/Firefly_GeminiFlash_picture%20of%20a%20white%2040%20year%20old%20clean%20shaven%20man%20in%20smart%20casual%20clothes%20with%20dark%20hai%20966416%20(1).png";
+  const PATRICK_IMG = "/patrick.png";
 
   return (
     <>

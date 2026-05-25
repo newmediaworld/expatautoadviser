@@ -2,11 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const SG_MAP =
-  "https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1400&q=80";
+  "https://images.unsplash.com/photo-1565967511849-76a60a516170?w=800&q=75&auto=format";
 const HK_MAP =
-  "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=1400&q=80";
+  "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=800&q=75&auto=format";
 const PATRICK_IMG = '/patrick.png';
-  "/Firefly_GeminiFlash_picture%20of%20a%20white%2040%20year%20old%20man%20in%20a%20suit%20standing%20in%20front%20of%20a%20busy%20city%20intersection%20with%20cars%20around%20him%20(1).jpg";
 
 const styles = `
   * { box-sizing: border-box; margin: 0; padding: 0; }

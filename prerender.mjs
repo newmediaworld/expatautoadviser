@@ -82,8 +82,8 @@ const META = {
     ],
   },
   '/singapore/leasing-guide': {
-    title: `Singapore Car Leasing for Expats 2026: Costs & Terms`,
-    desc: `Leasing a car in Singapore as an expat 2026 — costs (SGD 1,200-1,800/mo), expat-friendly companies, what to check, 6-month vs 36-month options.`,
+    title: `Car Leasing Singapore 2026: SGD 1,200-1,800/mo Expat Guide`,
+    desc: `Real cost of car leasing in Singapore as a UK expat 2026 — SGD 1,200-1,800/mo, expat-friendly lessors, 6 vs 36-month options, what to check.`,
     type: `article`,
     faq: [
       {
@@ -131,8 +131,8 @@ const META = {
     ],
   },
   '/singapore/licence-conversion': {
-    title: `Converting Your Driving Licence in Singapore — Expat Guide`,
-    desc: `How to convert a foreign driving licence to a Singapore licence. Which licences qualify for direct conversion, the process, costs, and timelines.`,
+    title: `Convert UK Driving Licence to Singapore 2026 (No Retest)`,
+    desc: `Convert your UK driving licence to a Singapore licence in 2026 — which licences qualify, the SGD cost, paperwork, and the no-retest pathway.`,
     type: `article`,
     faq: [
       {
@@ -354,13 +354,13 @@ const META = {
     type: `article`,
   },
   '/singapore/child-car-seats': {
-    title: `Child Car Seats Singapore 2026: ISOFIX, Laws & S$150 Fine`,
-    desc: `Singapore child car seat rules for expat families — the 1.35m height law, ISOFIX standards, the S$150 fine, and the taxi/private-hire vehicle exemption.`,
+    title: `Child Car Seat Laws Singapore 2026: ISOFIX + S$150 Fine`,
+    desc: `Singapore child car seat laws 2026 for expat families — 1.35m height rule, ISOFIX standards, S$150 fine, and the taxi/PHV exemption explained.`,
     type: `article`,
   },
   '/singapore/subscription-vs-ownership': {
-    title: `Car Subscription vs Ownership Singapore: Cost & 2026 Verdict`,
-    desc: `Car subscription vs ownership in Singapore — how Carro Leap and Drive Lah price up, what's bundled, full cost comparison, and which suits expats best.`,
+    title: `Car Subscription vs Buying in Singapore 2026 (Real Cost)`,
+    desc: `Car subscription vs buying in Singapore 2026 for expats — Carro Leap, Drive Lah, monthly all-in cost vs ownership maths, which fits your stay length.`,
     type: `article`,
   },
   '/hong-kong/parking-costs': {
@@ -709,7 +709,9 @@ function buildSchema(route, meta) {
 
   // BreadcrumbList — derived from the route path. Helps Google show breadcrumb-trail
   // SERP rich results instead of bare URLs. Added 2026-04-26 for parity with DX schema.
-  if (route !== '/') {
+  // 2026-05-25: also emit for homepage (single-item Home) to close the
+  // schema_breadcrumb_missing audit warning on /.
+  {
     const segments = route.split('/').filter(Boolean);
     const items = [
       { '@type': 'ListItem', position: 1, name: 'Home', item: BASE + '/' },
