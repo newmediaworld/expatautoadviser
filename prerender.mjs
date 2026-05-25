@@ -116,8 +116,8 @@ const META = {
     ],
   },
   '/singapore/insurance-guide': {
-    title: `Car Insurance in Singapore — Expat Guide`,
-    desc: `Compare car insurance options in Singapore as an expat. Understand comprehensive vs third-party coverage, NCD transfers, and how to get the best rate.`,
+    title: `Singapore Car Insurance 2026: Expat Guide (S$1,200-2,800/yr)`,
+    desc: `Singapore car insurance 2026 for expats — S$1,200-2,800/yr comprehensive, NCD transfer from UK, forced-comp cliff at year 7, cheapest expat insurers.`,
     type: `article`,
     faq: [
       {
@@ -146,8 +146,8 @@ const META = {
     ],
   },
   '/singapore/ev-guide': {
-    title: `Electric Cars in Singapore — Expat EV Guide`,
-    desc: `Thinking about an electric car in Singapore? This guide covers EV grants, charging infrastructure, COE implications, and which EVs work best for expat lifestyles.`,
+    title: `Electric Cars Singapore 2026: EEAI S$7,500 + Charging Guide`,
+    desc: `Buy an electric car in Singapore 2026 as a UK expat — EEAI S$7,500 rebate, VES bands, COE impact, public charging, and best expat EV picks.`,
     type: `article`,
     faq: [
       {
@@ -210,8 +210,8 @@ const META = {
     ],
   },
   '/hong-kong/leasing-guide': {
-    title: `Hong Kong Car Leasing for Expats 2026: Costs & Terms`,
-    desc: `Leasing a car in Hong Kong as an expat 2026 — costs (HKD 10,000-16,000/mo), expat-friendly companies, lease vs buy maths, and short-term options.`,
+    title: `Car Leasing Hong Kong 2026: HKD 10-16k/mo Expat Guide`,
+    desc: `Real cost of leasing a car in Hong Kong 2026 as an expat — HKD 10,000-16,000/mo all-in, expat-friendly lessors, lease vs buy maths for short postings.`,
     type: `article`,
     faq: [
       {
@@ -240,8 +240,8 @@ const META = {
     ],
   },
   '/hong-kong/insurance-guide': {
-    title: `Car Insurance in Hong Kong — Expat Guide`,
-    desc: `Compare car insurance options in Hong Kong as an expat. Third-party vs comprehensive coverage, NCD, and tips for getting a fair quote.`,
+    title: `Hong Kong Car Insurance 2026: Expat Guide (HKD 15-25k)`,
+    desc: `Hong Kong car insurance 2026 for expats — HKD 15-25k/yr comprehensive, third-party minimums, NCD transfer from UK, 30-40% expat loading explained.`,
     type: `article`,
     faq: [
       {
