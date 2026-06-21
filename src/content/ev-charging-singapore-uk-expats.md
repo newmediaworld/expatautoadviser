@@ -178,7 +178,7 @@ EV-specific insurance loadings have largely disappeared since 2023 — EVs are n
 - Battery damage coverage: most policies now include it as standard; check the policy schedule
 - Charging-cable-theft cover: some policies exclude; worth confirming
 
-Top expat-friendly insurers covering EVs cleanly: NTUC Income, AIG, Allianz, Liberty Insurance. Comparison shopping via <AffiliateLink href="https://apply.creatory.singsaver.com.sg/affiliate-redirect?o=car-insurance">SingSaver Car Insurance</AffiliateLink> gets quotes from 8-10 insurers in one form; takes 5 minutes and typically saves SGD $200-400/year vs walking into one insurer. SingSaver also runs cashback promotions (current rates SGD $50-150 per policy purchased through the platform) which sit on top of the insurance saving.
+Top expat-friendly insurers covering EVs cleanly: NTUC Income, AIG, Allianz, Liberty Insurance. Comparison shopping via [SingSaver's car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247) gets quotes from 8-10 insurers in one form; takes 5 minutes and typically saves SGD $200-400/year vs walking into one insurer. SingSaver also runs cashback promotions (current rates SGD $50-150 per policy purchased through the platform) which sit on top of the insurance saving.
 
 (The SingSaver link above is an affiliate; we earn a small commission if you take out a policy through it, at no extra cost to you. We use the comparison tool ourselves.)
 
