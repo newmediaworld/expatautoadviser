@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Singapore from './pages/Singapore';
@@ -51,8 +51,14 @@ import Contact from './pages/legal/Contact';
 import CookieConsent from './components/CookieConsent';
 import ScrollToTop from './components/ScrollToTop';
 
-function ExitIntent() {
-  const [show, setShow] = useState(true);
+export function ExitIntent() {
+  // Start hidden — flip to visible after mount so SSR HTML and the initial
+  // client render match. The previous default of `true` caused a React #418
+  // hydration mismatch: SSR omitted ExitIntent entirely (entry-server.jsx
+  // only rendered AppRoutes) while the hydrated client tree included it
+  // rendered with show=true.
+  const [show, setShow] = useState(false);
+  useEffect(() => { setShow(true); }, []);
   const [email, setEmail] = useState('');
   const [done, setDone] = useState(false);
   const { pathname } = useLocation();
@@ -180,13 +186,27 @@ export function AppRoutes() {
   );
 }
 
-export default function App() {
+// AppShell — the router-agnostic part of the tree. Used by App (with
+// BrowserRouter for the client) and by entry-server.jsx (with StaticRouter
+// for SSR). Keeping a single shell ensures the SSR HTML and the hydrated
+// client tree match exactly — the cause of the May 2026 React #418
+// hydration errors was that entry-server only rendered AppRoutes while the
+// client added ScrollToTop, ExitIntent, and CookieConsent on top.
+export function AppShell() {
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <ExitIntent />
       <AppRoutes />
       <CookieConsent />
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppShell />
     </BrowserRouter>
   );
 }
