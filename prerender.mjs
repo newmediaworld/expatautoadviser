@@ -369,8 +369,8 @@ const META = {
     type: `article`,
   },
   '/hong-kong/parking-costs': {
-    title: `Hong Kong Parking Costs 2026: Rates by District`,
-    desc: `Hong Kong parking by district in 2026 — residential, office and visitor rates side-by-side, plus buy-vs-lease implications and where rents are softening.`,
+    title: `Hong Kong Parking Costs 2026: HK$3-12k/mo by District`,
+    desc: `Real Hong Kong parking costs 2026 for UK expats — HK$3,000-12,000/mo residential by district, office rates, buy-vs-lease impact, where rents are softening.`,
     type: `article`,
     faq: [
       {
@@ -431,8 +431,8 @@ const META = {
     ],
   },
   '/hong-kong/tunnel-tolls-explained': {
-    title: `Hong Kong Tunnel Tolls 2026: Time-Varying System Explained`,
-    desc: `HK's Time-Varying Tolls across cross-harbour tunnels plus Tai Lam, Tate's Cairn, Lion Rock — what UK expats pay monthly, HKeToll setup, off-peak savings.`,
+    title: `Hong Kong Tunnel Tolls 2026: HK$8-60 Per Crossing Guide`,
+    desc: `Real cost of HK tunnel tolls 2026 for UK expats — Time-Varying Tolls HK$8-60 per crossing, HKeToll setup, monthly bills by route, off-peak savings.`,
     type: `article`,
     faq: [
       {
