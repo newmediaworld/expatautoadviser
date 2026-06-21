@@ -289,6 +289,11 @@ const META = {
       },
     ],
   },
+  '/hong-kong/petrol-prices-2026-update': {
+    title: `HK Petrol Prices 2026: HK$32+/L Sustained — Expat Guide`,
+    desc: `HK petrol prices 2026 for UK expats — HK$32-33/L sustained through Q2, why HK govt won't subsidise, what it means for buy-vs-lease, EV switch, MTR-vs-drive.`,
+    type: `article`,
+  },
   '/hong-kong/ev-guide': {
     title: `Electric Cars in Hong Kong — Expat EV Guide`,
     desc: `Thinking about an electric car in Hong Kong? This guide covers FRT concessions, charging infrastructure, and which EVs suit expat life in HK.`,
