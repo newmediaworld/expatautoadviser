@@ -184,20 +184,49 @@ export default async function handler(req, res) {
         if (!emailRes.ok) {
           const errText = await emailRes.text().catch(() => '');
           console.error('Brevo email failed:', emailRes.status, errText);
+          // Surface as 502 — contact already created above so the
+          // form UX can still say "you're subscribed". Previously a
+          // silent skip + ok:true that took Brevo dashboard inspection
+          // to detect. Pattern: SHARED/lessons.md 2026-06-21.
+          return res.status(502).json({
+            error: 'Subscribed but magnet delivery failed — we will retry.',
+            detail: `BREVO_SEND_FAILED:${emailRes.status}:${errText.slice(0, 200)}`,
+            contactCreated: true,
+          });
         }
       } catch (emailErr) {
         console.error('Brevo email exception:', emailErr);
+        const msg = emailErr instanceof Error ? emailErr.message : String(emailErr);
+        return res.status(502).json({
+          error: 'Subscribed but magnet delivery failed — we will retry.',
+          detail: `BREVO_SEND_EXCEPTION:${msg.slice(0, 200)}`,
+          contactCreated: true,
+        });
       }
     } else {
+      // Unknown magnet key — caller bug. Return 400 with structured
+      // detail. Previously a silent warn + ok:true; only visible by
+      // checking Brevo dashboard for an absent send.
       console.warn(
         `No magnet config found for key: ${emailMagnetKey}. Email not sent.`
       );
+      return res.status(400).json({
+        error: 'Unknown magnet key',
+        detail: `UNKNOWN_MAGNET_KEY:${emailMagnetKey}`,
+        contactCreated: true,
+      });
     }
 
     return res.status(200).json({ ok: true });
   } catch (err) {
     console.error('Subscribe error:', err);
-    // Don't expose errors to the client.
-    return res.status(200).json({ ok: true });
+    // Bug-class catch: bubble to 500. Returning ok:true here was
+    // actively deceptive — programmer errors and network failures
+    // looked successful. SHARED/lessons.md 2026-06-21.
+    const msg = err instanceof Error ? err.message : String(err);
+    return res.status(500).json({
+      error: 'Something went wrong. Please try again.',
+      detail: msg.slice(0, 200),
+    });
   }
 }
