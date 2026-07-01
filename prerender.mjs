@@ -82,8 +82,8 @@ const META = {
     ],
   },
   '/singapore/leasing-guide': {
-    title: `Car Leasing Singapore 2026: SGD 1,200-1,800/mo Expat Guide`,
-    desc: `Real cost of car leasing in Singapore as a UK expat 2026 — SGD 1,200-1,800/mo, expat-friendly lessors, 6 vs 36-month options, what to check.`,
+    title: `Car Leasing Singapore 2026: SGD 1,200-1,800/mo (UK Expats)`,
+    desc: `Real cost of car leasing Singapore 2026 for UK expats — SGD 1,200-1,800/mo all-in, expat-friendly lessors, 6 vs 36-month options, what actually saves money.`,
     type: `article`,
     faq: [
       {
@@ -101,8 +101,8 @@ const META = {
     ],
   },
   '/singapore/buying-guide': {
-    title: `Buying a Car in Singapore as an Expat — Full Guide`,
-    desc: `Everything you need to know about buying a car in Singapore. COE explained, dealers, financing, and whether buying actually makes financial sense for expats.`,
+    title: `Buying a Car in Singapore 2026: COE S$100k+ Reality (UK Expats)`,
+    desc: `Buying a car Singapore 2026 as a UK expat — COE S$100k+ reality, dealer vs parallel-import, financing rules, and when buying beats leasing (rarely).`,
     type: `article`,
     faq: [
       {
@@ -417,8 +417,8 @@ const META = {
     ],
   },
   '/singapore/selling-guide': {
-    title: `Selling Your Car Leaving Singapore: PARF + COE Rebates 2026`,
-    desc: `Departing UK expats: claim PARF and COE rebates, pick dealer vs instant-offer vs private sale, and avoid the deadline traps that cost four-figure refunds.`,
+    title: `Selling Your Car Leaving Singapore 2026: Claim PARF + COE`,
+    desc: `Departing UK expats Singapore 2026 — claim PARF and COE rebates worth S$20-40k, dealer vs instant-offer vs private sale, deadline traps that cost four-figure refunds.`,
     type: `article`,
     faq: [
       {
@@ -474,8 +474,8 @@ const META = {
     ],
   },
   '/singapore/best-family-cars': {
-    title: `Best Family Cars in Singapore for UK Expats 2026`,
-    desc: `Realistic 2026 family-car options for UK expats — three budget tiers from S$160K to S$340K, top picks per band, used-car alternatives, and key trade-offs.`,
+    title: `Best Family Cars Singapore 2026: 3 Budget Tiers S$160-340k`,
+    desc: `Best family cars Singapore 2026 for UK expats — three budget tiers S$160k to S$340k, top pick per band, used-car alternatives, and the practical trade-offs.`,
     type: `article`,
     faq: [
       {
