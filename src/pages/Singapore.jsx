@@ -19,7 +19,7 @@ const COE_DATA = {
 const SG_SIDEBAR_SECTIONS = [
   { heading: 'Getting Started', keys: ['should-i-get-a-car', 'buying-guide', 'leasing-guide'] },
   { heading: 'Costs & Finance', keys: ['coe-guide', 'cost-of-driving', 'car-loans', 'insurance-guide'] },
-  { heading: 'Ownership & Lifestyle', keys: ['ev-guide', 'licence-conversion', 'child-car-seats', 'subscription-vs-ownership'] },
+  { heading: 'Ownership & Lifestyle', keys: ['ev-guide', 'ev-charging', 'licence-conversion', 'child-car-seats', 'subscription-vs-ownership'] },
   { heading: 'Tools & Services', keys: ['calculators', 'garage-finder'] },
 ];
 
@@ -40,21 +40,21 @@ const SG_GUIDES = [
     label: 'Should I Get a Car?',
     to: '/singapore/should-i-get-a-car',
     desc: 'Is owning a car in Singapore actually worth it? We crunch the real numbers.',
-    img: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '02',
     label: 'Buying Guide',
     to: '/singapore/buying-guide',
     desc: 'COE, OMV, ARF — a plain-English walkthrough of buying a car in Singapore.',
-    img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '03',
     label: 'Leasing Guide',
     to: '/singapore/leasing-guide',
     desc: 'For most expats, leasing beats buying. Here\'s how to find a deal that won\'t sting.',
-    img: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=400&q=75&auto=format&fit=crop',
   },
   /* — Costs & Finance — */
   {
@@ -62,28 +62,28 @@ const SG_GUIDES = [
     label: 'COE Explained',
     to: '/singapore/coe-guide',
     desc: 'How the Certificate of Entitlement system works — bidding, categories, and what it costs.',
-    img: 'https://images.unsplash.com/photo-1594028411108-96a5b0302a4a?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1594028411108-96a5b0302a4a?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '05',
     label: 'Cost of Driving (ERP)',
     to: '/singapore/cost-of-driving',
     desc: 'ERP 2.0, parking, petrol — the real monthly cost of driving in Singapore.',
-    img: 'https://images.unsplash.com/photo-1583475020836-8048d7c92cc3?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1583475020836-8048d7c92cc3?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '06',
     label: 'Car Loans',
     to: '/singapore/car-loans',
     desc: 'MAS LTV caps, TDSR rules, and what banks actually offer expat borrowers.',
-    img: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '07',
     label: 'Insurance Guide',
     to: '/singapore/insurance-guide',
     desc: 'What cover you actually need and how to stop overpaying on premiums.',
-    img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&q=75&auto=format&fit=crop',
   },
   /* — Ownership & Lifestyle — */
   {
@@ -91,43 +91,50 @@ const SG_GUIDES = [
     label: 'EV Guide',
     to: '/singapore/ev-guide',
     desc: 'Electric vehicles in Singapore — incentives, charging, and hidden costs.',
-    img: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '09',
-    label: 'Licence Conversion',
-    to: '/singapore/licence-conversion',
-    desc: 'Convert your foreign driving licence to a Singapore one — step by step.',
-    img: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&q=80',
+    label: 'EV Charging',
+    to: '/singapore/ev-charging',
+    desc: 'Where to charge in Singapore — networks, home charging, costs and apps.',
+    img: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '10',
-    label: 'Child Car Seats',
-    to: '/singapore/child-car-seats',
-    desc: 'ISOFIX, the 1.35m rule, approved standards, and the taxi exemption.',
-    img: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80',
+    label: 'Licence Conversion',
+    to: '/singapore/licence-conversion',
+    desc: 'Convert your foreign driving licence to a Singapore one — step by step.',
+    img: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '11',
+    label: 'Child Car Seats',
+    to: '/singapore/child-car-seats',
+    desc: 'ISOFIX, the 1.35m rule, approved standards, and the taxi exemption.',
+    img: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&q=75&auto=format&fit=crop',
+  },
+  {
+    n: '12',
     label: 'Subscription vs Ownership',
     to: '/singapore/subscription-vs-ownership',
     desc: 'Car subscriptions like Carro Leap vs buying — which makes sense for expats?',
-    img: 'https://images.unsplash.com/photo-1508964942454-1a56651d54ac?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1508964942454-1a56651d54ac?w=400&q=75&auto=format&fit=crop',
   },
   /* — Tools & Services — */
   {
-    n: '12',
+    n: '13',
     label: 'Calculators & Tools',
     to: '/singapore/calculators',
     desc: 'COE budget calculator, true-cost-of-ownership tool, and more.',
-    img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=75&auto=format&fit=crop',
   },
   {
-    n: '13',
+    n: '14',
     label: 'Garage Finder',
     to: '/singapore/garage-finder',
     desc: 'Find trusted workshops and service centres near you.',
-    img: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=400&q=75&auto=format&fit=crop',
   },
 ];
 
@@ -227,6 +234,12 @@ const styles = `
     display: block; text-decoration: none; border-radius: 10px;
     overflow: hidden; position: relative; height: 200px;
     transition: transform 0.2s, box-shadow 0.2s; background: #151820;
+    /* Skip rendering + layout of off-screen cards until they scroll into view
+       — cuts the initial paint burden dramatically on this 14-card grid.
+       contain-intrinsic-size preserves scrollbar accuracy. Added 1 Jul 2026
+       CWV fix pass. */
+    content-visibility: auto;
+    contain-intrinsic-size: 200px;
   }
   .sg-guide-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(0,0,0,0.5); }
   .sg-card-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transition: transform 0.35s ease; }

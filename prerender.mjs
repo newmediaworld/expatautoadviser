@@ -230,8 +230,8 @@ const META = {
     ],
   },
   '/hong-kong/frt-tax-explained': {
-    title: `Hong Kong First Registration Tax Rates 2026 (Private Cars)`,
-    desc: `Hong Kong FRT bands for private cars 2026: 46% on first HK$150k rising to 132% above HK$500k, how taxable value is set, EV concession closure, worked examples.`,
+    title: `Hong Kong FRT 2026: Why a HK$300k Car Costs HK$550k`,
+    desc: `Hong Kong First Registration Tax explained 2026 — 46-132% bands turn a HK$300k car into HK$550k. Taxable value formulas, EV concession closure, worked examples.`,
     type: `article`,
     faq: [
       {
@@ -374,8 +374,8 @@ const META = {
     type: `article`,
   },
   '/hong-kong/parking-costs': {
-    title: `Hong Kong Parking Costs 2026: HK$3-12k/mo by District`,
-    desc: `Real Hong Kong parking costs 2026 for UK expats — HK$3,000-12,000/mo residential by district, office rates, buy-vs-lease impact, where rents are softening.`,
+    title: `HK Parking 2026: HK$3k Sai Kung vs HK$12k Mid-Levels`,
+    desc: `Real Hong Kong parking costs 2026 for UK expats — HK$3,000 Sai Kung vs HK$12,000 Mid-Levels, office rates, where rents are softening, buy-vs-lease impact.`,
     type: `article`,
     faq: [
       {
@@ -436,8 +436,8 @@ const META = {
     ],
   },
   '/hong-kong/tunnel-tolls-explained': {
-    title: `Hong Kong Tunnel Tolls 2026: HK$8-60 Per Crossing Guide`,
-    desc: `Real cost of HK tunnel tolls 2026 for UK expats — Time-Varying Tolls HK$8-60 per crossing, HKeToll setup, monthly bills by route, off-peak savings.`,
+    title: `HK Tunnel Tolls 2026: HK$60 Peak vs HK$8 Off-Peak`,
+    desc: `Real Hong Kong tunnel toll cost 2026 for UK expats — TVT bands HK$8 off-peak to HK$60 peak, HKeToll setup, real monthly bills by route, off-peak savings up to 87%.`,
     type: `article`,
     faq: [
       {
@@ -493,6 +493,29 @@ const META = {
       {
         q: `What should I avoid when buying a family car in Singapore?`,
         a: `Three traps: (1) "cheap" Chinese-brand new cars under S$140K — the new-car price is competitive but resale in SG is unproven and risks 2-3 year postings; (2) parallel-imported Honda Vezel (JDM HR-V) — saves S$15K up front but no SG dealer warranty and weaker resale; (3) Tesla in 2026 — competitive new-car price but high insurance premiums, thin SG service network, and weakening resale. Stick to Japanese-brand authorised dealers for the cleanest 3-year exit picture.`,
+      },
+    ],
+  },
+  '/singapore/true-cost-of-owning-a-car': {
+    title: `True Cost of Owning a Car in Singapore 2026 (UK Expat)`,
+    desc: `Real all-in cost of car ownership in Singapore 2026 for UK expats — S$30-42k/yr: COE, depreciation, road tax, insurance, fuel, ERP, parking, with a worked 3-year example.`,
+    type: `article`,
+    faq: [
+      {
+        q: `How much does it really cost to own a car in Singapore in 2026?`,
+        a: `For a mainstream Cat A family car on a typical three-year posting, budget roughly S$30,000 to S$42,000 a year all-in — around S$2,800 a month, rising past S$3,500 a month for premium or European models. The largest single cost is depreciation (including COE decay), typically S$18,000 to S$28,000 a year, which dwarfs fuel, insurance and road tax combined.`,
+      },
+      {
+        q: `Why is depreciation the biggest cost of car ownership in Singapore?`,
+        a: `When you buy you pre-pay a 10-year Certificate of Entitlement (COE), which decays from the moment you register. When you sell, the buyer only pays for the remaining COE life, so the years you used up are gone. A new car also falls in value fastest in its first three years — exactly the length of a typical expat posting. PARF and COE rebates from LTA soften this but do not erase it.`,
+      },
+      {
+        q: `Is it cheaper to buy or lease a car in Singapore for a short posting?`,
+        a: `For a posting of three years or less, buying new is almost always the worst financial option because you absorb the steepest part of the depreciation curve and recover none of it. Buying a used car that is three or more years old, or leasing/subscribing, both give a far better cost-per-year-of-ownership. Buying new only makes sense for stays of five or more years.`,
+      },
+      {
+        q: `Are electric cars cheaper to own in Singapore in 2026?`,
+        a: `Running costs favour EVs — home charging runs roughly S$900 to S$1,500 a year versus S$2,800 to S$3,600 for petrol, and diesel is now dearer than petrol at the pump. The EV Early Adoption Incentive gives a S$7,500 rebate to 31 December 2026 and the S$0 minimum ARF floor for EVs holds to 31 December 2027. The main constraint is home charging access, which you should confirm before committing.`,
       },
     ],
   },

@@ -18,7 +18,7 @@ const FRT_DATA = {
 /* Sidebar section definitions — controls heading labels and ordering */
 const HK_SIDEBAR_SECTIONS = [
   { heading: 'Getting Started', keys: ['should-i-get-a-car', 'buying-guide', 'leasing-guide'] },
-  { heading: 'Costs & Finance', keys: ['frt-tax-explained', 'insurance-guide'] },
+  { heading: 'Costs & Finance', keys: ['frt-tax-explained', 'insurance-guide', 'petrol-prices-2026-update'] },
   { heading: 'Ownership & Lifestyle', keys: ['ev-guide', 'licence-conversion', 'mot-maintenance', 'selling-guide'] },
   { heading: 'Tools & Services', keys: ['calculators', 'garage-finder'] },
 ];
@@ -39,21 +39,21 @@ const HK_GUIDES = [
     label: 'Should I Get a Car?',
     to: '/hong-kong/should-i-get-a-car',
     desc: 'HK has world-class public transport — but a car still makes sense for some expats. Here\'s how to decide.',
-    img: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '02',
     label: 'Buying Guide',
     to: '/hong-kong/buying-guide',
     desc: 'FRT, first registration, and the full process of buying a car in Hong Kong.',
-    img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '03',
     label: 'Leasing Guide',
     to: '/hong-kong/leasing-guide',
     desc: 'Corporate leasing vs personal lease — pros, cons, and what actually works for expats.',
-    img: 'https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=400&q=75&auto=format&fit=crop',
   },
   /* — Costs & Finance — */
   {
@@ -61,58 +61,65 @@ const HK_GUIDES = [
     label: 'FRT Explained',
     to: '/hong-kong/frt-tax-explained',
     desc: 'First Registration Tax is the biggest cost on any new car. Here\'s exactly how it\'s calculated.',
-    img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '05',
     label: 'Insurance Guide',
     to: '/hong-kong/insurance-guide',
     desc: 'Third-party vs comprehensive, NCD transfers, and getting a fair quote as an expat.',
-    img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&q=75&auto=format&fit=crop',
+  },
+  {
+    n: '06',
+    label: 'Petrol Prices 2026',
+    to: '/hong-kong/petrol-prices-2026-update',
+    desc: 'What petrol actually costs in Hong Kong in 2026 — pump prices, the fuel-duty picture, and how to budget.',
+    img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&q=75&auto=format&fit=crop',
   },
   /* — Ownership & Lifestyle — */
   {
-    n: '06',
+    n: '07',
     label: 'EV Guide',
     to: '/hong-kong/ev-guide',
     desc: 'EV incentives, charging infrastructure, and the best EV choices in Hong Kong.',
-    img: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
-  },
-  {
-    n: '07',
-    label: 'Licence Conversion',
-    to: '/hong-kong/licence-conversion',
-    desc: 'Convert your foreign driving licence to a Hong Kong one — who qualifies and how.',
-    img: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '08',
-    label: 'MOT & Maintenance',
-    to: '/hong-kong/mot-maintenance',
-    desc: 'Statutory inspection schedule, trusted workshops, and keeping maintenance costs down.',
-    img: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80',
+    label: 'Licence Conversion',
+    to: '/hong-kong/licence-conversion',
+    desc: 'Convert your foreign driving licence to a Hong Kong one — who qualifies and how.',
+    img: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&q=75&auto=format&fit=crop',
   },
   {
     n: '09',
+    label: 'MOT & Maintenance',
+    to: '/hong-kong/mot-maintenance',
+    desc: 'Statutory inspection schedule, trusted workshops, and keeping maintenance costs down.',
+    img: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=400&q=75&auto=format&fit=crop',
+  },
+  {
+    n: '10',
     label: 'Selling Your Car',
     to: '/hong-kong/selling-guide',
     desc: 'Leaving HK? A six-week countdown for selling your car — dealer vs private, TD forms, and timing.',
-    img: 'https://images.unsplash.com/photo-1449280429541-0214e229317b?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1449280429541-0214e229317b?w=400&q=75&auto=format&fit=crop',
   },
   /* — Tools & Services — */
   {
-    n: '10',
+    n: '11',
     label: 'Calculators & Tools',
     to: '/hong-kong/calculators',
     desc: 'FRT calculator, true-cost-of-ownership, tunnel toll guide and more.',
-    img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=75&auto=format&fit=crop',
   },
   {
-    n: '11',
+    n: '12',
     label: 'Garage Finder',
     to: '/hong-kong/garage-finder',
     desc: 'Find trusted workshops and service centres near you in Hong Kong.',
-    img: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=400&q=75&auto=format&fit=crop',
   },
 ];
 
@@ -209,6 +216,9 @@ const styles = `
     display: block; text-decoration: none; border-radius: 10px;
     overflow: hidden; position: relative; height: 200px;
     transition: transform 0.2s, box-shadow 0.2s; background: #151820;
+    /* Off-screen card skip — see Singapore.jsx for context. */
+    content-visibility: auto;
+    contain-intrinsic-size: 200px;
   }
   .hk-guide-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(0,0,0,0.5); }
   .hk-card-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transition: transform 0.35s ease; }

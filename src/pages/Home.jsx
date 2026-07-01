@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const SG_MAP =
-  "https://images.unsplash.com/photo-1565967511849-76a60a516170?w=800&q=75&auto=format";
+  "https://images.unsplash.com/photo-1565967511849-76a60a516170?w=800&q=75&auto=format&fit=crop";
 const HK_MAP =
-  "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=800&q=75&auto=format";
+  "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=800&q=75&auto=format&fit=crop";
 const PATRICK_IMG = '/patrick.png';
 
 const styles = `
