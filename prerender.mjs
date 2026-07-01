@@ -519,6 +519,29 @@ const META = {
       },
     ],
   },
+  '/singapore/motor-insurance-2026-uk-expats': {
+    title: `Singapore Motor Insurance 2026: UK Expat NCD & Premiums`,
+    desc: `SG motor insurance 2026 for UK expats — NCD transfer 0-20%, comprehensive vs TPO, Income/MSIG/AIG/Tokio Marine premiums, Malaysia cover, MediSave, excess traps.`,
+    type: `article`,
+    faq: [
+      {
+        q: `How much of my UK no-claims discount transfers to Singapore?`,
+        a: `Best case in 2026 is 20% NCD credit for a documented UK 5+ year claim-free letter at Income Insurance and MSIG. Standard case is 10% credit at AIG, DirectAsia and Etiqa. Worst case is 0% credit — treated as a fresh Singapore driver. Get the letter from your UK insurer as PDF before you leave the UK; the maximum Singapore NCD is 50%, capped at 5 years of clean Singapore driving.`,
+      },
+      {
+        q: `Do I need comprehensive insurance in Singapore or is third-party fine?`,
+        a: `Only third-party is legally required, but the maths on TPO vs comprehensive rarely favours TPO for a UK expat. A minor bump on a Singapore expressway easily costs SGD 4,000-10,000 in own-car repairs, and the annual premium saving on TPO is only SGD 700-1,400. Comprehensive is the right call for any car worth more than SGD 15k, which describes almost all UK-expat vehicles in Singapore.`,
+      },
+      {
+        q: `Which Singapore insurers are best for UK expats in 2026?`,
+        a: `Income Insurance (largest local, strong claims network), MSIG (Japanese-owned, best for newer or premium cars), AIG (aggressive multi-car household pricing), and Tokio Marine (premium pricing but smooth claims) are the four to quote. DirectAsia is worth a shot for young low-risk drivers. Use a comparator like SingSaver for three quotes in 5 minutes then approach 1-2 direct for final negotiation.`,
+      },
+      {
+        q: `Is my Singapore insurance valid in Malaysia?`,
+        a: `Third-party cover extends automatically. Comprehensive typically drops to TPO across the Causeway unless you add "full Malaysia cover" for SGD 100-300/year. Add it before your first trip if you drive to Johor or KL more than 3-4 times a year. If you lease, check the lease agreement — some SG leases prohibit cross-border driving or charge per-trip admin fees.`,
+      },
+    ],
+  },
   '/singapore/car-insurance-vs-hong-kong': {
     title: `Expat Car Insurance: Singapore vs Hong Kong 2026`,
     desc: `SG vs HK car insurance: compulsory cover, NCD transfer, premiums, the SG forced-comp cliff at year 7, year-1 and year-5 GBP costs, and HK loadings (30-40%).`,

@@ -42,6 +42,8 @@ import SGSellingGuide from './pages/singapore/SellingGuide';
 import SGInsuranceVsHongKong from './pages/singapore/InsuranceVsHongKong';
 import SGRoadTaxAndFees from './pages/singapore/RoadTaxAndFees';
 import SGBestFamilyCars from './pages/singapore/BestFamilyCars';
+import SGTrueCostOwnership from './pages/singapore/TrueCostOwnership';
+import SGMotorInsurance2026 from './pages/singapore/MotorInsurance2026';
 import HKTunnelTolls from './pages/hongkong/TunnelTolls';
 import Privacy from './pages/legal/Privacy';
 import Terms from './pages/legal/Terms';
@@ -142,6 +144,8 @@ export function AppRoutes() {
       <Route path="/singapore/car-insurance-vs-hong-kong" element={<SGInsuranceVsHongKong />} />
       <Route path="/singapore/road-tax-vehicle-fees" element={<SGRoadTaxAndFees />} />
       <Route path="/singapore/best-family-cars" element={<SGBestFamilyCars />} />
+      <Route path="/singapore/true-cost-of-owning-a-car" element={<SGTrueCostOwnership />} />
+      <Route path="/singapore/motor-insurance-2026-uk-expats" element={<SGMotorInsurance2026 />} />
       <Route path="/hong-kong/tunnel-tolls-explained" element={<HKTunnelTolls />} />
       <Route path="/hong-kong" element={<HongKong />} />
       <Route path="/hong-kong/should-i-get-a-car" element={<HKShouldIGetACar />} />
