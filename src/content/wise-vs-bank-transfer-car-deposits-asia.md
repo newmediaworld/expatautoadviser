@@ -100,6 +100,19 @@ Step by step, what to actually do:
 - **Using a UK bank "international transfer" page without comparing rates.** Most UK banks bury the FX margin so deeply that the headline £15 fee looks reasonable. The real cost is 30–60× the headline fee on a £40k transfer.
 - **Not keeping AML documentation for both ends.** Your UK bank may flag a large outbound wire; your SG/HK bank may flag the incoming one. Having payslip + employment contract + dealer purchase-order ready before initiating saves days.
 
+## WorldFirst — the alternative for larger transfers and business setups
+
+If you're transferring **above £30,000** or you're doing this as part of a business/corporate setup (e.g. a UAE- or SG-registered company buying a car via corporate structure), it's worth also getting a quote from **[WorldFirst](https://clk.omgt6.com/?PID=56417&AID=2361711)** before you commit. WorldFirst is a business-focused FX platform (owned by Ant Group / Alipay+) that competes hardest at the £30k+ personal or any-size business transfer tier — the tier at which fractional-percent FX improvements compound into meaningful pounds saved.
+
+Practical framing for the UK-expat-buying-a-car-in-Asia use case:
+
+- **For one-off personal transfers under £30k**, Wise is almost always simpler and often cheaper on the total-cost basis (transparent per-transaction fee, faster onboarding, mobile-first).
+- **For transfers £30k+, or if you have a business account** (UAE FZE, SG Pte Ltd, HK Ltd) that a car purchase would run through, WorldFirst's rates are typically 0.05–0.2% closer to mid-market than Wise on the £30–100k tier, and materially closer above £100k. On a £60k transfer, that's £30–£120 saved on top of the Wise vs UK-bank saving.
+- **APAC-region receiving accounts are WorldFirst's strongest coverage** (approved 22 June 2026 for the CPA-[SG, AU, ID, JP, KR, MY, NZ, PH, TH, VN, TW] corridor). Ideal for GBP→SGD or GBP→HKD large transfers, less so for GBP→AED (Wise still preferable for UAE).
+- **Onboarding takes longer than Wise** — typically 3-5 business days for personal, up to 10 days for business. Not the tool if the dealer wants funds by Friday.
+
+The [WorldFirst quote is free](https://clk.omgt6.com/?PID=56417&AID=2361711) and runs quickly — worth doing in parallel with the Wise quote for any transfer where the amount would make the FX-margin saving worth the extra onboarding time. Affiliate link; we earn a small commission if you open an account through it, at no extra cost to you. We are enrolled with WorldFirst as an affiliate partner because they're the cleanest fit for the "larger-than-Wise, smaller-than-corporate-bank-FX-desk" segment that UK expats often land in when moving money for a car deposit.
+
 ## Frequently Asked Questions
 
 **What's the cheapest way to send GBP to Singapore for a car deposit?**

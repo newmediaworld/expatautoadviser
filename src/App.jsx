@@ -94,7 +94,7 @@ export function ExitIntent() {
 
   return (
     <>
-      <style>{`@media (max-width: 768px) { .exit-intent-banner, .exit-intent-spacer { display: none !important; } }`}</style>
+      <style suppressHydrationWarning>{`@media (max-width: 768px) { .exit-intent-banner, .exit-intent-spacer { display: none !important; } }`}</style>
       <div className="exit-intent-spacer" style={{ height: 52 }} />
       <div className="exit-intent-banner" style={{ position: 'fixed', top: 0, left: '50%', transform: 'translateX(-50%)', zIndex: 99999, background: 'rgba(10,12,18,0.92)', backdropFilter: 'blur(8px)', color: '#fff', height: 52, padding: '0 20px', display: 'flex', alignItems: 'center', gap: 10, maxWidth: 640 }}>
       <img src={PATRICK_IMG} alt="Patrick" style={{ width: 30, height: 30, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />

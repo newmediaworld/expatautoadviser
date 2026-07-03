@@ -239,7 +239,14 @@ export default function Home() {
 
   return (
     <div className="eaa-home" style={{ minHeight: "auto", background: "#0a0c12" }}>
-      <style>{styles}</style>
+      {/* suppressHydrationWarning: React 18's SSR + client can serialise
+          multiline template-literal CSS whitespace slightly differently,
+          producing a benign #425 text-content mismatch on every homepage
+          hydration. The style itself is identical either way; suppressing
+          the warning avoids the recoverable-hydration cost without any
+          visual or functional impact. See SHARED/lessons.md 21 Jun 2026
+          entry on the React #418 fix — this is its residual #425 tail. */}
+      <style suppressHydrationWarning>{styles}</style>
 
 
       {/* Tagline */}

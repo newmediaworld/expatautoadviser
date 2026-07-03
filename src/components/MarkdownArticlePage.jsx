@@ -29,7 +29,18 @@ function detectAffiliateProgramme(url) {
     if (host === 'go.nordvpn.net') return { programme: 'nordvpn', clickref: p.get('aff_sub') };
     if (host === 'safetywing.com' && p.has('referenceID')) return { programme: 'safetywing', clickref: p.get('utm_campaign') };
     if (host === 'deal.incogni.io') return { programme: 'incogni', clickref: p.get('aff_sub') };
-    if (host === 'clk.omgt6.com') return { programme: 'optimise', clickref: p.get('MID') };
+    if (host === 'clk.omgt6.com') {
+      // Optimise redirector — many campaigns live on this host. Tag per-PID
+      // so GA4 attribution captures which advertiser was clicked, not just
+      // a generic 'optimise' bucket. See NWM_Affiliate_Status.md for PIDs.
+      const pid = p.get('PID');
+      if (pid === '56417') return { programme: 'worldfirst_apac', clickref: `PID=${pid}` };
+      if (pid === '12745') return { programme: 'optimise_trip_flights', clickref: `PID=${pid}` };
+      if (pid === '12746') return { programme: 'optimise_trip_hotels', clickref: `PID=${pid}` };
+      if (pid === '56631') return { programme: 'optimise_gocity', clickref: `PID=${pid}` };
+      if (pid === '56653') return { programme: 'optimise_fly_fairly', clickref: `PID=${pid}` };
+      return { programme: 'optimise', clickref: `PID=${pid || p.get('MID')}` };
+    }
     if (host === 'awin1.com') return { programme: 'awin', clickref: p.get('clickref') };
     if (host === 'apply.creatory.singsaver.com.sg') return { programme: 'creatory_singsaver', clickref: `o=${p.get('o')}` };
 
