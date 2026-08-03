@@ -182,6 +182,8 @@ export default function SGGarageFinder() {
         </div>
       </div>
       {/* Affiliate: Leasing */}
+      {/* TODO(affiliate): re-enable when partner URLs are live */}
+      {/*
       <AffiliateBox
         city="sg"
         type="leasing"
@@ -192,6 +194,7 @@ export default function SGGarageFinder() {
           { name: 'ComfortDelGro Rent-a-Car', desc: 'Wide vehicle choice, competitive pricing, island-wide service network.', url: '#' },
         ]}
       />
+      */}
       <EmailCapture
         city="sg"
         source="sg-garage-finder"

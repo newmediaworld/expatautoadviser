@@ -319,6 +319,8 @@ export default function SGLeaseChecker() {
             </div>
 
             {/* ── Affiliate: Insurance ── */}
+            {/* TODO(affiliate): re-enable when partner URLs are live */}
+            {/*
             <AffiliateBox
               city="sg"
               type="insurance"
@@ -329,6 +331,7 @@ export default function SGLeaseChecker() {
                 { name: 'SingSaver — Compare All Insurers', desc: 'See quotes from all major Singapore car insurers side-by-side. Takes 2 minutes.', url: '#' },
               ]}
             />
+            */}
 
             {/* ── Email capture ── */}
             <EmailCapture

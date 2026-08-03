@@ -32,7 +32,7 @@ Every year you own the car, you pay:
 
 - **Depreciation** — by far the largest. More on this below.
 - **Road tax** — engine-capacity based. A 1.6L petrol saloon runs roughly **S$740–760/year**, a 2.0L around **S$900–950**, a 2.5L SUV **S$1,400–1,500**. Diesels pay six times the base rate plus a special-tax surcharge — a 2.0L diesel can run **S$5,500–6,000/year**, which is why diesel is rare among expat cars here. See [road tax and vehicle fees](/singapore/road-tax-vehicle-fees) for the formulas.
-- **Insurance** — typically **S$1,200–2,800/year** comprehensive, and new arrivals pay a year-one loading of roughly 25% over the year-five-resident equivalent until local claims history builds. Transferring your UK no-claims certificate softens this. Comparison shopping via [SingSaver's car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247) pulls quotes from 8–10 insurers in one form and typically saves S$200–400/year versus walking into a single insurer.
+- **Insurance** — typically **S$1,200–2,800/year** comprehensive, and new arrivals pay a year-one loading of roughly 25% over the year-five-resident equivalent until local claims history builds. Transferring your UK no-claims certificate softens this. Comparison shopping via [SingSaver's car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-true-cost-of-owning-a-car-singapore-2026) pulls quotes from 8–10 insurers in one form and typically saves S$200–400/year versus walking into a single insurer.
 
   *(The SingSaver link above is an affiliate; we earn a small commission if you take out a policy through it, at no extra cost to you.)*
 
@@ -82,7 +82,7 @@ If you're leaning electric, 2026 still offers meaningful help: the **EV Early Ad
 
 ### Funding it without bleeding on FX
 
-However you buy, most expats move a large GBP sum across to fund the deposit or the cash portion. UK high-street banks bake a 2–4% margin into the exchange rate, which on a S$60,000 transfer is real money lost silently. A specialist transfer service, or a Singapore car loan to reduce the upfront transfer, both help — a [personal loan top-up](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247) can bridge a deposit gap that MAS car-loan rules (60–70% LTV, max seven-year tenure) leave open. See [funding a car purchase](/singapore/funding-car-purchase) for the full transfer playbook.
+However you buy, most expats move a large GBP sum across to fund the deposit or the cash portion. UK high-street banks bake a 2–4% margin into the exchange rate, which on a S$60,000 transfer is real money lost silently. A specialist transfer service, or a Singapore car loan to reduce the upfront transfer, both help — a [personal loan top-up](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&s2=eaa-true-cost-of-owning-a-car-singapore-2026) can bridge a deposit gap that MAS car-loan rules (60–70% LTV, max seven-year tenure) leave open. See [funding a car purchase](/singapore/funding-car-purchase) for the full transfer playbook.
 
 ## The bottom line
 

@@ -128,9 +128,9 @@ A few decision factors that don't show up on the standard "best cars" list but m
 
 **Right-hand drive availability.** Almost all family cars sold via authorised dealers in SG are right-hand drive (correct for SG roads). Parallel-imported Japanese cars are also RHD. The exception: some US-market-only models (e.g. Toyota Highlander, Honda Pilot, Ford Explorer) aren't sold in SG at all — don't waste time researching them.
 
-**Insurance loading for new arrivals.** Year-one premium for a new SG resident is typically 25% above year-five-resident equivalent, even with full UK NCD transferred. The "new to SG" loading is structural; it goes away after two clean years. [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247) returns parallel quotes from the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) so you can see the year-1 premium before you commit to a specific car.
+**Insurance loading for new arrivals.** Year-one premium for a new SG resident is typically 25% above year-five-resident equivalent, even with full UK NCD transferred. The "new to SG" loading is structural; it goes away after two clean years. [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-best-family-cars-singapore-uk-expats) returns parallel quotes from the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) so you can see the year-1 premium before you commit to a specific car.
 
-**Loan eligibility cap.** MAS car-loan rules cap your loan at 60-70% of the all-in price (depending on OMV band), maximum 7-year tenure. If your cash deposit gap is bigger than expected, [SingSaver's Singapore personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247) checks approval probability across the SG bank panel as a deposit-bridge tool — useful when the LTV cap leaves you S$30-50K short.
+**Loan eligibility cap.** MAS car-loan rules cap your loan at 60-70% of the all-in price (depending on OMV band), maximum 7-year tenure. If your cash deposit gap is bigger than expected, [SingSaver's Singapore personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&s2=eaa-best-family-cars-singapore-uk-expats) checks approval probability across the SG bank panel as a deposit-bridge tool — useful when the LTV cap leaves you S$30-50K short.
 
 **Boot-mounted child seats.** If you have two children in ISOFIX seats, check boot capacity AFTER seats are folded for the buggy / pram + groceries combo. The HR-V's "Magic Seats" make this easier than the rectangular boot of the RAV4. Our [child car seats guide](/singapore/child-car-seats) covers the legal and practical details.
 
@@ -168,8 +168,8 @@ If you're 2-4 weeks out from buying:
 
 1. Decide your tier (S$160-200K small SUV, S$200-260K mid SUV, or premium / 7-seater) based on family size and posting length.
 2. Test-drive 2-3 candidates in your tier. Singapore dealers are uniformly good at family-car test drives — block out a Saturday morning.
-3. Check insurance pricing for your shortlist via [SingSaver's car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247) — premiums vary 30-40% across insurers for the same expat profile. Quotes are non-binding and arrive within 24 hours.
-4. Confirm your funding plan (cash + Singapore car loan, with [personal loan top-up](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247) only if needed for the deposit gap). Read our [funding-car-purchase guide](/singapore/funding-car-purchase) for the full pre-purchase financial sequence.
+3. Check insurance pricing for your shortlist before you commit — premiums vary 30-40% across insurers for the same expat profile. Quotes are non-binding and arrive within 24 hours.
+4. Confirm your funding plan (cash + Singapore car loan, with a personal loan top-up only if needed for the deposit gap). Read our [funding-car-purchase guide](/singapore/funding-car-purchase) for the full pre-purchase financial sequence.
 5. Place the order with COE bid authorisation aligned to a round you're prepared to wait for — set your maximum bid and walk-away price before the dealer asks.
 
 For the post-purchase running cost picture, see [ERP and the real cost of driving in Singapore](/singapore/cost-of-driving) and our [road tax + vehicle fees guide](/singapore/road-tax-vehicle-fees).

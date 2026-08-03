@@ -126,13 +126,15 @@ export default function SGLeasingGuide() {
           <li style={{ marginBottom: 8 }}><strong>Expat-friendly contracts</strong> — some companies are experienced with early termination, others aren't.</li>
         </ul>
 
-        {/* Affiliate box — URLs are placeholders until deals are signed */}
+        {/* TODO(affiliate): re-enable when partner URLs are live */}
+        {/*
         <AffiliateBox
           city="sg"
           type="leasing"
           title="Companies worth getting a quote from"
           partners={leasingPartners}
         />
+        */}
 
         <h2 style={h2}>Watch-outs in a lease contract</h2>
         <div style={{ background: "#fef2f2", border: "1px solid #fecaca", borderRadius: 10, padding: 24, margin: "16px 0 28px" }}>

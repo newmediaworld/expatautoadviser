@@ -36,7 +36,7 @@ Both markets nominally accept UK no-claims discount on a transferred basis, but 
 
 The practical move on arrival in either market: ask three brokers to quote with your UK NCD certificate attached, and ask each one explicitly what NCD they're applying. The variance can be 20-30 percentage points between insurers, which translates to several hundred pounds a year on the premium.
 
-For the Singapore side specifically, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247) returns parallel quotes from the major expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) from one form — useful for the three-quote sweep without phoning each individually.
+For the Singapore side specifically, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-car-insurance-singapore-vs-hong-kong-uk-expats) returns parallel quotes from the major expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) from one form — useful for the three-quote sweep without phoning each individually.
 
 ## Risk loadings: where the markets price differently
 

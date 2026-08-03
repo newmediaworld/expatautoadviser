@@ -317,6 +317,8 @@ export default function HKLeaseChecker() {
             </div>
 
             {/* ── Affiliate: Insurance ── */}
+            {/* TODO(affiliate): re-enable when partner URLs are live */}
+            {/*
             <AffiliateBox
               city="hk"
               type="insurance"
@@ -327,6 +329,7 @@ export default function HKLeaseChecker() {
                 { name: 'Compare.com.hk — All HK Insurers', desc: 'Compare multiple Hong Kong car insurers in one place. Free, instant quotes.', url: '#' },
               ]}
             />
+            */}
 
             {/* ── Email capture ── */}
             <EmailCapture

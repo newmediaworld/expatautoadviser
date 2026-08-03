@@ -665,6 +665,8 @@ export default function Calculators() {
         </div>
 
         {/* Affiliate Box */}
+        {/* TODO(affiliate): re-enable when partner URLs are live */}
+        {/*
         <AffiliateBox
           city="sg"
           type="insurance"
@@ -675,6 +677,7 @@ export default function Calculators() {
             { name: 'SingSaver — Compare All Insurers', desc: 'Compare multiple Singapore insurers side-by-side. Free, takes 2 minutes.', url: '#' },
           ]}
         />
+        */}
 
         {/* Email CTA */}
         <EmailCapture

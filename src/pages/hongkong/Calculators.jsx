@@ -687,6 +687,8 @@ export default function Calculators() {
         </div>
 
         {/* Affiliate Box */}
+        {/* TODO(affiliate): re-enable when partner URLs are live */}
+        {/*
         <AffiliateBox
           city="hk"
           type="insurance"
@@ -697,6 +699,7 @@ export default function Calculators() {
             { name: 'Compare.com.hk', desc: 'Compare multiple HK car insurers in one place. Free, instant quotes.', url: '#' },
           ]}
         />
+        */}
 
         {/* Email CTA */}
         <EmailCapture

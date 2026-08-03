@@ -176,7 +176,7 @@ Plan two to three transfers, not one giant lump. Each can hit Wise's instant-bra
 
 **Not building an SGD buffer.** If you intend to live in Singapore long-term, your incoming Singapore salary will be in SGD anyway — don't try to convert all of your UK savings at once. Send what you need for the car, keep the rest in GBP earning UK interest, transfer in tranches as needed.
 
-**Ignoring the loan option.** UAE and HK rules are stricter, but in Singapore a UK expat with valid Employment Pass and a few months of SG salary history can typically get a 50-60% LTV car loan through a Singapore bank. Reduces the upfront cash you need to transfer; see our [Singapore car loans guide](/singapore/car-loans) for the MAS LTV rules. If the LTV cap leaves a deposit gap that's still too large after the GBP transfer, a Singapore personal loan can sometimes top up — [SingSaver's personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247) checks approval probability and APR across the main SG bank panel from one form, useful as a deposit-bridge tool rather than primary financing.
+**Ignoring the loan option.** UAE and HK rules are stricter, but in Singapore a UK expat with valid Employment Pass and a few months of SG salary history can typically get a 50-60% LTV car loan through a Singapore bank. Reduces the upfront cash you need to transfer; see our [Singapore car loans guide](/singapore/car-loans) for the MAS LTV rules. If the LTV cap leaves a deposit gap that's still too large after the GBP transfer, a Singapore personal loan can sometimes top up — [SingSaver's personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&s2=eaa-funding-car-purchase-singapore-uk-expat) checks approval probability and APR across the main SG bank panel from one form, useful as a deposit-bridge tool rather than primary financing.
 
 ## Should you transfer everything in one go, or split?
 
@@ -227,7 +227,7 @@ Often yes for the cash-flow reasons. UK expats with valid Employment Pass and a 
 
 ### Can a personal loan help if I'm short on the cash deposit?
 
-Sometimes, on the margin. Singapore personal loans aren't capped by the MAS car-loan LTV rules, so they can bridge a deposit gap on a higher-OMV vehicle. The trade-off: APRs are higher (effective 7–14% in 2026 vs. 3–5% flat on a car loan), tenures are shorter (1–5 years), and any existing car loan still counts toward your TDSR. Useful as a deposit-top-up tool, not a primary financing route. [SingSaver's personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247) returns approval likelihood and indicative APR across the SG bank panel from one application.
+Sometimes, on the margin. Singapore personal loans aren't capped by the MAS car-loan LTV rules, so they can bridge a deposit gap on a higher-OMV vehicle. The trade-off: APRs are higher (effective 7–14% in 2026 vs. 3–5% flat on a car loan), tenures are shorter (1–5 years), and any existing car loan still counts toward your TDSR. Useful as a deposit-top-up tool, not a primary financing route. [SingSaver's personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&s2=eaa-funding-car-purchase-singapore-uk-expat) returns approval likelihood and indicative APR across the SG bank panel from one application.
 
 ---
 

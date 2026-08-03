@@ -123,6 +123,8 @@ export default function HKLeasingGuide() {
       <h2 style={h2}>Fuel costs</h2>
       <p style={body}>Petrol in Hong Kong is among the most expensive in the world — typically HKD $29–$31 per litre. A typical 2,000 km/month driver will spend HKD $3,500–$5,000/month on fuel. Electric vehicles are gaining traction; home charger installation is possible in most private buildings with management approval.</p>
 
+      {/* TODO(affiliate): re-enable when partner URLs are live */}
+      {/*
       <AffiliateBox
         city="hk"
         type="leasing"
@@ -133,6 +135,7 @@ export default function HKLeasingGuide() {
           { name: "Wearnes Automotive HK", badge: "PREMIUM", desc: "Official BMW and MINI dealer. Personal contract leases on premium models with full dealer support.", url: "#", cta: "Enquire now" },
         ]}
       />
+      */}
 
       <FAQ items={faqItems} city="hk" />
     </Layout>

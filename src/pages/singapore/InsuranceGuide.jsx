@@ -104,12 +104,15 @@ export default function SGInsuranceGuide() {
         <h2 style={h2}>If your lease doesn't include insurance</h2>
         <p style={body}>Major Singapore insurers include DirectAsia, NTUC Income, Tokio Marine, and AXA. Expect to pay roughly <strong>SGD $1,500–$3,000/year</strong> for comprehensive coverage on an economy car with no SG NCD history. Submit your overseas NCD letter to each insurer for an accurate quote — it can reduce the premium by 30–50%.</p>
 
+        {/* TODO(affiliate): re-enable when partner URLs are live */}
+        {/*
         <AffiliateBox
           city="sg"
           type="insurance"
           title="Insurers worth getting a quote from"
           partners={insurancePartners}
         />
+        */}
 
         <h2 style={h2}>Third-party vs comprehensive: what's the difference?</h2>
         <div style={{ background: "white", border: "1px solid #e5e7eb", borderRadius: 10, padding: 24, margin: "16px 0 28px" }}>
