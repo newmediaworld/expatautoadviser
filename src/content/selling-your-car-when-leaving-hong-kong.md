@@ -76,7 +76,7 @@ A few expats ship the car back to their next posting. Whether this makes sense d
 - Shipping costs (HK$25,000–HK$60,000 depending on container and destination)
 - Import duty and tax at destination
 
-If you're seriously pricing export, our [international car shipping partner]([INTERNATIONAL_CAR_SHIPPING_LEAD]) will quote door-to-door (HK to UK, Singapore, Australia, EU) with customs paperwork handled. Get 2–3 quotes before committing — rates swing 20–30% between operators.
+If you're seriously pricing export, approach international vehicle shipping agents directly for a door-to-door quote (HK to UK, Singapore, Australia or the EU) with customs paperwork handled. Get 2–3 quotes before committing — rates swing 20–30% between operators, and the cheapest headline figure often excludes destination-port charges.
 
 Export rarely makes financial sense for ordinary cars. It makes sense for rare, sentimental, or highly specified vehicles that would be expensive to replace.
 
@@ -108,7 +108,7 @@ If your car has an outstanding loan, settlement must precede title transfer. Two
 
 Early-repayment fees apply — typically 1–3% of outstanding principal, plus a HK$300–HK$500 admin fee. Ask your bank for a precise settlement figure 3 weeks before sale.
 
-**Repatriating the sale proceeds.** Once the car sells and funds are in your HKD account, you'll need to move them to GBP/USD/SGD. Don't convert via your HK bank's wire — the FX spread on HK$400,000–HK$800,000 of proceeds can quietly cost HK$8,000–HK$20,000. [Wise]([WISE_LINK_PLACEHOLDER]) handles cross-border transfers at near mid-market rates with a transparent flat fee.
+**Repatriating the sale proceeds.** Once the car sells and funds are in your HKD account, you'll need to move them to GBP/USD/SGD. Don't convert via your HK bank's wire — the FX spread on HK$400,000–HK$800,000 of proceeds can quietly cost HK$8,000–HK$20,000. A specialist FX provider such as Wise handles cross-border transfers at near mid-market rates with a transparent flat fee.
 
 ## Timing: Seasonal and Year-End Effects
 

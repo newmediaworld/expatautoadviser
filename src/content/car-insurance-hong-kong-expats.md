@@ -143,7 +143,7 @@ _This article contains affiliate links. If you click through and buy or sign up,
 - Fees are typically built into the premium, so direct isn't actually cheaper in most cases
 - English-language broker support is broadly available
 
-Large HK insurance brokers include AON, Marsh, Willis Towers Watson, Gaston Schul, and numerous smaller expat-focused brokers. For a direct expat-focused motor insurance quote in Hong Kong, [get a comparison quote through our partner broker]([INSURANCE_HK_LEAD]) — they handle the AXA, Zurich, and MSIG relationships that most expats end up with anyway, and will email a side-by-side in 48 hours.
+Large HK insurance brokers include AON, Marsh, Willis Towers Watson, Gaston Schul, and numerous smaller expat-focused brokers. For an expat-focused motor quote, approach two or three of them directly and ask for a side-by-side on the same vehicle and driver profile — most will turn one around within 48 hours, and they hold the AXA, Zurich and MSIG relationships that expats usually end up with anyway.
 
 ## What to Ask Before You Buy
 

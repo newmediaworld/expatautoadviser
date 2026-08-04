@@ -9,3 +9,6 @@ dist/
 .idea/
 .vscode/
 *.log
+
+# FUSE artefacts from mounted filesystem
+.fuse_hidden*

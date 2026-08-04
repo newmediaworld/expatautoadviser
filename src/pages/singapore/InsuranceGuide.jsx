@@ -4,22 +4,10 @@ import FAQ from "../../components/FAQ";
 
 const insurancePartners = [
   {
-    name: "DirectAsia",
-    desc: "Singapore's most popular direct insurer. Quick online quotes, transparent pricing, strong expat take-up.",
-    badge: "Popular",
-    url: "#",
-  },
-  {
-    name: "NTUC Income",
-    desc: "Cooperative insurer with wide branch network. Good for NCD transfer from overseas. Competitive renewal rates.",
-    badge: null,
-    url: "#",
-  },
-  {
-    name: "Tokio Marine",
-    desc: "Strong reputation for claims handling. Worth comparing if you've had previous incidents — often more flexible on loading.",
-    badge: null,
-    url: "#",
+    name: "SingSaver — Compare All Insurers",
+    desc: "Parallel quotes from the main expat-friendly Singapore insurers (NTUC Income, AIG, FWD, Direct Asia) from one form. Free, takes about 2 minutes.",
+    badge: "Compare",
+    url: "https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-sg-insurance-guide",
   },
 ];
 
@@ -104,15 +92,12 @@ export default function SGInsuranceGuide() {
         <h2 style={h2}>If your lease doesn't include insurance</h2>
         <p style={body}>Major Singapore insurers include DirectAsia, NTUC Income, Tokio Marine, and AXA. Expect to pay roughly <strong>SGD $1,500–$3,000/year</strong> for comprehensive coverage on an economy car with no SG NCD history. Submit your overseas NCD letter to each insurer for an accurate quote — it can reduce the premium by 30–50%.</p>
 
-        {/* TODO(affiliate): re-enable when partner URLs are live */}
-        {/*
         <AffiliateBox
           city="sg"
           type="insurance"
-          title="Insurers worth getting a quote from"
+          title="Compare Singapore car insurance quotes"
           partners={insurancePartners}
         />
-        */}
 
         <h2 style={h2}>Third-party vs comprehensive: what's the difference?</h2>
         <div style={{ background: "white", border: "1px solid #e5e7eb", borderRadius: 10, padding: 24, margin: "16px 0 28px" }}>

@@ -49,7 +49,7 @@ You don't bid for COEs yourself in most cases. When you buy through a dealer, th
 
 _This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
 
-If you're not yet sold on the idea of dropping S$130,000+ on a 10-year COE, it's worth pricing a **car subscription** as an alternative — for short postings it often wins on total cost. We walk through the maths in [car subscription vs ownership in Singapore](/singapore/subscription-vs-ownership), or you can skip straight to a [subscription quote from our Singapore partner]([CAR_LEASE_SG_LEAD]).
+If you're not yet sold on the idea of dropping S$130,000+ on a 10-year COE, it's worth pricing a **car subscription** as an alternative — for short postings it often wins on total cost. We walk through the maths in [car subscription vs ownership in Singapore](/singapore/subscription-vs-ownership), including which operators are worth quoting and what the all-in monthly figure typically covers.
 
 ## The Full Cost of a Car in Singapore: What Expats Actually Pay
 
@@ -81,7 +81,7 @@ That said, if you have young children, live in areas with less MRT coverage (par
 ## How to Buy a Car as an Expat in Singapore
 
 1. **Check your employment pass validity** — Lenders typically want at least 1 year remaining on your pass to approve a car loan. More detail on expat-specific loan rules in our [Singapore car loans + MAS LTV guide](/singapore/car-loans).
-2. **Move your cash into SGD properly** — transfers via UK/US high-street banks often strip S$500–S$1,500 on a typical deposit due to poor FX rates. [Wise]([WISE_LINK_PLACEHOLDER]) is the standard fix for expats funding an SGD deposit or COE bid.
+2. **Move your cash into SGD properly** — transfers via UK/US high-street banks often strip S$500–S$1,500 on a typical deposit due to poor FX rates. A specialist FX provider such as Wise is the standard fix for expats funding an SGD deposit or COE bid.
 3. **Choose your car and category** — Test drive at dealerships; Category A for most expats
 4. **Arrange financing** — Singapore banks (DBS, OCBC, UOB) offer car loans up to 60% of purchase price; loan tenure up to 7 years; interest rates approximately 2.5–3% per annum
 5. **Dealer submits COE bid** — You'll pay a deposit; the dealer bids on your behalf at the next fortnightly exercise

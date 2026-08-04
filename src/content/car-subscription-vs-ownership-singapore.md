@@ -29,7 +29,7 @@ _This article contains affiliate links. If you click through and buy or sign up,
 - **Drive Lah Direct.** Direct subscription-style arrangements on Drive Lah's own fleet, alongside its peer-to-peer rental marketplace. Offers optional insurance and mileage packages, including an unlimited-mileage tier on some plans.
 - **Flux by MotorWay.** Smaller, European-and-EV-focused fleet at a higher price point.
 
-For a direct quote across the subscription operators that work with expats — with the insurance, road tax, and servicing bundled line-items transparent — you can skip the comparison legwork and get a [personalised subscription quote from our Singapore partner]([CAR_LEASE_SG_LEAD]).
+When you request quotes from the subscription operators that work with expats, insist on seeing the insurance, road tax and servicing components as separate line items rather than one blended monthly figure. That's the only way to compare operators like for like — and it's where the difference between a fair deal and an expensive one usually hides.
 
 **Car-sharing (not subscription)**
 

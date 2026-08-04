@@ -1,5 +1,4 @@
 import Layout from "../../components/Layout";
-import AffiliateBox from "../../components/AffiliateBox";
 import EmailCapture from "../../components/EmailCapture";
 import { Link } from "react-router-dom";
 
@@ -181,20 +180,6 @@ export default function SGGarageFinder() {
           </div>
         </div>
       </div>
-      {/* Affiliate: Leasing */}
-      {/* TODO(affiliate): re-enable when partner URLs are live */}
-      {/*
-      <AffiliateBox
-        city="sg"
-        type="leasing"
-        title="Need a car lease? Compare expat-friendly companies"
-        partners={[
-          { name: 'PHV Leasing SG', badge: 'Expat favourite', desc: 'Transparent pricing, English-speaking team, flexible lease terms from 6 months.', url: '#' },
-          { name: 'Goldbell Leasing', desc: "One of Singapore's largest fleet operators. Comprehensive packages including maintenance.", url: '#' },
-          { name: 'ComfortDelGro Rent-a-Car', desc: 'Wide vehicle choice, competitive pricing, island-wide service network.', url: '#' },
-        ]}
-      />
-      */}
       <EmailCapture
         city="sg"
         source="sg-garage-finder"

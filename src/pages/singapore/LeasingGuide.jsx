@@ -1,28 +1,6 @@
 import Layout from "../../components/Layout";
-import AffiliateBox from "../../components/AffiliateBox";
 import FAQ from "../../components/FAQ";
 import { Link } from "react-router-dom";
-
-const leasingPartners = [
-  {
-    name: "Goldbell Fleet Management",
-    desc: "Singapore's largest fleet operator. Wide model range, expat-friendly contracts with early-termination options.",
-    badge: "Popular",
-    url: "#", // Replace with affiliate URL once deal is agreed
-  },
-  {
-    name: "Prime Car Management",
-    desc: "Well-regarded for responsive customer service and flexible mileage packages. Good choice for expats on 2-year contracts.",
-    badge: null,
-    url: "#",
-  },
-  {
-    name: "Carro.co",
-    desc: "Compare lease and buy options side-by-side. Transparent pricing, digital-first process.",
-    badge: "Compare",
-    url: "#",
-  },
-];
 
 const leasingFAQ = [
   {
@@ -125,16 +103,6 @@ export default function SGLeasingGuide() {
           <li style={{ marginBottom: 8 }}><strong>24/7 contact</strong> — test it. Send a WhatsApp at 9pm.</li>
           <li style={{ marginBottom: 8 }}><strong>Expat-friendly contracts</strong> — some companies are experienced with early termination, others aren't.</li>
         </ul>
-
-        {/* TODO(affiliate): re-enable when partner URLs are live */}
-        {/*
-        <AffiliateBox
-          city="sg"
-          type="leasing"
-          title="Companies worth getting a quote from"
-          partners={leasingPartners}
-        />
-        */}
 
         <h2 style={h2}>Watch-outs in a lease contract</h2>
         <div style={{ background: "#fef2f2", border: "1px solid #fecaca", borderRadius: 10, padding: 24, margin: "16px 0 28px" }}>

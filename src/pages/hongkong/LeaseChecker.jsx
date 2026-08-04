@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import AffiliateBox from '../../components/AffiliateBox';
 import EmailCapture from '../../components/EmailCapture';
 
 const HERO_IMG = "https://images.unsplash.com/photo-1729355275094-3d0ec2cd7b6c?w=1200&q=80";
@@ -315,21 +314,6 @@ export default function HKLeaseChecker() {
                 <p style={{ fontSize: 13, color: '#6b7280' }}>â {form.consent ? 'Your data has been saved anonymously to our benchmarks. Thank you!' : 'Report ready. Your email has been noted for future updates.'}</p>
               )}
             </div>
-
-            {/* ── Affiliate: Insurance ── */}
-            {/* TODO(affiliate): re-enable when partner URLs are live */}
-            {/*
-            <AffiliateBox
-              city="hk"
-              type="insurance"
-              title="Compare car insurance before you sign"
-              partners={[
-                { name: 'AXA Hong Kong', badge: 'Popular with expats', desc: 'Comprehensive cover. English-language service. Easy overseas NCD recognition.', url: '#' },
-                { name: 'Zurich Insurance HK', desc: 'Strong expat reputation. Flexible workshop choice. Competitive annual premiums.', url: '#' },
-                { name: 'Compare.com.hk — All HK Insurers', desc: 'Compare multiple Hong Kong car insurers in one place. Free, instant quotes.', url: '#' },
-              ]}
-            />
-            */}
 
             {/* ── Email capture ── */}
             <EmailCapture

@@ -319,19 +319,14 @@ export default function SGLeaseChecker() {
             </div>
 
             {/* ── Affiliate: Insurance ── */}
-            {/* TODO(affiliate): re-enable when partner URLs are live */}
-            {/*
             <AffiliateBox
               city="sg"
               type="insurance"
               title="Compare car insurance before you sign"
               partners={[
-                { name: 'DirectAsia', badge: 'Popular with expats', desc: 'Online quotes in 3 minutes. Comprehensive cover, easy NCD transfer for overseas licence holders.', url: '#' },
-                { name: 'Income Insurance', desc: 'Competitive comprehensive rates, 24/7 claims line, and flexible workshop options.', url: '#' },
-                { name: 'SingSaver — Compare All Insurers', desc: 'See quotes from all major Singapore car insurers side-by-side. Takes 2 minutes.', url: '#' },
+                { name: 'SingSaver — Compare All Insurers', badge: 'Compare', desc: 'See quotes from the major Singapore car insurers side-by-side (NTUC Income, AIG, FWD, Direct Asia). Takes 2 minutes.', url: 'https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-sg-lease-checker' },
               ]}
             />
-            */}
 
             {/* ── Email capture ── */}
             <EmailCapture

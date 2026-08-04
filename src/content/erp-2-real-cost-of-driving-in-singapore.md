@@ -63,7 +63,7 @@ If you work in the CBD and live east or north, assume S$180–S$250 per month in
 
 _This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
 
-Speaking of insurance — it's another S$2,000–S$4,000 a year for most expat profiles, and premiums vary materially between insurers for the same risk. [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-erp-2-real-cost-of-driving-in-singapore) quotes the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) in parallel from one form. For expats who'd rather avoid the ERP-plus-insurance-plus-COE combo entirely, a [monthly subscription from a Singapore operator]([CAR_LEASE_SG_LEAD]) bundles insurance and road tax into one fee.
+Speaking of insurance — it's another S$2,000–S$4,000 a year for most expat profiles, and premiums vary materially between insurers for the same risk. [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-erp-2-real-cost-of-driving-in-singapore) quotes the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) in parallel from one form. For expats who'd rather avoid the ERP-plus-insurance-plus-COE combo entirely, a monthly car subscription from a Singapore operator bundles insurance and road tax into one fee — we compare the maths in [car subscription vs ownership in Singapore](/singapore/subscription-vs-ownership).
 
 ## How to Reduce Your ERP Bill
 

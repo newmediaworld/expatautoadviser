@@ -119,11 +119,11 @@ _This article contains affiliate links. If you click through and buy or sign up,
 If you've done the maths, have the right lifestyle, and are committed to ownership:
 
 1. **Clarify parking** — ideally secure a monthly space before you buy the car
-2. **Move your cash into HKD properly** — UK/US bank SWIFT wires can strip HK$8,000–HK$15,000 on a HK$700,000 purchase through poor FX rates. [Wise]([WISE_LINK_PLACEHOLDER]) moves these sums at near mid-market rates with a transparent flat fee.
+2. **Move your cash into HKD properly** — UK/US bank SWIFT wires can strip HK$8,000–HK$15,000 on a HK$700,000 purchase through poor FX rates. A specialist FX provider such as Wise moves these sums at near mid-market rates with a transparent flat fee.
 3. **Apply for HK driving licence** if you're past the 12-month mark
 4. **Shop both new and used markets** — FRT is paid once at first registration, so subsequent owners of a used HK-registered car do not pay it again, which is why used often represents better value. More on this in our [FRT guide](/hong-kong/frt-tax-explained).
 5. **Arrange financing** — HK banks (HSBC, Hang Seng, Standard Chartered, BOCHK) offer auto loans up to 70% LTV
-6. **Insurance in place before delivery** — a broker can quote AXA, Zurich, MSIG and Blue in parallel via our [Hong Kong car insurance comparison]([INSURANCE_HK_LEAD]).
+6. **Insurance in place before delivery** — a broker can quote AXA, Zurich, MSIG and Blue in parallel. Our [Hong Kong car insurance guide](/hong-kong/insurance-guide) sets out what each insurer is competitive on and what to ask for.
 7. **Register through Transport Department** — typically dealer handles this
 
 ## The Five-Year Mental Model

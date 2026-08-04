@@ -1,5 +1,4 @@
 import Layout from '../../components/Layout';
-import AffiliateBox from '../../components/AffiliateBox';
 import FAQ from '../../components/FAQ';
 
 const h1 = { margin: "0 0 12px", fontSize: "clamp(26px,4vw,38px)", fontWeight: 700, color: "#1a1a2e", fontFamily: "'Playfair Display',Georgia,serif", lineHeight: 1.2 };
@@ -122,20 +121,6 @@ export default function HKLeasingGuide() {
 
       <h2 style={h2}>Fuel costs</h2>
       <p style={body}>Petrol in Hong Kong is among the most expensive in the world — typically HKD $29–$31 per litre. A typical 2,000 km/month driver will spend HKD $3,500–$5,000/month on fuel. Electric vehicles are gaining traction; home charger installation is possible in most private buildings with management approval.</p>
-
-      {/* TODO(affiliate): re-enable when partner URLs are live */}
-      {/*
-      <AffiliateBox
-        city="hk"
-        type="leasing"
-        title="Hong Kong Car Leasing — Recommended Providers"
-        partners={[
-          { name: "Atal Motor Finance", badge: "FLEET LEASING", desc: "One of HK's largest fleet operators. Offers personal leases on a range of Japanese and European vehicles.", url: "#", cta: "Get a quote" },
-          { name: "Honest Car", badge: "EXPAT FRIENDLY", desc: "English-speaking team, transparent pricing. Good choice for new arrivals who want a smooth process.", url: "#", cta: "Get a quote" },
-          { name: "Wearnes Automotive HK", badge: "PREMIUM", desc: "Official BMW and MINI dealer. Personal contract leases on premium models with full dealer support.", url: "#", cta: "Enquire now" },
-        ]}
-      />
-      */}
 
       <FAQ items={faqItems} city="hk" />
     </Layout>

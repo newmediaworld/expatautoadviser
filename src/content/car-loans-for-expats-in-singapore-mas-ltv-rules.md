@@ -47,7 +47,7 @@ Let me walk through a few loan-side scenarios. **Note:** the purchase prices bel
 
 Expats arriving with UK or US expectations of 10–20% deposit get a shock. The minimum cash outlay for a mid-range family car is comfortably north of S$40,000.
 
-**Moving that cash from a UK/US/AU account to SGD:** don't send it via your UK high-street bank's SWIFT wire — the combined spread and fees on a S$45,000 transfer can easily eat S$1,000+. [Wise]([WISE_LINK_PLACEHOLDER]) handles these sums at near mid-market rates with a flat, transparent fee. Worth getting this step right before COE day — a bad FX rate on deposit day is an expensive way to start.
+**Moving that cash from a UK/US/AU account to SGD:** don't send it via your UK high-street bank's SWIFT wire — the combined spread and fees on a S$45,000 transfer can easily eat S$1,000+. A specialist FX provider such as Wise handles these sums at near mid-market rates with a flat, transparent fee. Worth getting this step right before COE day — a bad FX rate on deposit day is an expensive way to start.
 
 ### Topping up the cash deposit with a personal loan
 

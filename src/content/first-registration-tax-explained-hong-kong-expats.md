@@ -123,7 +123,7 @@ The ongoing monthly cost of running a car in Hong Kong often exceeds the MTR-plu
 
 _This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
 
-**Funding the purchase:** if you're moving cash from the UK or elsewhere into HKD, don't let your UK bank's SWIFT wire do the FX conversion — the combined spread and fees on a HK$700,000 purchase can comfortably eat HK$8,000–HK$15,000. [Wise]([WISE_LINK_PLACEHOLDER]) moves these sums at near mid-market rates with a transparent flat fee. More detail on the timing decisions in our guide to [buying a car in Hong Kong](/hong-kong/buying-guide) and the HK-specific [car insurance picture]([INSURANCE_HK_LEAD]).
+**Funding the purchase:** if you're moving cash from the UK or elsewhere into HKD, don't let your UK bank's SWIFT wire do the FX conversion — the combined spread and fees on a HK$700,000 purchase can comfortably eat HK$8,000–HK$15,000. A specialist FX provider such as Wise moves these sums at near mid-market rates with a transparent flat fee. More detail on the timing decisions in our guide to [buying a car in Hong Kong](/hong-kong/buying-guide) and the HK-specific [car insurance picture](/hong-kong/insurance-guide).
 
 _**Affiliate disclosure:** We work with a small number of vetted partners whose products we'd genuinely recommend to a friend in the same situation. Commissions help us keep this site free to read and independent of advertiser pressure. We never recommend a product we wouldn't use ourselves, and we update pricing and terms as soon as we find them changed._
 

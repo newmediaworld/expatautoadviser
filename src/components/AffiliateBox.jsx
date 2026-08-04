@@ -1,11 +1,24 @@
 // AffiliateBox — reusable affiliate partner recommendations block
 // Place inside guide pages after relevant content sections.
-// All links are placeholder (#) until real affiliate URLs are confirmed.
+//
+// Only pass partners with a real, live affiliate URL. Entries without a
+// working URL are filtered out rather than rendered as a dead "coming soon"
+// row; if that leaves nothing, the whole box is omitted.
+//
+// Clicks fire the same GA4 affiliate_click event as links inside markdown
+// articles (see src/lib/affiliateTracking.js).
+
+import { trackAffiliateClick } from "../lib/affiliateTracking";
 
 export default function AffiliateBox({ city, type, title, partners }) {
   const accent = city === "sg" ? "#e8341c" : "#0d9488";
   const lightBg = city === "sg" ? "#fff5f4" : "#f0fdfa";
   const borderCol = city === "sg" ? "#fca5a5" : "#99f6e4";
+
+  const live = (partners || []).filter(
+    (p) => p && typeof p.url === "string" && p.url !== "#" && /^https?:\/\//.test(p.url)
+  );
+  if (live.length === 0) return null;
 
   return (
     <div style={{
@@ -27,14 +40,14 @@ export default function AffiliateBox({ city, type, title, partners }) {
         We only list companies we'd recommend to a friend.
       </p>
       <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-        {partners.map((p, i) => (
-          <a key={i} href={p.url || "#"} target="_blank" rel="noopener noreferrer nofollow"
+        {live.map((p, i) => (
+          <a key={i} href={p.url} target="_blank" rel="noopener noreferrer nofollow sponsored"
             style={{ textDecoration: "none" }}
-            onClick={p.url === "#" ? (e) => e.preventDefault() : undefined}
+            onClick={() => trackAffiliateClick(p.url, { placement: `affiliate_box_${type || "generic"}` })}
           >
             <div style={{ background: "white", border: "1.5px solid #e5e7eb", borderRadius: 8, padding: "14px 18px",
               display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16,
-              cursor: p.url && p.url !== "#" ? "pointer" : "default", transition: "border-color 0.15s, box-shadow 0.15s" }}
+              cursor: "pointer", transition: "border-color 0.15s, box-shadow 0.15s" }}
               onMouseEnter={e => { e.currentTarget.style.borderColor = accent; e.currentTarget.style.boxShadow = `0 2px 12px ${accent}20`; }}
               onMouseLeave={e => { e.currentTarget.style.borderColor = "#e5e7eb"; e.currentTarget.style.boxShadow = "none"; }}
             >
@@ -50,18 +63,10 @@ export default function AffiliateBox({ city, type, title, partners }) {
                 </div>
                 <p style={{ fontSize: 13, color: "#6b7280", margin: 0, lineHeight: 1.5 }}>{p.desc}</p>
               </div>
-              {(p.url && p.url !== "#") && (
-                <div style={{ padding: "8px 18px", background: accent, color: "white",
-                  borderRadius: 6, fontSize: 13, fontWeight: 600, whiteSpace: "nowrap", flexShrink: 0 }}>
-                  Get quote →
-                </div>
-              )}
-              {(!p.url || p.url === "#") && (
-                <div style={{ padding: "8px 18px", background: "#f3f4f6", color: "#9ca3af",
-                  borderRadius: 6, fontSize: 12, fontWeight: 600, whiteSpace: "nowrap", flexShrink: 0 }}>
-                  Coming soon
-                </div>
-              )}
+              <div style={{ padding: "8px 18px", background: accent, color: "white",
+                borderRadius: 6, fontSize: 13, fontWeight: 600, whiteSpace: "nowrap", flexShrink: 0 }}>
+                {p.cta || "Get quote →"}
+              </div>
             </div>
           </a>
         ))}

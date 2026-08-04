@@ -111,7 +111,7 @@ Always check Wise's current limits at signup — the regulatory caps adjust peri
 
 ### For larger transfers or business-account buyers — WorldFirst
 
-If you're transferring **above £30,000** (typical for Cat B or European-brand car deposits) or you're doing the purchase via a business structure (UK Ltd, SG Pte Ltd, UAE FZE with an APAC banking rail), get a parallel quote from **[WorldFirst](https://clk.omgt6.com/?PID=56417&AID=2361711)** before committing. WorldFirst (owned by Ant Group / Alipay+) sits in the £30k+ personal or any-size business FX segment where rates are typically 0.05–0.2% closer to mid-market than Wise's rates — small in percentage terms, meaningful in absolute pounds on a £60k+ transfer.
+If you're transferring **above £30,000** (typical for Cat B or European-brand car deposits) or you're doing the purchase via a business structure (UK Ltd, SG Pte Ltd, UAE FZE with an APAC banking rail), get a parallel quote from **[WorldFirst](https://clk.omgt6.com/?PID=56417&AID=2361711&MID=eaa-funding-car-purchase-singapore-uk-expat)** before committing. WorldFirst (owned by Ant Group / Alipay+) sits in the £30k+ personal or any-size business FX segment where rates are typically 0.05–0.2% closer to mid-market than Wise's rates — small in percentage terms, meaningful in absolute pounds on a £60k+ transfer.
 
 Practical rule of thumb for the SG car-deposit context:
 
@@ -120,7 +120,7 @@ Practical rule of thumb for the SG car-deposit context:
 - **£100k+ personal, or any business-account purchase**: WorldFirst is usually the better rail, worth the extra 3-5 business day onboarding.
 - **APAC receiving accounts**: WorldFirst's regulatory footprint is strongest here (approved 22 Jun 2026 for the SG/AU/HK-included corridor).
 
-The [WorldFirst quote is free](https://clk.omgt6.com/?PID=56417&AID=2361711) and comparable — worth running in parallel with the Wise quote if the transfer size makes fractional-percent FX improvements meaningful. Affiliate link; we earn a commission if you open an account through it, at no extra cost.
+The [WorldFirst quote is free](https://clk.omgt6.com/?PID=56417&AID=2361711&MID=eaa-funding-car-purchase-singapore-uk-expat) and comparable — worth running in parallel with the Wise quote if the transfer size makes fractional-percent FX improvements meaningful. Affiliate link; we earn a commission if you open an account through it, at no extra cost.
 
 ## The step-by-step process
 

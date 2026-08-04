@@ -131,7 +131,7 @@ The specific permits and requirements vary depending on your border crossing poi
 
 _This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
 
-_Insurance interaction_: converting your licence before month 12 also matters for insurance — several HK insurers apply a "new-to-HK" loading during the overseas-licence window. If you're approaching 12 months, it's worth re-quoting with the new HK licence in hand. Our [HK car insurance comparison]([INSURANCE_HK_LEAD]) quotes the main expat-friendly insurers in parallel._
+_Insurance interaction_: converting your licence before month 12 also matters for insurance — several HK insurers apply a "new-to-HK" loading during the overseas-licence window. If you're approaching 12 months, it's worth re-quoting with the new HK licence in hand — our [Hong Kong car insurance guide](/hong-kong/insurance-guide) covers which insurers apply the loading and how to get it removed._
 
 **Assuming US = approved.** It depends on the state. Check the current list.
 

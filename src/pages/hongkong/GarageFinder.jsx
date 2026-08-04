@@ -1,5 +1,4 @@
 import Layout from "../../components/Layout";
-import AffiliateBox from "../../components/AffiliateBox";
 import EmailCapture from "../../components/EmailCapture";
 import { Link } from "react-router-dom";
 
@@ -199,20 +198,6 @@ export default function HKGarageFinder() {
           </div>
         </div>
       </div>
-      {/* Affiliate: Insurance */}
-      {/* TODO(affiliate): re-enable when partner URLs are live */}
-      {/*
-      <AffiliateBox
-        city="hk"
-        type="insurance"
-        title="While you're thinking about your car — sort the insurance"
-        partners={[
-          { name: 'AXA Hong Kong', badge: 'Expat favourite', desc: 'English-language service, easy overseas NCD transfer, approved workshop choice.', url: '#' },
-          { name: 'Zurich Insurance HK', desc: 'Strong expat reputation. Flexible terms. Trusted claims process in HK.', url: '#' },
-          { name: 'Compare.com.hk', desc: 'Compare all major HK car insurers in one place. Free, instant quotes.', url: '#' },
-        ]}
-      />
-      */}
       <EmailCapture
         city="hk"
         source="hk-garage-finder"

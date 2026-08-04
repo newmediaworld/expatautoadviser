@@ -1,7 +1,6 @@
 import { useState, useMemo } from "react";
 import Layout from "../../components/Layout";
 import { Link } from "react-router-dom";
-import AffiliateBox from "../../components/AffiliateBox";
 import EmailCapture from "../../components/EmailCapture";
 
 /* ─── Hong Kong Calculators Page ────────────────────────────────────────── */
@@ -685,21 +684,6 @@ export default function Calculators() {
           {activeTab === "buyvslease" && <HKBuyVsLease />}
           {activeTab === "licence" && <HKLicenceChecker />}
         </div>
-
-        {/* Affiliate Box */}
-        {/* TODO(affiliate): re-enable when partner URLs are live */}
-        {/*
-        <AffiliateBox
-          city="hk"
-          type="insurance"
-          title="Ready to get insured? Compare Hong Kong car insurance"
-          partners={[
-            { name: 'AXA Hong Kong', badge: 'Popular with expats', desc: 'English-language service, easy overseas NCD recognition, flexible workshop choice.', url: '#' },
-            { name: 'Zurich Insurance HK', desc: 'Strong expat reputation. Competitive premiums. Trusted claims process.', url: '#' },
-            { name: 'Compare.com.hk', desc: 'Compare multiple HK car insurers in one place. Free, instant quotes.', url: '#' },
-          ]}
-        />
-        */}
 
         {/* Email CTA */}
         <EmailCapture

@@ -665,19 +665,14 @@ export default function Calculators() {
         </div>
 
         {/* Affiliate Box */}
-        {/* TODO(affiliate): re-enable when partner URLs are live */}
-        {/*
         <AffiliateBox
           city="sg"
           type="insurance"
           title="Ready to get insured? Compare Singapore car insurance"
           partners={[
-            { name: 'DirectAsia', badge: 'Popular with expats', desc: 'Online quotes in 3 minutes. Comprehensive cover, easy NCD transfer for overseas drivers.', url: '#' },
-            { name: 'Income Insurance', desc: 'Competitive rates, 24/7 claims, flexible workshop choice.', url: '#' },
-            { name: 'SingSaver — Compare All Insurers', desc: 'Compare multiple Singapore insurers side-by-side. Free, takes 2 minutes.', url: '#' },
+            { name: 'SingSaver — Compare All Insurers', badge: 'Compare', desc: 'Quotes from the main expat-friendly Singapore insurers (NTUC Income, AIG, FWD, Direct Asia) side-by-side. Free, takes 2 minutes.', url: 'https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-sg-calculators' },
           ]}
         />
-        */}
 
         {/* Email CTA */}
         <EmailCapture
