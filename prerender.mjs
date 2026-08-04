@@ -200,8 +200,8 @@ const META = {
     ],
   },
   '/hong-kong/buying-guide': {
-    title: `Buying a Car in Hong Kong 2026 (UK Expat Guide)`,
-    desc: `Real all-in cost of buying a car in Hong Kong 2026 — HKD 200k vs 800k stacks after FRT (46–132%), dealer vs private, financing, buy-vs-lease maths.`,
+    title: `Buying a Car in Hong Kong 2026: Why HK$200k Becomes HK$312k`,
+    desc: `Buying a car in Hong Kong in 2026 as a UK expat: how first registration tax turns a HK$200k car into HK$312k, plus the real monthly cost of running it.`,
     type: `article`,
     faq: [
       {
@@ -230,8 +230,8 @@ const META = {
     ],
   },
   '/hong-kong/frt-tax-explained': {
-    title: `Hong Kong FRT 2026: Why a HK$300k Car Costs HK$550k`,
-    desc: `Hong Kong First Registration Tax explained 2026 — 46-132% bands turn a HK$300k car into HK$550k. Taxable value formulas, EV concession closure, worked examples.`,
+    title: `Hong Kong First Registration Tax Rates 2026 (Private Cars)`,
+    desc: `Hong Kong first registration tax rates for private cars in 2026: four bands from 46% to 132%, worked examples, and why the EV concession has ended.`,
     type: `article`,
     faq: [
       {
@@ -364,8 +364,8 @@ const META = {
     type: `article`,
   },
   '/singapore/child-car-seats': {
-    title: `Child Car Seat Laws Singapore 2026: ISOFIX + S$150 Fine`,
-    desc: `Singapore child car seat laws 2026 for expat families — 1.35m height rule, ISOFIX standards, S$150 fine, and the taxi/PHV exemption explained.`,
+    title: `Singapore Child Car Seat Law 2026: the 1.35m Height Rule`,
+    desc: `Singapore child car seat law in 2026: every child under 1.35m needs a restraint, S$150 fine and 3 demerit points, and Grab is not exempt but taxis are.`,
     type: `article`,
   },
   '/singapore/subscription-vs-ownership': {
@@ -374,8 +374,8 @@ const META = {
     type: `article`,
   },
   '/hong-kong/parking-costs': {
-    title: `HK Parking 2026: HK$3k Sai Kung vs HK$12k Mid-Levels`,
-    desc: `Real Hong Kong parking costs 2026 for UK expats — HK$3,000 Sai Kung vs HK$12,000 Mid-Levels, office rates, where rents are softening, buy-vs-lease impact.`,
+    title: `Hong Kong Parking Costs 2026: HK$1,500-12,000 a Month`,
+    desc: `What parking actually costs in Hong Kong in 2026: HK$1,500-3,500 in Sai Kung, HK$4,500-7,500 in Mid-Levels, HK$6,000-12,000 in Central. Full breakdown.`,
     type: `article`,
     faq: [
       {
@@ -436,8 +436,8 @@ const META = {
     ],
   },
   '/hong-kong/tunnel-tolls-explained': {
-    title: `HK Tunnel Tolls 2026: HK$60 Peak vs HK$8 Off-Peak`,
-    desc: `Real Hong Kong tunnel toll cost 2026 for UK expats — TVT bands HK$8 off-peak to HK$60 peak, HKeToll setup, real monthly bills by route, off-peak savings up to 87%.`,
+    title: `Hong Kong Tunnel Tolls 2026: HK$20 Off-Peak to HK$60 Peak`,
+    desc: `Hong Kong tunnel tolls in 2026: HK$20-25 off-peak, HK$40 at the Cross-Harbour and Eastern crossings, HK$60 Western. Monthly cost by commute route.`,
     type: `article`,
     faq: [
       {
@@ -474,8 +474,8 @@ const META = {
     ],
   },
   '/singapore/best-family-cars': {
-    title: `Best Family Cars Singapore 2026: 3 Budget Tiers S$160-340k`,
-    desc: `Best family cars Singapore 2026 for UK expats — three budget tiers S$160k to S$340k, top pick per band, used-car alternatives, and the practical trade-offs.`,
+    title: `Best Family Cars in Singapore 2026: All-In Prices S$160-340k`,
+    desc: `Best family cars in Singapore for 2026, with all-in prices from S$160k to S$340k: HR-V, Corolla Cross, RAV4, CR-V, XC60 and the used-car alternative.`,
     type: `article`,
     faq: [
       {
