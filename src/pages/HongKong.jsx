@@ -23,14 +23,64 @@ const HK_SIDEBAR_SECTIONS = [
   { heading: 'Tools & Services', keys: ['calculators', 'garage-finder'] },
 ];
 
-/* Albert's long-form articles — shown separately with full titles */
-const HK_ARTICLES = [
-  { label: 'Buying a Car in HK: The Parking Reality', to: '/hong-kong/buying-guide' },
-  { label: 'First Registration Tax Explained for Expats', to: '/hong-kong/frt-tax-explained' },
-  { label: 'Car Insurance for Hong Kong Expats', to: '/hong-kong/insurance-guide' },
-  { label: 'Converting Your Driving Licence in HK', to: '/hong-kong/licence-conversion' },
-  { label: 'Selling Your Car When Leaving Hong Kong', to: '/hong-kong/selling-guide' },
+/* Albert's long-form articles — shown separately with full titles, grouped by
+   theme. Descriptions are trimmed from each route's META entry in
+   prerender.mjs so the hub copy and the meta descriptions stay in sync. */
+const HK_ARTICLE_SECTIONS = [
+  {
+    heading: 'Buying & Selling',
+    items: [
+      {
+        label: 'Buying a Car in HK: The Parking Reality',
+        to: '/hong-kong/buying-guide',
+        desc: 'How first registration tax turns a HK$200k car into HK$312k, plus the real monthly cost of running it.',
+      },
+      {
+        label: 'Selling Your Car When Leaving Hong Kong',
+        to: '/hong-kong/selling-guide',
+        desc: 'A six-week exit plan for departing expats — dealer vs private vs auction, TD forms, the export route and the insurance gap.',
+      },
+    ],
+  },
+  {
+    heading: 'Running Costs',
+    items: [
+      {
+        label: 'First Registration Tax Explained for Expats',
+        to: '/hong-kong/frt-tax-explained',
+        desc: 'Four bands from 46% to 132%, worked examples, and why the EV concession has ended.',
+      },
+      {
+        label: 'Hong Kong Parking Costs',
+        to: '/hong-kong/parking-costs',
+        desc: 'HK$1,500–3,500 in Sai Kung, HK$4,500–7,500 in Mid-Levels, HK$6,000–12,000 in Central. The full district-by-district breakdown.',
+      },
+      {
+        label: 'Tunnel Tolls Explained',
+        to: '/hong-kong/tunnel-tolls-explained',
+        desc: 'HK$20–25 off-peak, HK$40 at the Cross-Harbour and Eastern crossings, HK$60 Western — plus monthly cost by commute route.',
+      },
+    ],
+  },
+  {
+    heading: 'Insurance & Licensing',
+    items: [
+      {
+        label: 'Car Insurance for Hong Kong Expats',
+        to: '/hong-kong/insurance-guide',
+        desc: 'HK$15–25k a year comprehensive, third-party minimums, NCD transfer from the UK, and the 30–40% expat loading explained.',
+      },
+      {
+        label: 'Converting Your Driving Licence in HK',
+        to: '/hong-kong/licence-conversion',
+        desc: 'Hong Kong accepts UK and 30 other licences for direct conversion — the full list, application steps and fees.',
+      },
+    ],
+  },
 ];
+
+/* Flat list used by the sidebar and mobile drawer (labels only). */
+const HK_ARTICLES = HK_ARTICLE_SECTIONS.flatMap(s => s.items);
 
 const HK_GUIDES = [
   /* — Getting Started — */
@@ -449,28 +499,39 @@ export default function HongKong() {
           );
         })}
 
-        {/* Articles Section */}
+        {/* Articles Section — grouped by theme */}
         <div className="hk-section-title">In-Depth Articles</div>
-        <div style={{ display: 'grid', gap: 10, marginBottom: '2rem' }}>
-          {HK_ARTICLES.map(a => (
-            <Link
-              key={a.to}
-              to={a.to}
-              style={{
-                display: 'flex', alignItems: 'center', gap: 12,
-                background: '#10131d', border: '1px solid rgba(255,255,255,0.07)',
-                borderRadius: 8, padding: '0.75rem 1rem',
-                textDecoration: 'none', transition: 'border-color 0.2s, background 0.2s',
-              }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(42,157,143,0.4)'; e.currentTarget.style.background = '#151820'; }}
-              onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'; e.currentTarget.style.background = '#10131d'; }}
-            >
-              <span style={{ color: '#2a9d8f', fontSize: '0.85rem', flexShrink: 0 }}>&#9656;</span>
-              <span style={{ color: '#e5e7eb', fontSize: '0.85rem', fontWeight: 600, lineHeight: 1.3 }}>{a.label}</span>
-              <span style={{ marginLeft: 'auto', color: '#4a5568', fontSize: '0.7rem', flexShrink: 0 }}>Read &rarr;</span>
-            </Link>
-          ))}
-        </div>
+        {HK_ARTICLE_SECTIONS.map(section => (
+          <div key={section.heading} style={{ marginBottom: '1.4rem' }}>
+            <div style={{ fontSize: '0.66rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#6b7280', marginBottom: '0.5rem' }}>
+              {section.heading}
+            </div>
+            <div style={{ display: 'grid', gap: 10 }}>
+              {section.items.map(a => (
+                <Link
+                  key={a.to}
+                  to={a.to}
+                  style={{
+                    display: 'flex', alignItems: 'flex-start', gap: 12,
+                    background: '#10131d', border: '1px solid rgba(255,255,255,0.07)',
+                    borderRadius: 8, padding: '0.75rem 1rem',
+                    textDecoration: 'none', transition: 'border-color 0.2s, background 0.2s',
+                  }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(42,157,143,0.4)'; e.currentTarget.style.background = '#151820'; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'; e.currentTarget.style.background = '#10131d'; }}
+                >
+                  <span style={{ color: '#2a9d8f', fontSize: '0.85rem', flexShrink: 0, marginTop: '0.1rem' }}>&#9656;</span>
+                  <span style={{ flex: 1, minWidth: 0 }}>
+                    <span style={{ display: 'block', color: '#e5e7eb', fontSize: '0.85rem', fontWeight: 600, lineHeight: 1.3 }}>{a.label}</span>
+                    <span style={{ display: 'block', marginTop: 3, color: '#8892a4', fontSize: '0.72rem', lineHeight: 1.45 }}>{a.desc}</span>
+                  </span>
+                  <span style={{ color: '#4a5568', fontSize: '0.7rem', flexShrink: 0, marginTop: '0.1rem' }}>Read &rarr;</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
+        <div style={{ marginBottom: '2rem' }} />
 
         {/* Patrick Section */}
         <div className="hk-section-title">Your Guide</div>

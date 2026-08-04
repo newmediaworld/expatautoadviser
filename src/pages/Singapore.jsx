@@ -23,15 +23,114 @@ const SG_SIDEBAR_SECTIONS = [
   { heading: 'Tools & Services', keys: ['calculators', 'garage-finder'] },
 ];
 
-/* Albert's long-form articles — shown separately with full titles */
-const SG_ARTICLES = [
-  { label: 'Buying a Used Car: COE, PARF & Paperwork', to: '/singapore/buying-guide' },
-  { label: 'How the COE System Works for Expats', to: '/singapore/coe-guide' },
-  { label: 'ERP 2.0: The Real Cost of Driving', to: '/singapore/cost-of-driving' },
-  { label: 'Car Loans: MAS LTV Rules Explained', to: '/singapore/car-loans' },
-  { label: 'Child Car Seats & ISOFIX Laws', to: '/singapore/child-car-seats' },
-  { label: 'Subscription vs Ownership Compared', to: '/singapore/subscription-vs-ownership' },
+/* Albert's long-form articles — shown separately with full titles, grouped by
+   theme. Descriptions are trimmed from each route's META entry in
+   prerender.mjs so the hub copy and the meta descriptions stay in sync. */
+const SG_ARTICLE_SECTIONS = [
+  {
+    heading: 'Buying a Car',
+    items: [
+      {
+        label: 'Buying a Used Car: COE, PARF & Paperwork',
+        to: '/singapore/buying-guide',
+        desc: 'COE S$100k+ reality, dealer vs parallel-import, financing rules, and when buying beats leasing (rarely).',
+      },
+      {
+        label: 'COE Bidding Strategy for Expats',
+        to: '/singapore/coe-bidding-strategy',
+        desc: 'How the twice-monthly auction works, the three bidding strategies UK expats use, and the S$10–15k mistakes to avoid.',
+      },
+      {
+        label: 'Parallel Imports: AD vs PI Compared',
+        to: '/singapore/parallel-import-cars',
+        desc: 'When parallel imports save you 7–12% — and when warranty, financing and resale quietly erase the gap.',
+      },
+      {
+        label: 'Best Family Cars in Singapore',
+        to: '/singapore/best-family-cars',
+        desc: 'All-in prices from S$160k to S$340k: HR-V, Corolla Cross, RAV4, CR-V, XC60 and the used-car alternative.',
+      },
+    ],
+  },
+  {
+    heading: 'What It Really Costs',
+    items: [
+      {
+        label: 'How the COE System Works for Expats',
+        to: '/singapore/coe-guide',
+        desc: 'How bidding works, current COE prices, categories, renewal rules and cost-management strategies.',
+      },
+      {
+        label: 'ERP 2.0: The Real Cost of Driving',
+        to: '/singapore/cost-of-driving',
+        desc: 'OBU rollout, distance-based charging intent, typical gantry rates, and what daily driving really costs an expat.',
+      },
+      {
+        label: 'True Cost of Owning a Car',
+        to: '/singapore/true-cost-of-owning-a-car',
+        desc: 'S$30–42k a year all-in — COE, depreciation, road tax, insurance, fuel, ERP and parking, with a worked 3-year example.',
+      },
+      {
+        label: 'Road Tax & Vehicle Fees',
+        to: '/singapore/road-tax-vehicle-fees',
+        desc: 'Petrol vs diesel vs EV formulas, the 6× diesel surcharge, the inspection cycle and VES banding.',
+      },
+    ],
+  },
+  {
+    heading: 'Insurance',
+    items: [
+      {
+        label: 'Motor Insurance 2026: NCD & Premiums',
+        to: '/singapore/motor-insurance-2026-uk-expats',
+        desc: 'NCD transfer of 0–20%, comprehensive vs TPO, Income/MSIG/AIG/Tokio Marine premiums, Malaysia cover and excess traps.',
+      },
+      {
+        label: 'Car Insurance: Singapore vs Hong Kong',
+        to: '/singapore/car-insurance-vs-hong-kong',
+        desc: 'Compulsory cover, NCD transfer, the Singapore forced-comprehensive cliff at year 7, and Hong Kong loadings of 30–40%.',
+      },
+    ],
+  },
+  {
+    heading: 'Paying For It',
+    items: [
+      {
+        label: 'Car Loans: MAS LTV Rules Explained',
+        to: '/singapore/car-loans',
+        desc: 'MAS LTV caps (70%/60%), typical lender practice, TDSR considerations, EP requirements and 2026 rate ranges.',
+      },
+      {
+        label: 'Funding a Car Purchase from the UK',
+        to: '/singapore/funding-car-purchase',
+        desc: 'The Singapore cost stack — COE, ARF tiers, GST, excise — plus moving £35–80k over without losing thousands to FX.',
+      },
+      {
+        label: 'Wise vs Bank Transfer for Car Deposits',
+        to: '/singapore/wise-vs-bank-transfer-car-deposits',
+        desc: 'What UK banks really charge on £25–80k transfers (2–4% hidden FX margin) versus Wise, with worked examples.',
+      },
+    ],
+  },
+  {
+    heading: 'Living With It',
+    items: [
+      {
+        label: 'Child Car Seats & ISOFIX Laws',
+        to: '/singapore/child-car-seats',
+        desc: 'Every child under 1.35m needs a restraint, S$150 fine and 3 demerit points — and Grab is not exempt, but taxis are.',
+      },
+      {
+        label: 'Subscription vs Ownership Compared',
+        to: '/singapore/subscription-vs-ownership',
+        desc: 'Carro Leap, Drive Lah, monthly all-in cost vs ownership maths, and which one fits your posting length.',
+      },
+    ],
+  },
 ];
+
+/* Flat list used by the sidebar and mobile drawer (labels only). */
+const SG_ARTICLES = SG_ARTICLE_SECTIONS.flatMap(s => s.items);
 
 const SG_GUIDES = [
   /* — Getting Started — */
@@ -468,28 +567,39 @@ export default function Singapore() {
           );
         })}
 
-        {/* Articles Section */}
+        {/* Articles Section — grouped by theme */}
         <div className="sg-section-title">In-Depth Articles</div>
-        <div style={{ display: 'grid', gap: 10, marginBottom: '2rem' }}>
-          {SG_ARTICLES.map(a => (
-            <Link
-              key={a.to}
-              to={a.to}
-              style={{
-                display: 'flex', alignItems: 'center', gap: 12,
-                background: '#10131d', border: '1px solid rgba(255,255,255,0.07)',
-                borderRadius: 8, padding: '0.75rem 1rem',
-                textDecoration: 'none', transition: 'border-color 0.2s, background 0.2s',
-              }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(232,52,28,0.4)'; e.currentTarget.style.background = '#151820'; }}
-              onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'; e.currentTarget.style.background = '#10131d'; }}
-            >
-              <span style={{ color: '#e8341c', fontSize: '0.85rem', flexShrink: 0 }}>&#9656;</span>
-              <span style={{ color: '#e5e7eb', fontSize: '0.85rem', fontWeight: 600, lineHeight: 1.3 }}>{a.label}</span>
-              <span style={{ marginLeft: 'auto', color: '#4a5568', fontSize: '0.7rem', flexShrink: 0 }}>Read &rarr;</span>
-            </Link>
-          ))}
-        </div>
+        {SG_ARTICLE_SECTIONS.map(section => (
+          <div key={section.heading} style={{ marginBottom: '1.4rem' }}>
+            <div style={{ fontSize: '0.66rem', fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#6b7280', marginBottom: '0.5rem' }}>
+              {section.heading}
+            </div>
+            <div style={{ display: 'grid', gap: 10 }}>
+              {section.items.map(a => (
+                <Link
+                  key={a.to}
+                  to={a.to}
+                  style={{
+                    display: 'flex', alignItems: 'flex-start', gap: 12,
+                    background: '#10131d', border: '1px solid rgba(255,255,255,0.07)',
+                    borderRadius: 8, padding: '0.75rem 1rem',
+                    textDecoration: 'none', transition: 'border-color 0.2s, background 0.2s',
+                  }}
+                  onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(232,52,28,0.4)'; e.currentTarget.style.background = '#151820'; }}
+                  onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'; e.currentTarget.style.background = '#10131d'; }}
+                >
+                  <span style={{ color: '#e8341c', fontSize: '0.85rem', flexShrink: 0, marginTop: '0.1rem' }}>&#9656;</span>
+                  <span style={{ flex: 1, minWidth: 0 }}>
+                    <span style={{ display: 'block', color: '#e5e7eb', fontSize: '0.85rem', fontWeight: 600, lineHeight: 1.3 }}>{a.label}</span>
+                    <span style={{ display: 'block', marginTop: 3, color: '#8892a4', fontSize: '0.72rem', lineHeight: 1.45 }}>{a.desc}</span>
+                  </span>
+                  <span style={{ color: '#4a5568', fontSize: '0.7rem', flexShrink: 0, marginTop: '0.1rem' }}>Read &rarr;</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
+        <div style={{ marginBottom: '2rem' }} />
 
         {/* Patrick Section */}
         <div className="sg-section-title">Your Guide</div>
