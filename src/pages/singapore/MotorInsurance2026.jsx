@@ -8,7 +8,7 @@ export default function SGMotorInsurance2026() {
     <MarkdownArticlePage
       city="sg"
       title="Singapore Motor Insurance 2026 for UK Expats: NCD Transfer, Insurers, Premiums"
-      description="SG motor insurance 2026 for UK expats — NCD transfer 0-20%, comprehensive vs TPO, Income/MSIG/AIG/Tokio Marine premiums, Malaysia cover, MediSave, excess traps."
+      description="SG motor insurance 2026 for UK expats — what really happens to a UK NCD, comprehensive vs TPO, Income/MSIG/AIG premiums, Malaysia cover, MediSave, excess traps."
       heroImage={HERO_IMG}
       relatedLinks={[
         { label: 'Singapore Insurance Guide', to: '/singapore/insurance-guide' },

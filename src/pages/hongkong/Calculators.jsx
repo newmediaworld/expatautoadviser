@@ -388,6 +388,16 @@ function HKLicenceChecker() {
         Licences from the countries and places listed in Schedule 4 of the Road Traffic (Driving Licences) Regulations (Cap. 374B) can be directly issued without a driving test. You must also satisfy one of three limbs: the licence was issued during a period of at least six months residence in that country, or you have held it for at least five years, or you hold that country&rsquo;s passport. Check your country below.
       </p>
 
+      <div style={{ background: "#fef2f2", border: "1px solid #fca5a5", borderRadius: 10, padding: "14px 16px", marginBottom: 24 }}>
+        <p style={{ fontSize: 13, color: "#991b1b", margin: 0, fontWeight: 700, marginBottom: 6 }}>
+          Do this before you drive, not within 12 months of arriving
+        </p>
+        <p style={{ fontSize: 13, color: "#7f1d1d", margin: 0 }}>
+          The familiar &ldquo;12 months on your overseas licence&rdquo; comes from regulation 37 of Cap. 374B, which grants it to a <strong>visitor</strong> &mdash; defined in Cap. 374E as any person who arrives in Hong Kong <em>other than to take up residence for a period exceeding 12 months</em>. If you have relocated on a two-year contract you are not a visitor and that window does not apply to you, so apply for your Hong Kong licence before you get behind the wheel. See the{" "}
+          <Link to="/hong-kong/licence-conversion" style={{ color: "#991b1b", fontWeight: 600 }}>full licence guide</Link> for the detail.
+        </p>
+      </div>
+
       <div style={{ marginBottom: 24 }}>
         <label style={{ fontSize: 13, fontWeight: 600, color: "#374151", display: "block", marginBottom: 6 }}>Your current licence country</label>
         <select value={country} onChange={e => setCountry(e.target.value)}

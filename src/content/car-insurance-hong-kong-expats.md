@@ -25,7 +25,7 @@ Third-party-only policies are cheap but leave you exposed — you recover nothin
 
 ## Who Can Be Insured
 
-Most insurers will require the main driver to hold a valid Hong Kong driving licence, though during your first 12 months of residence a valid overseas licence (in English or with certified translation/IDP) is generally acceptable. Private-car policies are priced very differently from commercial or luxury-car policies, so make sure the insurer understands how the car will be used.
+Most insurers will require the main driver to hold a valid Hong Kong driving licence, and if you have relocated here you probably need one anyway. The "first 12 months on your overseas licence" concession in regulation 37 of Cap. 374B applies to **visitors** — defined as people who arrive in Hong Kong other than to take up residence for a period exceeding 12 months — so an expat on a two-year contract does not get it. Since a motor policy is generally conditional on the driver being licensed to drive, relying on a window you do not have puts the cover itself at risk. Get the Hong Kong licence first; our [licence conversion guide](/hong-kong/licence-conversion) explains the direct-issue route. Private-car policies are also priced very differently from commercial or luxury-car policies, so make sure the insurer understands how the car will be used.
 
 ## Examples of Providers in the HK Market
 
@@ -67,7 +67,7 @@ The big drivers:
 
 ## Transferring Your Overseas NCD
 
-If you're arriving from the UK, Singapore, Australia, US, or most EU countries, you can usually transfer some or all of your No-Claims Discount into your Hong Kong policy — but you need to bring documentation.
+Be realistic about this one. No Hong Kong insurer publishes a policy on overseas NCD — not AIG, AXA, Zurich, MSIG, QBE or Blue Cross. Their published documents all address NCD from "your previous insurer" without saying whether an overseas one counts. The Insurance Authority's consumer guidance goes no further than noting that *some* insurers allow a transfer "from another policy" where the policyholder provides proof. So bring the documentation, expect it to be handled case by case, and budget as though you will start at 0%.
 
 What insurers will ask for:
 
@@ -75,7 +75,7 @@ What insurers will ask for:
 - Evidence the policy was in your name
 - Ideally a no-claims certificate
 
-Acceptance varies by insurer. Some will honour several years of documented NCD from reputable overseas markets and match or near-match your overseas discount; others apply a "new-to-HK" loading for the first year or two regardless of overseas history. Don't assume universal rules — get the NCD treatment in writing on your quote.
+Acceptance varies by insurer and none of it is published, so get the NCD treatment in writing on your quote rather than over the phone. Two published conditions are worth knowing: AIG requires the new policy to be bought within 12 months of the previous one expiring or being cancelled, otherwise the discount resets to 0%; and MSIG's proposal form makes original documentary proof of NCD mandatory with the application, not something you send afterwards. The Hong Kong ladder itself runs 20 / 30 / 40 / 50 / 60% for one to five-plus claim-free years, and 60% is the ceiling.
 
 Don't leave this paperwork until you arrive. Email your previous insurer before you fly and ask for an NCD letter covering your full driving history with them.
 
@@ -176,7 +176,7 @@ _**Affiliate disclosure:** We work with a small number of vetted partners whose 
 ## Frequently Asked Questions
 
 **Can I drive in HK on a UK/overseas licence while my insurance is arranged?**
-Yes — if you're a visitor or within the first 12 months of residence, a valid overseas licence is acceptable. Insurance is still required and can be issued to foreign licence holders.
+Only if you are genuinely a **visitor**. Regulation 37 of Cap. 374B lets a visitor drive on a valid overseas licence or IDP for 12 months from their last entry, and Cap. 374E defines a visitor as someone who arrives in Hong Kong other than to take up residence for a period exceeding 12 months. Relocating on a two-year contract puts you outside that definition, so you need a Hong Kong licence before you drive — arrange the direct issue while the insurance is being set up rather than after. Insurance is compulsory either way, and insurers will issue to foreign licence holders, but a policy generally will not respond for a driver who is not licensed to drive.
 
 **Does comprehensive cover typhoon damage?**
 Usually yes, but check the policy wording. Some insurers exclude flood damage unless you opt into it specifically.

@@ -237,7 +237,7 @@ const META = {
       },
       {
         q: `Can foreigners buy a car in Hong Kong?`,
-        a: `Yes. Foreigners with a valid Hong Kong identity document can purchase a car. You will need a Hong Kong driving licence or a valid overseas licence plus an International Driving Permit.`,
+        a: `Yes. Foreigners with a valid Hong Kong identity document can purchase a car. To drive it you will need a Hong Kong driving licence — the 12-month overseas-licence concession in regulation 37 of Cap. 374B applies to visitors, meaning people who arrive other than to take up residence for a period exceeding 12 months, so it does not cover an expat relocating on a multi-year contract.`,
       },
     ],
   },
@@ -248,7 +248,7 @@ const META = {
     faq: [
       {
         q: `Can expats lease a car in Hong Kong without a local licence?`,
-        a: `Yes. Most leasing companies in Hong Kong accept valid overseas driving licences. If your licence is not in English or Chinese, you may need an International Driving Permit.`,
+        a: `Leasing companies will often accept a valid overseas licence, but that is their commercial decision and it is not the same as being entitled to drive. The 12-month concession in regulation 37 of Cap. 374B is for visitors — people who arrive other than to take up residence for a period exceeding 12 months — so if you have relocated on a longer contract you need a Hong Kong licence before you drive the leased car. If your licence is not in English or Chinese you will also need an International Driving Permit or an officially certified translation.`,
       },
       {
         q: `What is a typical car lease cost in Hong Kong?`,
@@ -312,7 +312,7 @@ const META = {
       },
       {
         q: `How long can I drive in Hong Kong on a foreign licence?`,
-        a: `Visitors can drive on a valid overseas licence for up to 12 months. After that, or once you become a Hong Kong resident, you will need a local licence.`,
+        a: `Only if you are a visitor. Regulation 37 of Cap. 374B lets a visitor drive on a valid overseas licence or International Driving Permit for 12 months from their last entry, and Cap. 374E defines a visitor as any person who arrives in Hong Kong other than to take up residence for a period exceeding 12 months. An expat arriving on a two-year employment contract is therefore not a visitor and has no such window — you need a Hong Kong licence before you drive. If your licence is from a country in Schedule 4 of Cap. 374B, direct issue takes one booked appointment and no test.`,
       },
     ],
   },
@@ -575,12 +575,12 @@ const META = {
   },
   '/singapore/motor-insurance-2026-uk-expats': {
     title: `Singapore Motor Insurance 2026: UK Expat NCD & Premiums`,
-    desc: `SG motor insurance 2026 for UK expats — NCD transfer 0-20%, comprehensive vs TPO, Income/MSIG/AIG/Tokio Marine premiums, Malaysia cover, MediSave, excess traps.`,
+    desc: `SG motor insurance 2026 for UK expats — what really happens to a UK NCD, comprehensive vs TPO, Income/MSIG/AIG premiums, Malaysia cover, MediSave, excess traps.`,
     type: `article`,
     faq: [
       {
         q: `How much of my UK no-claims discount transfers to Singapore?`,
-        a: `Best case in 2026 is 20% NCD credit for a documented UK 5+ year claim-free letter at Income Insurance and MSIG. Standard case is 10% credit at AIG, DirectAsia and Etiqa. Worst case is 0% credit — treated as a fresh Singapore driver. Get the letter from your UK insurer as PDF before you leave the UK; the maximum Singapore NCD is 50%, capped at 5 years of clean Singapore driving.`,
+        a: `There is no fixed answer — it is discretionary and most Singapore insurers publish no policy on overseas NCD at all. Income Insurance is the only one that publishes a ceiling: it will review the letter from your home-country insurer and decide to accept, reject or grant an appropriate percentage, up to a maximum of 50% for a private car. DirectAsia, Budget Direct, FWD and Singlife publish a process but no percentage; MSIG, AIG, Etiqa, Sompo, Liberty, Great Eastern and Allianz are silent. Budget for 0%, ask every insurer in writing what they will apply, and note that DirectAsia and FWD require the Singapore policy to start within 24 months of the UK policy ending. The standard Singapore NCD ladder tops out at 50% after five claim-free years.`,
       },
       {
         q: `Do I need comprehensive insurance in Singapore or is third-party fine?`,
@@ -721,7 +721,7 @@ const META = {
       },
       {
         q: `Can I drive on a UK or Australian licence in Hong Kong?`,
-        a: `Yes — for the first 12 months. The UK, Australia, and many other jurisdictions are on Hong Kong's Direct Issue List, so you can convert without sitting a test. Apply early — Transport Department processing takes 5-10 working days, longer if your documents need verification.`,
+        a: `Not once you have moved here. The 12-month concession in regulation 37 of Cap. 374B is for visitors — people who arrive other than to take up residence for a period exceeding 12 months — so it does not cover an expat on a multi-year contract. The good news is that the UK, Australia and about 29 other places are in Schedule 4 of Cap. 374B, so you get a full Hong Kong licence by direct issue without sitting a test. Book the appointment before you arrive if you can; Transport Department processing takes 5-10 working days, longer if your documents need verification.`,
       },
       {
         q: `How quickly can I get a car in Hong Kong as a new arrival?`,

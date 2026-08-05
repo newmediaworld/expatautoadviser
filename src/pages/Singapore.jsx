@@ -83,7 +83,7 @@ const SG_ARTICLE_SECTIONS = [
       {
         label: 'Motor Insurance 2026: NCD & Premiums',
         to: '/singapore/motor-insurance-2026-uk-expats',
-        desc: 'NCD transfer of 0–20%, comprehensive vs TPO, Income/MSIG/AIG/Tokio Marine premiums, Malaysia cover and excess traps.',
+        desc: 'What really happens to a UK NCD, comprehensive vs TPO, Income/MSIG/AIG premiums, Malaysia cover and excess traps.',
       },
       {
         label: 'Car Insurance: Singapore vs Hong Kong',
