@@ -26,7 +26,12 @@ export function detectAffiliateProgramme(url) {
       // so GA4 attribution captures which advertiser was clicked, not just
       // a generic 'optimise' bucket. See NWM_Affiliate_Status.md for PIDs.
       const pid = p.get('PID');
-      const mid = p.get('MID');
+      // UID is Optimise's sub-ID slot. Links previously used MID, which is
+      // the MERCHANT id in Optimise's schema, not a publisher sub-ID — so
+      // Optimise recorded no per-site attribution at all (websiteId came
+      // back as -1 on every reporting row). Corrected 5 Aug 2026; MID is
+      // still read as a fallback so historical links keep reporting.
+      const mid = p.get('UID') || p.get('MID');
       if (pid === '56417') return { programme: 'worldfirst_apac', clickref: mid || `PID=${pid}` };
       if (pid === '12745') return { programme: 'optimise_trip_flights', clickref: mid || `PID=${pid}` };
       if (pid === '12746') return { programme: 'optimise_trip_hotels', clickref: mid || `PID=${pid}` };
