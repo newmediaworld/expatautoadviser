@@ -11,6 +11,7 @@ export default function SGBuyingGuide() {
       description="A practical guide to buying a used car in Singapore as an expat — how COE and PARF affect price, dealer vs private, inspection, paperwork, and the 7-day transfer rule."
       heroImage={HERO_IMG}
       relatedLinks={[
+        { label: 'On-Road Price Calculator', to: '/singapore/car-on-road-price-calculator' },
         { label: 'Car Loans (MAS LTV)', to: '/singapore/car-loans' },
         { label: 'Subscription vs Ownership', to: '/singapore/subscription-vs-ownership' },
         { label: 'Cost of Driving (ERP)', to: '/singapore/cost-of-driving' },

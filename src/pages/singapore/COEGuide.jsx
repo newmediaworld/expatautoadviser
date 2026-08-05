@@ -12,6 +12,7 @@ export default function SGCOEGuide() {
       heroImage={HERO_IMG}
       heroPosition="center 40%"
       relatedLinks={[
+        { label: 'On-Road Price Calculator', to: '/singapore/car-on-road-price-calculator' },
         { label: 'Buying Guide', to: '/singapore/buying-guide' },
         { label: 'Cost of Driving (ERP)', to: '/singapore/cost-of-driving' },
         { label: 'Car Loans (MAS LTV)', to: '/singapore/car-loans' },

@@ -11,6 +11,7 @@ export default function SGCOEBiddingStrategy() {
       description="Singapore's COE auction sets the price you pay; your strategy sets how long you wait and how much you over-pay. The 3 strategies UK expats use (Top of Market / Recent Cut-off / Patient Below), with worked outcomes."
       heroImage={HERO_IMG}
       relatedLinks={[
+        { label: 'On-Road Price Calculator', to: '/singapore/car-on-road-price-calculator' },
         { label: 'COE System Explained', to: '/singapore/coe-guide' },
         { label: 'Singapore Buying Guide', to: '/singapore/buying-guide' },
         { label: 'Funding a Car Purchase', to: '/singapore/funding-car-purchase' },

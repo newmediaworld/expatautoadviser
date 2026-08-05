@@ -3,6 +3,8 @@
 
 **Quick answer:** Buying a used car in Singapore comes down to four things: remaining COE, PARF eligibility, mileage/condition, and whether the paperwork is clean. For expats new to Singapore, a dealer sale is often simpler, but private sales can work if you verify the vehicle through LTA (OneMotoring) and get an independent inspection. Ownership must be transferred at LTA within **7 days** of sale, and the current transfer fee is **S$25**.
 
+**➜ Comparing against buying new?** Our [Singapore car on-road price calculator](/singapore/car-on-road-price-calculator) gives you the new-car number for any model — ARF, excise duty, GST, VES and COE broken out — which is the figure a used car has to beat.
+
 ---
 
 Buying used in Singapore is where expats often find real value — but it's also where the most expensive mistakes happen. The car market here runs on a logic most expats don't understand on arrival. Two cars of the same model, same year, same mileage can differ in price by S$30,000 because one has a PARF rebate waiting and the other doesn't.

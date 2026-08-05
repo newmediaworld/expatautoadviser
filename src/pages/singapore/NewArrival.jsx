@@ -19,7 +19,7 @@ const faqItems = [
 
 export default function SGNewArrival() {
   return (
-    <Layout city="sg" active="New Arrival Guide" relatedLinks={[{ label: 'Should I Get a Car?', to: '/singapore/should-i-get-a-car' }, { label: 'Leasing Guide', to: '/singapore/leasing-guide' }, { label: 'Cost Calculator', to: '/singapore/calculators' }]}>
+    <Layout city="sg" active="New Arrival Guide" relatedLinks={[{ label: 'Should I Get a Car?', to: '/singapore/should-i-get-a-car' }, { label: 'Leasing Guide', to: '/singapore/leasing-guide' }, { label: 'On-Road Price Calculator', to: '/singapore/car-on-road-price-calculator' }, { label: 'Lease vs Buy Calculator', to: '/singapore/calculators' }]}>
       <SEOMeta title="Moving to Singapore: Your Expat Car Guide | ExpatAutoAdviser" description="New to Singapore? Your complete car guide. Do you need a car? Leasing vs buying, first steps, costs for new arrivals." />
       <FAQSchema faqs={faqItems} />
 
@@ -59,7 +59,8 @@ export default function SGNewArrival() {
           <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong>This page</strong> &mdash; give Grab and MRT a month or two.</li>
           <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong><a href="/singapore/should-i-get-a-car" style={{ color: "#e63946", textDecoration: "none", fontWeight: 600 }}>Should I Get a Car?</a></strong> &mdash; work through the decision framework once you've settled</li>
           <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong><a href="/singapore/leasing-guide" style={{ color: "#e63946", textDecoration: "none", fontWeight: 600 }}>Leasing Guide</a></strong> &mdash; most new arrivals lease rather than buy</li>
-          <li style={{ color: "#374151", lineHeight: 1.75 }}><strong><a href="/singapore/calculators" style={{ color: "#e63946", textDecoration: "none", fontWeight: 600 }}>Cost Calculator</a></strong> &mdash; plug in your numbers and see the real monthly cost</li>
+          <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong><a href="/singapore/car-on-road-price-calculator" style={{ color: "#e63946", textDecoration: "none", fontWeight: 600 }}>On-Road Price Calculator</a></strong> &mdash; what a specific car actually costs to put on the road, and how much of that is tax</li>
+          <li style={{ color: "#374151", lineHeight: 1.75 }}><strong><a href="/singapore/calculators" style={{ color: "#e63946", textDecoration: "none", fontWeight: 600 }}>Lease vs Buy Calculator</a></strong> &mdash; plug in your numbers and see the real monthly cost</li>
         </ol>
       </div>
 

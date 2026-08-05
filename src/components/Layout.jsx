@@ -7,6 +7,7 @@ const SG_LINKS = [
   { label: 'Buying Guide', to: '/singapore/buying-guide' },
   { label: 'Leasing Guide', to: '/singapore/leasing-guide' },
   { label: 'COE Explained', to: '/singapore/coe-guide' },
+  { label: 'On-Road Price Calculator', to: '/singapore/car-on-road-price-calculator' },
   { label: 'Cost of Driving (ERP)', to: '/singapore/cost-of-driving' },
   { label: 'Car Loans', to: '/singapore/car-loans' },
   { label: 'Insurance Guide', to: '/singapore/insurance-guide' },
@@ -14,7 +15,7 @@ const SG_LINKS = [
   { label: 'Licence Conversion', to: '/singapore/licence-conversion' },
   { label: 'Child Car Seats', to: '/singapore/child-car-seats' },
   { label: 'Subscription vs Ownership', to: '/singapore/subscription-vs-ownership' },
-  { label: 'Calculators & Tools', to: '/singapore/calculators' },
+  { label: 'Lease vs Buy Calculator', to: '/singapore/calculators' },
   { label: 'Garage Finder', to: '/singapore/garage-finder' },
 ];
 

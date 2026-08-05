@@ -1,7 +1,9 @@
 
 
 
-**Quick answer:** To buy a car in Singapore, you first need a Certificate of Entitlement (COE) — a government-issued quota licence that gives you the right to own a vehicle for 10 years. Without one, you can't register a car. COE prices are set by open bidding and currently run between S$80,000–S$100,000 for a standard family car — on top of the purchase price.
+**Quick answer:** To buy a car in Singapore, you first need a Certificate of Entitlement (COE) — a government-issued quota licence that gives you the right to own a vehicle for 10 years. Without one, you can't register a car. COE prices are set by open bidding twice a month and move constantly: in the July 2026 second bidding exercise, which closed on 22 July 2026, Category A closed at S$126,000 and Category B at S$129,890. That is on top of the car, the taxes and the dealer's margin.
+
+**➜ Want the number for a specific car?** Use our free [Singapore car on-road price calculator](/singapore/car-on-road-price-calculator). Enter an OMV and a COE premium — or the advertised price, and it works backwards to show you how much of that price is tax.
 
 ---
 
@@ -53,18 +55,22 @@ If you're not yet sold on the idea of dropping S$130,000+ on a 10-year COE, it's
 
 ## The Full Cost of a Car in Singapore: What Expats Actually Pay
 
-The COE is one piece of a bigger cost puzzle. Here's a rough breakdown for a mid-range family sedan (e.g., Honda Civic):
+The COE is one piece of a bigger cost puzzle. Here's the real breakdown for a mid-range family sedan. Every figure below is LTA's own, from its Car Cost Update for cars registered in June 2026 — a Honda Civic 2.0 e:HEV, Category B:
 
-| Cost Component | Approximate Amount |
+| Cost Component | Amount |
 |---|---|
-| Car open market value (OMV) | S$20,000–S$25,000 |
-| Additional Registration Fee (ARF) | ~S$15,000–S$20,000 |
-| Certificate of Entitlement (COE) | S$85,000–S$100,000 |
-| Goods & Services Tax (9%) | ~S$11,000 |
-| Registration fee | S$220 |
-| **Total (approx.)** | **S$130,000–S$160,000** |
+| Car open market value (OMV), assessed by Singapore Customs | S$35,555 |
+| Excise duty (20% of OMV) + GST (9% of OMV + excise) | S$10,951 |
+| Additional Registration Fee (ARF) | S$41,777 |
+| Registration fee | S$350 |
+| Certificate of Entitlement (COE), Cat B, June 2026 1st bidding | S$126,989 |
+| **LTA "basic cost"** | **S$215,622** |
+| Dealer's margin | S$24,377 |
+| **Price quoted by the authorised distributor** | **S$239,999** |
 
-Yes. A Honda Civic costs S$130,000–S$160,000 in Singapore. The exact same car costs £22,000 in the UK.
+Yes. A Honda Civic costs S$240,000 in Singapore, of which about S$35,500 is the car and roughly S$180,000 is tax and COE. The exact same car costs £22,000 in the UK.
+
+You can run any car through the same arithmetic with our [on-road price calculator](/singapore/car-on-road-price-calculator).
 
 This isn't a uniquely Singapore rip-off — it's deliberate policy. The government does not want unlimited car ownership on a tiny island, and the pricing mechanism enforces that.
 

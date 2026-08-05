@@ -166,9 +166,36 @@ const META = {
     ],
   },
   '/singapore/calculators': {
-    title: `Singapore Car Cost Calculator — Lease vs Buy`,
-    desc: `Use our free calculator to compare the true monthly cost of leasing vs buying a car in Singapore. Includes COE, insurance, road tax, and running costs.`,
+    title: `Singapore Lease vs Buy Car Calculator (2026)`,
+    desc: `Free calculator comparing the cost of leasing vs buying a car in Singapore over your posting, plus lease price estimates and licence-conversion checks.`,
     type: `website`,
+  },
+  '/singapore/car-on-road-price-calculator': {
+    title: `Singapore Car On-Road Price Calculator (2026)`,
+    desc: `Free Singapore on-road price calculator. Enter an OMV and COE premium, or an advertised price, and see ARF, excise duty, GST and VES broken out.`,
+    type: `website`,
+    faq: [
+      {
+        q: `How do you calculate the on-road price of a car in Singapore?`,
+        a: `Start with the Open Market Value assessed by Singapore Customs. Add excise duty at 20% of OMV, then GST at 9% of (OMV plus excise duty). Add the Additional Registration Fee, charged in marginal bands on the OMV: 100% of the first S$20,000, 140% of the next S$20,000, 190% of the next S$20,000, 250% of the next S$20,000 and 320% above S$80,000. Apply any VES rebate or surcharge and, for a fully electric car, the EEAI. Add the S$350 registration fee and the COE quota premium. That total is what LTA calls the basic cost — the dealer's margin sits on top of it.`,
+      },
+      {
+        q: `What are the current ARF rates in Singapore?`,
+        a: `For cars registered with COEs obtained from the second February 2023 bidding exercise onwards, ARF is 100% of the first S$20,000 of OMV, 140% of S$20,001 to S$40,000, 190% of S$40,001 to S$60,000, 250% of S$60,001 to S$80,000 and 320% of anything above S$80,000. The older schedule that charged 140% on the next S$30,000 and 180% above S$50,000 no longer applies to any new registration.`,
+      },
+      {
+        q: `What is OMV and why is it so much lower than the price I am quoted?`,
+        a: `The Open Market Value is what the car cost to land in Singapore — purchase price, freight, insurance and delivery charges — as assessed by Singapore Customs. It is the base the taxes are charged on, not the price you pay. A car with an OMV of about S$21,500 can be advertised near S$195,000 once excise duty, GST, ARF, the registration fee, a COE of roughly S$126,000 and the dealer's margin are stacked on top. LTA publishes the average OMV for every locally distributed model in its monthly Car Cost Update.`,
+      },
+      {
+        q: `How much is COE in Singapore right now?`,
+        a: `COE premiums are set by open bidding twice a month, so there is no standing figure. In the July 2026 second bidding exercise, which closed on 22 July 2026, the quota premium was S$126,000 for Category A, S$129,890 for Category B and S$129,971 for Category E. Always price your car against the exercise your dealer will actually bid in rather than a figure you read somewhere.`,
+      },
+      {
+        q: `Do I still get most of my ARF back when I sell before ten years?`,
+        a: `Not any more. For cars registered with COEs obtained from the second February 2026 bidding exercise onwards, the PARF rebate is 30% of the ARF paid if you deregister within five years, capped at S$30,000, and it tapers to 5% in years nine to ten. The old schedule — 75% of ARF, capped at S$60,000 — still governs cars registered between 15 February 2023 and 12 February 2026. For an expat buying new on a three-year posting, this change materially worsens the buy-versus-lease sum.`,
+      },
+    ],
   },
   '/singapore/garage-finder': {
     title: `Expat-Friendly Garages in Singapore`,
@@ -652,7 +679,7 @@ const META = {
     faq: [
       {
         q: `What is COE in Singapore?`,
-        a: `COE (Certificate of Entitlement) is a government quota licence that gives you the right to own and use a vehicle in Singapore for 10 years. Without one, you cannot register a car. COE prices are set by open bidding and currently run between S$80,000 and S$100,000 for a standard family car.`,
+        a: `COE (Certificate of Entitlement) is a government quota licence that gives you the right to own and use a vehicle in Singapore for 10 years. Without one, you cannot register a car. COE prices are set by open bidding twice a month and move constantly: in the July 2026 second bidding exercise, which closed on 22 July 2026, Category A closed at S$126,000 and Category B at S$129,890.`,
       },
       {
         q: `How does COE bidding work?`,

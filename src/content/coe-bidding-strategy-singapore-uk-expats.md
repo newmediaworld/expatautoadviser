@@ -6,6 +6,8 @@ Get the strategy wrong and you're locked into a S$130,000 cost stack on what's e
 
 This is the practical strategy guide. How the auction actually works, the three approaches UK expats use, what each costs in time and money, and the common mistakes that turn a S$120k COE bill into a S$140k one.
 
+**➜ Before you authorise a bid, price the whole car.** The COE is only one line. Our [Singapore car on-road price calculator](/singapore/car-on-road-price-calculator) takes an OMV and a COE premium and gives you the full stack — ARF, excise duty, GST and VES — so you can see what an extra S$10,000 on your bid actually does to the total.
+
 ## How COE Bidding Actually Works
 
 Singapore's Land Transport Authority runs the COE auction on the **first and third Wednesday of each month**. Bids are submitted by **registered bidders** (your dealer or, occasionally, a banker) on your behalf. The auction is a **sealed-bid uniform-price auction**: everyone submits a private bid, the auction closes, and the price everyone pays equals the **lowest successful bid** (the "cut-off" or COE price for that round).

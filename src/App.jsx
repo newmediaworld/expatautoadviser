@@ -10,6 +10,7 @@ import SGLicenceConversion from './pages/singapore/LicenceConversion';
 import SGEVGuide from './pages/singapore/EVGuide';
 import SGEVCharging from './pages/singapore/EVCharging';
 import SGCalculators from './pages/singapore/Calculators';
+import SGOnRoadPriceCalculator from './pages/singapore/OnRoadPriceCalculator';
 import SGGarageFinder from './pages/singapore/GarageFinder';
 import SGBuyingGuide from './pages/singapore/BuyingGuide';
 import HKShouldIGetACar from './pages/hongkong/ShouldIGetACar';
@@ -129,6 +130,7 @@ export function AppRoutes() {
       <Route path="/singapore/ev-guide" element={<SGEVGuide />} />
       <Route path="/singapore/ev-charging" element={<SGEVCharging />} />
       <Route path="/singapore/calculators" element={<SGCalculators />} />
+      <Route path="/singapore/car-on-road-price-calculator" element={<SGOnRoadPriceCalculator />} />
       <Route path="/singapore/garage-finder" element={<SGGarageFinder />} />
       <Route path="/singapore/lease-checker" element={<SGLeaseChecker />} />
       <Route path="/singapore/new-arrival" element={<SGNewArrival />} />

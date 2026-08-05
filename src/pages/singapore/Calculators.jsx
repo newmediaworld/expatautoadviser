@@ -3,36 +3,22 @@ import Layout from "../../components/Layout";
 import { Link } from "react-router-dom";
 import AffiliateBox from "../../components/AffiliateBox";
 import EmailCapture from "../../components/EmailCapture";
+// Singapore on-road price arithmetic lives in one place — src/lib/coe.js — and
+// is shared with the dedicated /singapore/car-on-road-price-calculator page so
+// the two can never drift apart. Do not re-implement the ARF bands here.
+import {
+  COE_REFERENCE,
+  REGISTRATION_FEE,
+  calcARF,
+  calcOnRoadPrice,
+  calcMonthlyPayment,
+  maxLTV,
+  fmtSGD,
+} from "../../lib/coe";
 
 /* ─── Singapore Calculators Page ─────────────────────────────────────────── */
 
-// ── COE On-Road Price Calculator helpers ──────────────────────────────────
-function calcARF(omv) {
-  // ARF: 100% of first S$20k, 140% of next S$30k, 180% above S$50k
-  if (omv <= 0) return 0;
-  let arf = 0;
-  const tier1 = Math.min(omv, 20000);
-  arf += tier1 * 1.0;
-  if (omv > 20000) {
-    const tier2 = Math.min(omv - 20000, 30000);
-    arf += tier2 * 1.4;
-  }
-  if (omv > 50000) {
-    arf += (omv - 50000) * 1.8;
-  }
-  return Math.round(arf);
-}
-
-function calcMonthlyPayment(principal, annualRatePercent, months) {
-  if (principal <= 0 || months <= 0) return 0;
-  const r = annualRatePercent / 100 / 12;
-  if (r === 0) return Math.round(principal / months);
-  return Math.round((principal * r * Math.pow(1 + r, months)) / (Math.pow(1 + r, months) - 1));
-}
-
-function fmt(n) {
-  return "S$" + Math.round(n).toLocaleString("en-SG");
-}
+const fmt = fmtSGD;
 
 // ── Tooltip component ────────────────────────────────────────────────────
 function Tooltip({ text }) {
@@ -88,39 +74,46 @@ function ResultRow({ label, value, tooltip, highlight }) {
 function COECalculator() {
   const [omv, setOmv] = useState("");
   const [coeCategory, setCoeCategory] = useState("A");
-  const [coePremium, setCoePremium] = useState(108000);
+  const [coePremium, setCoePremium] = useState(COE_REFERENCE.premiums.A);
   const [loanTenure, setLoanTenure] = useState(5);
-  const [interestRate, setInterestRate] = useState(2.5);
-  const [downPctInput, setDownPctInput] = useState(30);
-
-  const COE_DEFAULTS = { A: 108000, B: 114000, E: 115000 };
+  const [interestRate, setInterestRate] = useState(2.8);
+  const [downPctInput, setDownPctInput] = useState(40);
 
   const handleCategoryChange = (cat) => {
     setCoeCategory(cat);
-    setCoePremium(COE_DEFAULTS[cat]);
+    setCoePremium(COE_REFERENCE.premiums[cat]);
   };
 
   const omvNum = parseFloat(omv) || 0;
   const coeNum = parseFloat(coePremium) || 0;
   const tenureMonths = parseInt(loanTenure) * 12;
-  const rateNum = parseFloat(interestRate) || 2.5;
-  const downPct = parseFloat(downPctInput) || 30;
+  const rateNum = parseFloat(interestRate) || 2.8;
+  const downPct = parseFloat(downPctInput) || 40;
 
   const results = useMemo(() => {
     if (omvNum <= 0) return null;
-    const arf = calcARF(omvNum);
-    const exciseDuty = Math.round(omvNum * 0.20);
-    const gst = Math.round((omvNum + exciseDuty) * 0.09);
-    const regFee = 220;
-    const total = omvNum + coeNum + arf + exciseDuty + gst + regFee;
-    // LTV rules: max 70% if OMV ≤ 20k, max 60% if OMV > 20k
-    const maxLtv = omvNum <= 20000 ? 0.70 : 0.60;
+    // Shared arithmetic — see src/lib/coe.js. VES is not modelled on this quick
+    // version; the dedicated tool handles VES, the EEAI and the reverse direction.
+    const r = calcOnRoadPrice({ omv: omvNum, coePremium: coeNum });
+    const total = r.total;
+    const maxLtv = maxLTV(omvNum);
     const minDown = total * (1 - maxLtv);
     const actualDownPct = Math.max(downPct / 100, 1 - maxLtv);
     const loanAmount = total * (1 - actualDownPct);
     const monthlyPayment = calcMonthlyPayment(loanAmount, rateNum, tenureMonths);
     const downPayment = total * actualDownPct;
-    return { arf, exciseDuty, gst, regFee, total, loanAmount, monthlyPayment, downPayment, maxLtv, minDown };
+    return {
+      arf: r.arf,
+      exciseDuty: r.excise,
+      gst: r.gst,
+      regFee: r.registrationFee,
+      total,
+      loanAmount,
+      monthlyPayment,
+      downPayment,
+      maxLtv,
+      minDown,
+    };
   }, [omvNum, coeNum, tenureMonths, rateNum, downPct]);
 
   const inputStyle = {
@@ -134,10 +127,15 @@ function COECalculator() {
   return (
     <div>
       <h2 style={{ fontSize: 22, fontWeight: 700, color: "#1a1a2e", marginBottom: 8 }}>
-        COE On-Road Price Calculator
+        On-Road Price Quick Check
       </h2>
-      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24, lineHeight: 1.6 }}>
-        Enter your car's OMV and the current COE premium to see the full breakdown of what you'll actually pay. Results update as you type.
+      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 12, lineHeight: 1.6 }}>
+        Enter your car's OMV and a COE premium to see the breakdown of what you'll actually pay. Results update as you type.
+      </p>
+      <p style={{ fontSize: 13, marginBottom: 24 }}>
+        <Link to="/singapore/car-on-road-price-calculator" style={{ color: "#dc2626", fontWeight: 600, textDecoration: "none" }}>
+          Full on-road price calculator — reverse from an advertised price, VES bands, EV rebates, worked examples →
+        </Link>
       </p>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 16, marginBottom: 24 }}>
@@ -163,11 +161,11 @@ function COECalculator() {
         <div style={groupStyle}>
           <label style={labelStyle}>
             COE Category
-            <Tooltip text="Cat A: cars ≤1,600cc or ≤130bhp. Cat B: cars >1,600cc or >130bhp. Cat E: open category (any vehicle, typically more expensive)." />
+            <Tooltip text="Cat A: cars up to 1,600cc and 97kW (130bhp); fully electric cars up to 110kW. Cat B: anything above. Cat E: open category, usually dearest." />
           </label>
           <select value={coeCategory} onChange={e => handleCategoryChange(e.target.value)} style={inputStyle}>
-            <option value="A">Category A (≤1,600cc / ≤130bhp)</option>
-            <option value="B">Category B (&gt;1,600cc / &gt;130bhp)</option>
+            <option value="A">Category A (≤1,600cc and ≤97kW)</option>
+            <option value="B">Category B (&gt;1,600cc or &gt;97kW)</option>
             <option value="E">Category E (Open)</option>
           </select>
         </div>
@@ -175,8 +173,8 @@ function COECalculator() {
         {/* COE Premium */}
         <div style={groupStyle}>
           <label style={labelStyle}>
-            Current COE Premium
-            <Tooltip text="Pre-filled with approximate current figures. Update to the latest from the LTA website for accuracy — it changes fortnightly." />
+            COE Quota Premium
+            <Tooltip text="Pre-filled with a single dated bidding exercise, not a current price. Premiums change every fortnight — replace this with the exercise your dealer will bid in." />
           </label>
           <div style={{ position: "relative" }}>
             <span style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)", color: "#6b7280", fontSize: 14 }}>S$</span>
@@ -188,7 +186,7 @@ function COECalculator() {
             />
           </div>
           <p style={{ fontSize: 11, color: "#9ca3af", marginTop: 4 }}>
-            ⚡ Update from <a href="https://www.lta.gov.sg/content/ltagov/en/motoring/owning_a_vehicle/coe_open_bidding.html" target="_blank" rel="noopener noreferrer" style={{ color: "#dc2626" }}>LTA website</a> for latest figures
+            {COE_REFERENCE.exercise}, closed {COE_REFERENCE.closed}. <a href="https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/coe-open-bidding.html" target="_blank" rel="noopener noreferrer" style={{ color: "#dc2626" }}>Latest results from LTA</a>
           </p>
         </div>
 
@@ -256,11 +254,11 @@ function COECalculator() {
             Cost Breakdown
           </h3>
           <ResultRow label="Open Market Value (OMV)" value={fmt(omvNum)} tooltip="The base value as assessed by Singapore Customs." />
-          <ResultRow label="COE Premium" value={fmt(coeNum)} tooltip={`Current Cat ${coeCategory} COE premium — changes every fortnight.`} />
-          <ResultRow label="Additional Registration Fee (ARF)" value={fmt(results.arf)} tooltip="A tiered tax on the OMV: 100% of first S$20k, 140% of next S$30k, 180% above S$50k." />
+          <ResultRow label={`COE Premium (Cat ${coeCategory})`} value={fmt(coeNum)} tooltip="Set by open bidding twice a month — replace the pre-filled figure with the exercise that applies to your purchase." />
+          <ResultRow label="Additional Registration Fee (ARF)" value={fmt(results.arf)} tooltip="Marginal tax on the OMV: 100% of the first S$20k, then 140%, 190%, 250% on each further S$20k, and 320% above S$80k." />
           <ResultRow label="Excise Duty" value={fmt(results.exciseDuty)} tooltip="20% of OMV. Applied to all cars regardless of category." />
           <ResultRow label="GST (9%)" value={fmt(results.gst)} tooltip="Goods and Services Tax applied to OMV + excise duty." />
-          <ResultRow label="Registration Fee" value={fmt(results.regFee)} tooltip="Flat administrative fee of S$220 for all new vehicle registrations." />
+          <ResultRow label="Registration Fee" value={fmt(results.regFee)} tooltip={`Flat administrative fee of S$${REGISTRATION_FEE} for a car registration.`} />
 
           <div style={{ borderTop: "2px solid #e5e7eb", marginTop: 8, paddingTop: 8 }}>
             <ResultRow
@@ -390,7 +388,7 @@ function LeaseCostEstimator() {
 // ── COE Buy vs Lease Comparison ──────────────────────────────────────────
 function COEBuyVsLease() {
   const [omv, setOmv] = useState("");
-  const [coePremium, setCoePremium] = useState(108000);
+  const [coePremium, setCoePremium] = useState(COE_REFERENCE.premiums.A);
   const [leaseMonthly, setLeaseMonthly] = useState(2500);
   const [years, setYears] = useState(3);
 
@@ -399,10 +397,8 @@ function COEBuyVsLease() {
 
   const results = useMemo(() => {
     if (omvNum <= 0) return null;
-    const arf = calcARF(omvNum);
-    const exciseDuty = Math.round(omvNum * 0.20);
-    const gst = Math.round((omvNum + exciseDuty) * 0.09);
-    const totalOnRoad = omvNum + coeNum + arf + exciseDuty + gst + 220;
+    // Shared arithmetic — see src/lib/coe.js.
+    const totalOnRoad = calcOnRoadPrice({ omv: omvNum, coePremium: coeNum }).total;
 
     // Assume resale at (total - 10-year depreciation proportional to years driven)
     // Simple straight-line depreciation over 10 years (COE life)
@@ -593,13 +589,14 @@ function LicenceChecker() {
 
 // ── Main Page ─────────────────────────────────────────────────────────────
 const TABS = [
-  { id: "onroad", label: "On-Road Price" },
-  { id: "lease", label: "Lease Estimator" },
   { id: "buyvslease", label: "Buy vs Lease" },
+  { id: "lease", label: "Lease Estimator" },
   { id: "licence", label: "Licence Eligibility" },
+  { id: "onroad", label: "On-Road Price Quick Check" },
 ];
 
 const relatedLinks = [
+  { to: "/singapore/car-on-road-price-calculator", label: "On-Road Price Calculator" },
   { to: "/singapore/leasing-guide", label: "Leasing Guide" },
   { to: "/singapore/buying-guide", label: "Buying Guide" },
   { to: "/singapore/insurance-guide", label: "Insurance" },
@@ -609,10 +606,10 @@ const relatedLinks = [
 const HERO_IMG = "https://images.unsplash.com/photo-1697438167040-ccfd469c40f2?w=1200&q=80";
 
 export default function Calculators() {
-  const [activeTab, setActiveTab] = useState("onroad");
+  const [activeTab, setActiveTab] = useState("buyvslease");
 
   return (
-    <Layout city="singapore" relatedLinks={relatedLinks}>
+    <Layout city="sg" relatedLinks={relatedLinks}>
       <div style={{ width: "100%", height: "clamp(220px,35vw,520px)", overflow: "hidden", borderRadius: 12, marginBottom: 32, position: "relative" }}>
         <img src={HERO_IMG} alt="Cost calculator Singapore" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 55%" }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(26,26,46,0.35) 0%, transparent 60%)" }} />
@@ -625,11 +622,30 @@ export default function Calculators() {
           Singapore
         </div>
         <h1 style={{ fontSize: 32, fontWeight: 800, color: "#1a1a2e", marginBottom: 12 }}>
-          Singapore Car Calculators &amp; Tools
+          Singapore Lease vs Buy Calculator &amp; Running Costs
         </h1>
-        <p style={{ color: "#4b5563", fontSize: 16, marginBottom: 32, lineHeight: 1.7 }}>
-          Four tools to work out the full on-road price, compare leasing vs buying, estimate lease costs, and check if your foreign licence converts directly.
+        <p style={{ color: "#4b5563", fontSize: 16, marginBottom: 24, lineHeight: 1.7 }}>
+          Work out whether leasing or buying is cheaper over your Singapore posting, estimate a monthly full-service
+          lease, and check whether your foreign licence converts without a test.
         </p>
+
+        {/* Pointer to the dedicated on-road price tool */}
+        <div style={{ background: "#fffbeb", border: "1px solid #fcd34d", borderRadius: 10, padding: "16px 20px", marginBottom: 32 }}>
+          <p style={{ margin: "0 0 6px", fontSize: 15, fontWeight: 700, color: "#92400e" }}>
+            Just want the on-road price of a specific car?
+          </p>
+          <p style={{ margin: "0 0 10px", fontSize: 14, color: "#78350f", lineHeight: 1.6 }}>
+            Use the dedicated tool. It works in both directions &mdash; enter an OMV and a COE premium, or enter the
+            advertised price and see how much of it is tax &mdash; with the full ARF band breakdown, the 2026 VES
+            bands, EV rebates and worked examples from LTA&rsquo;s own figures.
+          </p>
+          <Link
+            to="/singapore/car-on-road-price-calculator"
+            style={{ display: "inline-block", background: "#92400e", color: "#fff", padding: "10px 18px", borderRadius: 8, fontSize: 14, fontWeight: 700, textDecoration: "none" }}
+          >
+            Singapore Car On-Road Price Calculator →
+          </Link>
+        </div>
 
         {/* Tab nav */}
         <div style={{ display: "flex", gap: 0, borderBottom: "2px solid #e5e7eb", marginBottom: 32, overflowX: "auto" }}>

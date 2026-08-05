@@ -25,9 +25,11 @@ For most UK expat picks (1.6-2.5L family saloons or compact SUVs), road tax sits
 
 ## The Diesel Surcharge — Why Most Expats Don't Buy Diesel
 
-Diesel cars in Singapore pay a markedly higher road tax than petrol equivalents. The mechanism is twofold: diesel cars are taxed at six times the standard cc-based rate, and they pay an additional Special Tax surcharge calculated per cc per year on top.
+First, the thing most guides still miss: **from 1 January 2025, new registrations of diesel and diesel-natural-gas cars are no longer permitted in Singapore at all.** Diesel-electric and plug-in diesel-electric cars can still be registered. So for anyone buying new, this section is history rather than a decision — it matters only if you are looking at an older used diesel.
 
-The practical effect: a 2.0L diesel SUV that would cost ~S$925 in road tax as a petrol equivalent runs closer to S$5,500-6,000/year as a diesel. Over 10 years that's a ~S$50,000 swing on tax alone, before accounting for the Vehicle Emissions Scheme banding (see below) which typically also penalises diesels.
+Where diesel does still exist on the road, the extra cost comes from Special Tax, charged on top of the ordinary engine-capacity road tax. LTA's published 6-monthly rates are: pre-Euro IV compliant, six times the road tax of an equivalent petrol car less S$100; Euro IV compliant, S$0.625 per cc less S$100, with a minimum of S$525; and Euro V or JPN2009 compliant, S$0.20 per cc less S$100, with a minimum of S$100.
+
+The practical effect depends entirely on which emission standard the car meets, and the gap is enormous. A 2.0L Euro V diesel pays roughly S$300 of Special Tax per 6 months on top of its ordinary road tax; an old pre-Euro IV car of the same size pays several thousand a year. Check the actual emission standard on the log card before assuming either number.
 
 Singapore is structured to push owners toward petrol, hybrid and electric over diesel. Unless you have a specific use case for diesel (heavy towing, very high mileage outside Singapore), the maths almost never works for an expat.
 
@@ -47,11 +49,11 @@ EVs also avoid Special Tax surcharges and typically benefit from VES banding reb
 
 ## The Vehicle Emissions Scheme (VES)
 
-Sitting on top of road tax, the Vehicle Emissions Scheme bands every car at first registration based on tailpipe emissions of CO₂, HC, CO, NOx and particulate matter. The result is one of five bands (A1, A2, B, C1, C2) which translate to either a rebate (A1, A2) or a surcharge (C1, C2) of up to S$25,000 against the ARF.
+Sitting on top of road tax, the Vehicular Emissions Scheme bands every car at first registration based on emissions of CO₂, HC, CO, NOx and particulate matter — the worst-performing of the five decides the band. **The scheme was restructured on 1 January 2026.** The old A1/A2/B/C1/C2 bands were replaced by A/B/C1/C2/C3 and, crucially, only fully electric cars now earn a rebate. Hybrids, which used to, no longer do. For cars registered during 2026 the amounts are: Band A −S$22,500, Band B nil, Band C1 +S$7,500, Band C2 +S$22,500, Band C3 +S$35,000. Every one of those surcharges rises again on 1 January 2027, to S$15,000, S$30,000 and S$45,000 respectively.
 
 VES is a one-off charge or rebate at registration, not annual — so it doesn't strictly belong in a recurring-fees article. But it materially affects which cars are economically sensible to buy in the first place. The cars that earn VES rebates (most EVs, many hybrids, some efficient petrol turbo small engines) are the ones whose total cost of ownership pencils out best for a 3-5 year expat timeline.
 
-A C1 or C2 banded vehicle (most diesel SUVs, large-engine petrol) carries a S$15,000-25,000 ARF surcharge that you absorb at purchase and never recover. Combined with the higher annual road tax, it's a structural reason these cars have minor expat market share in Singapore despite being mainstream choices in Europe.
+A C2 or C3 banded vehicle (most large-engine petrol SUVs) carries a S$22,500–S$35,000 ARF surcharge in 2026 that you absorb at purchase and never recover — rising to S$30,000–S$45,000 in 2027. Combined with the higher annual road tax, it's a structural reason these cars have minor expat market share in Singapore despite being mainstream choices in Europe. You can see what a specific band does to the total in our [on-road price calculator](/singapore/car-on-road-price-calculator).
 
 ## Inspection Cycle and Costs
 
@@ -71,9 +73,9 @@ The bigger cost of inspection isn't the fee — it's the time and the risk of fa
 
 The single biggest recurring decision in Singapore car ownership is the year-10 fork. At the COE expiry date, the owner has two choices:
 
-**Option A — Deregister.** The car leaves the road permanently. PARF rebate is zero (the 50% PARF rebate at year 9-10 drops to zero at year 10). COE rebate is zero (it's expired). You scrap the car or export it. For most expat cars deregistered at year 10 the financial outcome is whatever the scrap-value or export-value of the car itself is — typically a few thousand dollars.
+**Option A — Deregister.** The car leaves the road permanently. PARF rebate is zero — whatever the schedule paid in year nine to ten, it drops to nil once the car passes ten years. COE rebate is zero (it's expired). You scrap the car or export it. For most expat cars deregistered at year 10 the financial outcome is whatever the scrap-value or export-value of the car itself is — typically a few thousand dollars.
 
-**Option B — Renew the COE for another 5 or 10 years** by paying the Prevailing Quota Premium (PQP, calculated as a 3-month moving average of recent COE prices). This adds another 5 or 10 years of road life. PARF rebate is forfeited permanently if you take this option (you can never claim it once the COE is renewed). Road tax is increased by 10% per year above the standard formula for renewed COEs in years 11-20.
+**Option B — Renew the COE for another 5 or 10 years** by paying the Prevailing Quota Premium (PQP, calculated as a 3-month moving average of recent COE prices). This adds another 5 or 10 years of road life. PARF rebate is forfeited permanently if you take this option (you can never claim it once the COE is renewed). Road tax also carries an age surcharge once the car passes ten years: 10% for a car more than 10 years old, 20% past 11, 30% past 12, 40% past 13 and 50% past 14 — where it stops. It does not keep climbing to year 20.
 
 For most UK expats, year 10 is well past their typical departure date, so this decision falls to the next owner. But if you're considering a longer Singapore stay — 8-10 years plus — modelling the year-10 decision in advance matters. The 10% annual road-tax surcharge on renewed COEs is the recurring fee that bites past year 10.
 
@@ -107,7 +109,7 @@ Add it all up and the realistic annual all-in for a 1.6L expat saloon doing CBD 
 
 Three practical implications for UK expats considering car ownership:
 
-**Diesel is rarely the right answer.** The combination of 6× road tax, Special Tax, and typically C1/C2 VES banding makes diesel structurally uneconomic for most expat use cases. If you're moving from a diesel UK car, expect to switch to petrol or EV.
+**Diesel is no longer an option on a new car.** New registrations of diesel cars have been barred since 1 January 2025, and on the used market Special Tax plus a poor VES band make diesel structurally uneconomic for most expat use cases anyway. If you're moving from a diesel UK car, expect to switch to petrol, hybrid or EV.
 
 **The recurring-cost gap between EV and equivalent petrol is smaller than headlines suggest.** EV running costs (electricity vs petrol) are genuinely cheaper, but the road-tax saving is modest, not transformative. The bigger EV economic case is the EEAI rebate at registration plus VES rebate, both one-off — not the recurring layer.
 

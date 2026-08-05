@@ -9,19 +9,15 @@ import { calcFRT, frtBandBreakdown, fmtHKD } from "../../lib/frt";
 
 /* ─── Hong Kong Calculators Page ────────────────────────────────────────── */
 
-// FRT deregistration rebate (sliding scale)
-// Full rebate for cars 0–3 years old, tapers to 0 at ~10 years
-function calcFRTRebate(frt, yearsOld) {
-  if (yearsOld <= 0 || frt <= 0) return 0;
-  // Approximate rebate schedule (based on TD sliding scale)
-  const rebateFactors = {
-    0: 1.00, 1: 0.90, 2: 0.80, 3: 0.70,
-    4: 0.55, 5: 0.40, 6: 0.30, 7: 0.20,
-    8: 0.10, 9: 0.05, 10: 0.00
-  };
-  const factor = rebateFactors[Math.min(yearsOld, 10)] || 0;
-  return Math.round(frt * factor);
-}
+// NOTE — a calcFRTRebate() helper used to live here, producing an "estimated
+// FRT deregistration rebate" from a sliding scale its own comment described as
+// "approximate". That schedule was not sourced from anywhere: Hong Kong has no
+// published FRT deregistration rebate for private cars analogous to Singapore's
+// PARF, so the numbers it printed were invented. It has been removed rather
+// than corrected. Where a reader needs a figure, link them to the Transport
+// Department's own fees and charges instead.
+const TD_FEES_URL =
+  'https://www.td.gov.hk/en/public_services/licences_and_permits/fees_and_charges/index.html';
 
 const fmt = fmtHKD;
 
@@ -78,11 +74,8 @@ function ResultRow({ label, value, tooltip, highlight, sub }) {
 function FRTCalculator() {
   const [taxableValue, setTaxableValue] = useState("");
   const [vehicleType, setVehicleType] = useState("ice");
-  const [regYear, setRegYear] = useState("");
 
-  const currentYear = new Date().getFullYear();
   const tvNum = parseFloat(taxableValue) || 0;
-  const yearsOld = regYear ? currentYear - parseInt(regYear) : null;
 
   const results = useMemo(() => {
     if (tvNum <= 0) return null;
@@ -95,9 +88,8 @@ function FRTCalculator() {
     const frt = calcFRT(tvNum);
     const totalOnRoad = tvNum + frt;
     const frtRate = tvNum > 0 ? Math.round((frt / tvNum) * 100) : 0;
-    const rebate = yearsOld !== null ? calcFRTRebate(frt, yearsOld) : null;
-    return { isEV: false, frt, totalOnRoad, frtRate, rebate, yearsOld, taxableValue: tvNum };
-  }, [tvNum, vehicleType, yearsOld]);
+    return { isEV: false, frt, totalOnRoad, frtRate, taxableValue: tvNum };
+  }, [tvNum, vehicleType]);
 
   // Show FRT band breakdown (shared helper — see src/lib/frt.js)
   const bandBreakdown = useMemo(
@@ -163,19 +155,6 @@ function FRTCalculator() {
           </select>
         </div>
 
-        {/* Year of first registration (used cars) */}
-        <div style={groupStyle}>
-          <label style={labelStyle}>
-            Year of First Registration (optional)
-            <Tooltip text="For used vehicles — enter the original registration year to estimate the FRT deregistration rebate you'd receive when you eventually sell or scrap the car." />
-          </label>
-          <select value={regYear} onChange={e => setRegYear(e.target.value)} style={inputStyle}>
-            <option value="">Not applicable / New car</option>
-            {Array.from({ length: 15 }, (_, i) => currentYear - i).map(yr => (
-              <option key={yr} value={yr}>{yr} ({currentYear - yr} yr old)</option>
-            ))}
-          </select>
-        </div>
       </div>
 
       {/* Results */}
@@ -254,20 +233,16 @@ function FRTCalculator() {
               />
             </div>
 
-            {/* Rebate if registration year provided */}
-            {results.rebate !== null && (
-              <div style={{ marginTop: 20, background: "#eff6ff", borderRadius: 8, padding: 16, border: "1px solid #bfdbfe" }}>
-                <h4 style={{ fontSize: 14, fontWeight: 700, color: "#1e40af", marginBottom: 8 }}>
-                  Estimated Deregistration FRT Rebate
-                </h4>
-                <p style={{ fontSize: 13, color: "#374151", marginBottom: 8, lineHeight: 1.6 }}>
-                  If this car was first registered in <strong>{regYear}</strong> ({results.yearsOld} years ago), you'd receive an estimated <strong>{fmt(results.rebate)}</strong> FRT rebate when deregistering — based on the Transport Department's sliding scale.
-                </p>
-                <p style={{ fontSize: 11, color: "#6b7280" }}>
-                  Rebate reduces to zero at approximately 10 years old. Actual amount confirmed by TD at deregistration.
-                </p>
-              </div>
-            )}
+            <div style={{ marginTop: 20, background: "#eff6ff", borderRadius: 8, padding: 16, border: "1px solid #bfdbfe", fontSize: 13, color: "#1e3a5f", lineHeight: 1.7 }}>
+              <strong>Buying used?</strong> FRT is a one-off charge levied at first registration, so a car already
+              registered in Hong Kong has had its FRT paid and none is due again when it changes hands. There is no
+              Hong Kong equivalent of Singapore&rsquo;s PARF rebate for private cars &mdash; deregistering does not
+              return a share of the FRT. For the fees that do apply on registration, transfer and licensing, see the
+              Transport Department&rsquo;s{' '}
+              <a href={TD_FEES_URL} target="_blank" rel="noopener noreferrer" style={{ color: "#1d4ed8" }}>
+                table of fees and charges
+              </a>.
+            </div>
 
             <div style={{ background: "#fef3c7", borderRadius: 8, padding: 12, marginTop: 16, fontSize: 12, color: "#92400e", lineHeight: 1.6 }}>
               <strong>Disclaimer:</strong> These estimates are based on the published FRT band schedule. The actual taxable value is determined by the Transport Department and may differ from the dealer's asking price. Verify with the <a href="https://www.td.gov.hk" target="_blank" rel="noopener noreferrer" style={{ color: "#92400e" }}>Transport Department</a> before purchasing.
