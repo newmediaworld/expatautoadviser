@@ -41,6 +41,12 @@ export function detectAffiliateProgramme(url) {
     }
     if (host === 'awin1.com') return { programme: 'awin', clickref: p.get('clickref') };
     if (host === 'apply.creatory.singsaver.com.sg') return { programme: 'creatory_singsaver', clickref: p.get('s2') || `o=${p.get('o')}` };
+    // Amazon Associates. Gated on the tag= param deliberately: an untagged
+    // amazon.* link earns nothing, so firing affiliate_click on it would
+    // inflate the count. Same guard pattern as safetywing/referenceID.
+    if (/(^|\.)amazon\.(co\.uk|com|sg|ae|de|com\.au)$/.test(host) && p.has('tag')) {
+      return { programme: 'amazon_associates', clickref: p.get('ascsubtag') || p.get('tag') };
+    }
 
     return null;
   } catch {
