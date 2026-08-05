@@ -41,7 +41,7 @@ export default function HKShouldIGetACar() {
       </div>
 
       <h2 style={h2}>The real cost of owning a car in Hong Kong</h2>
-      <p style={body}>Hong Kong applies a First Registration Tax (FRT) in tiered bands: 40% on the first HKD $150,000 of taxable value, 75% on the next HKD $150,000, 100% on the next HKD $200,000, and 115% above HKD $500,000. A HKD $200,000 car attracts around HKD $97,500 in FRT — a total cost of roughly HKD $297,500 all-in. For a premium HKD $500,000 car the FRT is about HKD $372,500 — see the FRT Explained guide for the full breakdown. Add parking (HKD $4,000–$8,000/month in urban areas), fuel (HKD $29–$31/litre), insurance, and tunnel tolls, and the monthly cost of car ownership regularly exceeds HKD $20,000.</p>
+      <p style={body}>Hong Kong applies a First Registration Tax (FRT) in marginal bands: 46% on the first HKD $150,000 of taxable value, 86% on the next HKD $150,000, 115% on the next HKD $200,000, and 132% above HKD $500,000. A HKD $200,000 car attracts HKD $112,000 in FRT — a total cost of HKD $312,000 all-in. For a HKD $500,000 car the FRT is HKD $428,000, taking it to HKD $928,000 — see the FRT Explained guide for the full breakdown. Add parking (HKD $4,000–$8,000/month in urban areas), fuel (around HKD $32–$33/litre in mid-2026), insurance, and tunnel tolls, and the monthly cost of car ownership regularly exceeds HKD $20,000.</p>
       <p style={body}>For expats on 2–3 year assignments, leasing is almost always a better financial decision than buying. You avoid the FRT exposure and the hassle of selling before you leave.</p>
 
       <h2 style={h2}>When a car makes sense in Hong Kong</h2>

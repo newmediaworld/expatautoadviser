@@ -12,7 +12,7 @@ const HERO_IMG = "https://images.unsplash.com/photo-1449280429541-0214e229317b?w
 const faqItems = [
   { q: "Can you lease a car in Hong Kong?", a: "Yes, though it's less common than in Singapore. Operating leases (full-service) are offered by several providers, typically for 1–3 year terms. Monthly rates are generally higher than Singapore but you avoid the large upfront costs of buying." },
   { q: "What's included in a typical HK lease?", a: "Most HK operating leases include the car, maintenance, insurance, and road tax. You pay for fuel and tolls. Mileage limits typically range from 2,000–3,000 km/month." },
-  { q: "Do I need a Hong Kong driving licence to lease?", a: "You can drive on a valid overseas licence for 12 months after becoming a Hong Kong resident. After that you must convert. UK, Australian, and most EU licences convert without a test. US and Canadian licences require a written test." },
+  { q: "Do I need a Hong Kong driving licence to lease?", a: "You can drive on a valid overseas licence for 12 months after arrival. After that you must convert. Licences issued by the countries and places listed in Schedule 4 of Cap. 374B — which includes the UK, the United States, Canada, Australia and many (but not all) EU states — can be directly issued without a test, provided you also meet one of the Transport Department eligibility limbs: the licence was issued during a period of at least 6 months residence there, or you have held it for at least 5 years, or you hold a passport from that country." },
   { q: "Is leasing or buying cheaper in HK?", a: "For most expats (2–4 year assignments), leasing is cheaper once you account for the First Registration Tax (FRT) on purchase and the hassle of selling before you leave. For stays over 5 years, buying can make more sense." },
   { q: "What happens at the end of the lease?", a: "You simply return the car. There are no FRT or resale complexities. Most providers allow early termination with 1–2 months' notice, though penalties may apply." },
 ];
@@ -54,7 +54,7 @@ export default function HKLeasingGuide() {
               ["Flexibility", "Easy to end or swap", "Complex to sell quickly"],
               ["Maintenance", "Usually included", "Your responsibility"],
               ["Best for", "Assignments under 4 years", "Long stays, families"],
-              ["FRT (First Reg Tax)", "Not applicable", "100–115% of vehicle value"],
+              ["FRT (First Reg Tax)", "Not applicable", "46–132% in marginal bands"],
             ].map(([factor, lease, buy], i) => (
               <tr key={i} style={{ borderBottom: "1px solid #f3f4f6", background: i % 2 === 0 ? "white" : "#fafafa" }}>
                 <td style={{ padding: "11px 16px", fontWeight: 600, color: "#374151" }}>{factor}</td>
@@ -120,7 +120,7 @@ export default function HKLeasingGuide() {
       <p style={body}>Parking is expensive and scarce in urban areas. Monthly parking in Central or Wan Chai can cost HKD $4,000–$8,000 per month. If you live in a building with allocated parking this is less of an issue, but it's worth checking before you commit to a car.</p>
 
       <h2 style={h2}>Fuel costs</h2>
-      <p style={body}>Petrol in Hong Kong is among the most expensive in the world — typically HKD $29–$31 per litre. A typical 2,000 km/month driver will spend HKD $3,500–$5,000/month on fuel. Electric vehicles are gaining traction; home charger installation is possible in most private buildings with management approval.</p>
+      <p style={body}>Petrol in Hong Kong is among the most expensive in the world — around HKD $32–$33 per litre at mid-2026 pump prices. A typical 2,000 km/month driver will spend HKD $4,500–$6,000/month on fuel. Electric vehicles are gaining traction; home charger installation is possible in most private buildings with management approval.</p>
 
       <FAQ items={faqItems} city="hk" />
     </Layout>

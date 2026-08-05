@@ -24,25 +24,21 @@ Several expats get caught out thinking the 12 months starts from their Hong Kong
 
 Hong Kong has a list of "Approved Countries and Places" whose driving licences can be directly converted without a test. If you hold a valid driving licence from one of these jurisdictions, and the licence is in an appropriate class, you can convert directly.
 
-Countries on the approved list include (non-exhaustive):
+The list is Schedule 4 to the Road Traffic (Driving Licences) Regulations (Cap. 374B), reproduced as Appendix C on the Transport Department website. It is a list of countries and places, not of individual states or provinces, and it currently runs to about 31 entries:
 
-- United Kingdom (all classes)
-- Australia (most states)
-- New Zealand
-- Canada (most provinces)
-- Singapore
-- Japan
-- Republic of Korea
-- Most EU countries (Germany, France, Netherlands, Ireland, Spain, Italy, etc.) — note that **Poland and Greece are not currently on the Direct Issue List**, so citizens of those countries cannot direct-convert even with an EU licence
-- Switzerland
-- Norway
-- Several Middle East countries
+- United Kingdom (together with Alderney, Bermuda, Guernsey, Isle of Man and Jersey)
+- **United States of America** — the whole country, not a state-by-state list
+- Australia, Canada, New Zealand
+- China: Mainland, Taiwan and Macao
+- Singapore, Malaysia, Japan, Republic of Korea, India, Pakistan, Bangladesh
+- Austria, Belgium, Denmark, Finland, France, Germany, Iceland, Ireland, Italy, Luxembourg, Netherlands, Norway, Portugal, Spain, Sweden, Switzerland
+- Israel, Nigeria, South Africa (with S.W. Africa)
 
-The full list is published by the Transport Department and is updated periodically — check the current list at the Transport Department website before your appointment.
+Note what is **not** there: Poland, Greece, the Philippines, Thailand, Indonesia and the Gulf states are all absent, so a licence from those places cannot be directly issued however long you have held it. The list is updated periodically — check Appendix C on the Transport Department website before your appointment.
 
-**United States is the common trap.** The US as a whole is NOT on the approved list — only certain individual states qualify. The current list typically includes around 20 states including Arizona, California, Florida, Illinois, Michigan, and Texas; states such as New York, New Jersey, and Washington DC typically do not qualify. The list is updated periodically, so confirm your state against the current TD Direct Issue List before booking.
+**Being on the list is not enough on its own.** You must also satisfy one of three further limbs: (i) the licence was originally issued to you during a period of residence of not less than six months in the issuing country, or (ii) you have held the licence for not less than five years immediately before applying, or (iii) you hold a passport or equivalent travel document issued by that country. The licence must be valid, or expired by not more than three years, and must have been obtained by passing a driving test there. Expect to evidence whichever limb you rely on with passport stamps, visas, employer testimonials or school transcripts.
 
-If your US state isn't approved, you must sit the full HK written and road tests, regardless of your US driving experience.
+If your country isn't on the list, you must sit the full HK written and road tests, regardless of your driving experience elsewhere.
 
 ## The Direct Conversion Process
 
@@ -54,15 +50,15 @@ For holders of approved-country licences, direct conversion involves:
    - Recent proof of HK address (utility bill, bank statement, tenancy agreement)
    - Passport-sized photograph (40 × 50 mm, white background — TD standard)
 
-2. **Fill form TD377** (Application for Issue of Driving Licence by Conversion)
+2. **Fill form TD63A** (Application for Direct Issue of Full Hong Kong Driving Licence). It must carry an original wet signature — digital or printed signatures are rejected.
 
-3. **Visit a Transport Department Licensing Office** — main offices in Admiralty, Kowloon Bay, and Sha Tin
+3. **Book an appointment first.** Since 16 March 2026 direct-issue applications can only be submitted at a booked appointment made through the Transport Department's online booking system. There is no walk-in and no on-site queue ticket, and postal or drop-box submission is not accepted. The **Hong Kong Licensing Office** (Admiralty) handles applications from all recognised countries; the Kowloon, Kwun Tong and Sha Tin offices handle Mainland licences only.
 
-4. **Pay the fee** — HK$900 for a 10-year licence (standard)
+4. **Pay the fee** — HK$900 for a 10-year licence if you are aged 60 or below. Applicants over 60 pay HK$52 a year plus a HK$38 annual levy for the validity period instead.
 
-5. **Collect licence** — typically 5–10 working days, though allow up to 20 working days if TD needs to verify your overseas licence with the issuing authority
+5. **Collect licence** — often the same day if your paperwork is complete; if it is not, you get an acknowledgement of receipt and return to the same office to check the outcome.
 
-No driving test. No written test. You do need to pass an eyesight test at the office (a further physical check may be requested if necessary).
+No driving test and no written test. There is no eyesight test in the direct-issue process — a medical examination certificate (form TD256, completed within four months of the application) is required only if you are aged 70 or over.
 
 ## What If Your Country Isn't on the List
 
@@ -76,14 +72,14 @@ Applicants typically take driving lessons with a Hong Kong driving school before
 
 ## Probationary Licence (for Fresh Licence Holders)
 
-First-time Hong Kong licence holders — whether by conversion or test — are issued a probationary licence for the first 12 months. Probationary restrictions include:
+Drivers who qualify by passing the Hong Kong tests are issued a probationary licence for the first 12 months. Probationary restrictions include:
 
 - Must display "P" plates at all times
 - Maximum speed of 70 km/h on expressways where the limit is higher
 - Cannot carry more than 2 passengers on a motorcycle
 - Zero tolerance for traffic offences (a conviction during probation typically results in disqualification)
 
-If you're converting from an overseas licence, you may be able to avoid probationary status if your overseas licence shows several years of experience — but this is at the Transport Department's discretion, not automatic. Bringing evidence of how long you've held your overseas licence (certificate of driving history from DVLA, DMV, etc.) strengthens the case; it does not guarantee the exemption.
+**Direct issue is the exception.** The Transport Department is explicit that an applicant who meets all the requirements for direct issue of a full driving licence is issued that full licence *without* passing through the 12-month probationary period. Probation applies to people who obtain their entitlement by passing the Hong Kong driving tests, not to those converting a recognised overseas licence. Licences with a direct-issue entitlement carry a "DI" prefix on the licence number and an asterisk beside the entitlement.
 
 ## International Driving Permits (IDP)
 
@@ -133,9 +129,9 @@ _This article contains affiliate links. If you click through and buy or sign up,
 
 _Insurance interaction_: converting your licence before month 12 also matters for insurance — several HK insurers apply a "new-to-HK" loading during the overseas-licence window. If you're approaching 12 months, it's worth re-quoting with the new HK licence in hand — our [Hong Kong car insurance guide](/hong-kong/insurance-guide) covers which insurers apply the loading and how to get it removed._
 
-**Assuming US = approved.** It depends on the state. Check the current list.
+**Assuming US licences need a test.** They do not — the United States is listed in Schedule 4 as a whole country. The trap is the other way round: being on the list is not sufficient, and you still need the six-month-residence, five-years-held or passport limb.
 
-**Bringing an expired overseas licence.** Expired licences cannot be converted, full stop. Renew with your home country first if necessary.
+**Assuming an expired licence is dead.** A licence that expired **not more than three years** ago can still be directly issued. Beyond three years it cannot — renew with your home authority first.
 
 **Missing the address proof.** A bank statement printed at a branch, or a HKT/3 mobile phone bill, typically works. A printout of online banking often doesn't.
 
@@ -164,4 +160,4 @@ You can retake. Most candidates pass on the first or second attempt after proper
 
 *Related guides: Buying a Car in Hong Kong as an Expat | Car Insurance in Hong Kong for Expats | First Registration Tax Explained for Hong Kong Expats*
 
-*Last updated: April 2026 | Transport Department requirements verified March 2026*
+*Last updated: August 2026 | Recognised-country list (Appendix C / Schedule 4 of Cap. 374B), eligibility limbs, form number and appointment requirement verified against the Transport Department website, 5 August 2026*

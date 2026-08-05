@@ -60,7 +60,7 @@ Main platforms:
 4. Agree price and receive deposit — a 10% non-refundable deposit is standard HK practice, not statutory, and the percentage is negotiable
 5. Buyer arranges their own insurance (required for transfer)
 6. Both parties attend Transport Department Licensing Office — complete form TD25 (Application for Transfer)
-7. Buyer pays the Transport Department transfer fee (check current GovHK fee schedule at point of sale — typically around HK$1,000)
+7. Buyer pays the Transport Department transfer fee — HK$1,000 for a car (HK$250 for a motorcycle) on the current TD341 fee schedule
 8. Balance paid — cashier's cheque strongly recommended over bank transfer
 9. You receive receipt of transfer; buyer receives new registration document
 
@@ -123,7 +123,7 @@ If you have flexibility, selling in January for a February departure is often th
 
 ## Tax and Rebates: What You Do and Don't Get Back
 
-**First Registration Tax (FRT)** — not refundable under the Motor Vehicles (First Registration Tax) Regulation (Cap. 374). It was paid by the original first-registering owner at first registration and is already baked into the resale value.
+**First Registration Tax (FRT)** — not refundable. It is levied under the Motor Vehicles (First Registration Tax) Ordinance (Cap. 330). It was paid by the original first-registering owner at first registration and is already baked into the resale value.
 
 **Annual vehicle licence** — pro-rata refund is available if you deregister the vehicle. If you're selling to a new HK owner, they assume the remaining licence; no refund.
 

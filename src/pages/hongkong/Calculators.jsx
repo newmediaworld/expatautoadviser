@@ -80,7 +80,7 @@ function FRTCalculator() {
   const results = useMemo(() => {
     if (tvNum <= 0) return null;
     if (vehicleType === "ev") {
-      // EV: potentially full FRT exemption under One-for-One scheme
+      // EV: private-car FRT concession ended 1 Apr 2026 — full bands now apply
       const frtIfNoExemption = calcFRT(tvNum);
       const totalWithoutExemption = tvNum + frtIfNoExemption;
       return { isEV: true, frtIfNoExemption, totalWithoutExemption, taxableValue: tvNum };
@@ -129,7 +129,7 @@ function FRTCalculator() {
         <div style={groupStyle}>
           <label style={labelStyle}>
             Vehicle Taxable Value
-            <Tooltip text="This is the Open Market Value as assessed by the Transport Department — not necessarily the purchase price or the sticker price at the dealer." />
+            <Tooltip text="The taxable value assessed by the Customs and Excise Department — not necessarily the purchase price or the sticker price at the dealer." />
           </label>
           <div style={{ position: "relative" }}>
             <span style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)", color: "#6b7280", fontSize: 14 }}>HK$</span>
@@ -147,7 +147,7 @@ function FRTCalculator() {
         <div style={groupStyle}>
           <label style={labelStyle}>
             Vehicle Type
-            <Tooltip text="Electric vehicles may qualify for full FRT exemption under the One-for-One Replacement Scheme. Eligibility conditions apply — check the EMSD website." />
+            <Tooltip text="The FRT concession for electric private cars ended on 31 March 2026. Commercial EVs, e-motorcycles and e-tricycles keep a full waiver until 31 March 2028." />
           </label>
           <select value={vehicleType} onChange={e => setVehicleType(e.target.value)} style={inputStyle}>
             <option value="ice">Petrol / Diesel (ICE)</option>
@@ -160,35 +160,42 @@ function FRTCalculator() {
       {/* Results */}
       {results && (
         results.isEV ? (
-          <div style={{ background: "#f0fdf4", borderRadius: 12, padding: 24, border: "1px solid #86efac" }}>
+          <div style={{ background: "#fffbeb", borderRadius: 12, padding: 24, border: "1px solid #fcd34d" }}>
             <div style={{ fontSize: 24, marginBottom: 8 }}>⚡</div>
-            <h3 style={{ fontSize: 17, fontWeight: 700, color: "#15803d", marginBottom: 12 }}>
-              Electric Vehicle — FRT Exemption May Apply
+            <h3 style={{ fontSize: 17, fontWeight: 700, color: "#92400e", marginBottom: 12 }}>
+              Electric private car — full FRT applies from 1 April 2026
             </h3>
             <p style={{ fontSize: 14, color: "#374151", marginBottom: 16, lineHeight: 1.6 }}>
-              Under the <strong>One-for-One Replacement Scheme</strong>, electric vehicles can qualify for a <strong>full FRT exemption</strong>, which would reduce the on-road price from {fmt(results.totalWithoutExemption)} to {fmt(results.taxableValue)} — a saving of <strong>{fmt(results.frtIfNoExemption)}</strong>.
+              The FRT concession for electric <strong>private cars</strong>, including the One-for-One Replacement
+              Scheme, expired on 31 March 2026 and was not extended. First-registration applications submitted on or
+              after 1 April 2026 pay the full band schedule — {fmt(results.frtIfNoExemption)} on this taxable value,
+              taking the on-road price to {fmt(results.totalWithoutExemption)}.
             </p>
-            <div style={{ background: "#fff", borderRadius: 8, padding: 16, border: "1px solid #d1fae5", marginBottom: 16 }}>
+            <div style={{ background: "#fff", borderRadius: 8, padding: 16, border: "1px solid #fde68a", marginBottom: 16 }}>
               <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
-                <span style={{ fontSize: 13, color: "#374151" }}>FRT if no exemption</span>
+                <span style={{ fontSize: 13, color: "#374151" }}>Taxable value</span>
+                <span style={{ fontSize: 14, fontWeight: 600, color: "#111827" }}>{fmt(results.taxableValue)}</span>
+              </div>
+              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
+                <span style={{ fontSize: 13, color: "#374151" }}>First Registration Tax payable</span>
                 <span style={{ fontSize: 14, fontWeight: 600, color: "#dc2626" }}>{fmt(results.frtIfNoExemption)}</span>
               </div>
-              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
-                <span style={{ fontSize: 13, color: "#374151" }}>FRT with full exemption</span>
-                <span style={{ fontSize: 14, fontWeight: 600, color: "#15803d" }}>HK$0</span>
-              </div>
               <div style={{ display: "flex", justifyContent: "space-between", borderTop: "1px solid #e5e7eb", paddingTop: 8 }}>
-                <span style={{ fontSize: 14, fontWeight: 700, color: "#374151" }}>Total on-road (with exemption)</span>
-                <span style={{ fontSize: 16, fontWeight: 800, color: "#15803d" }}>{fmt(results.taxableValue)}</span>
+                <span style={{ fontSize: 14, fontWeight: 700, color: "#374151" }}>Total on-road price</span>
+                <span style={{ fontSize: 16, fontWeight: 800, color: "#92400e" }}>{fmt(results.totalWithoutExemption)}</span>
               </div>
             </div>
-            <div style={{ background: "#fffbeb", borderRadius: 8, padding: 12, fontSize: 13, color: "#92400e", lineHeight: 1.6 }}>
-              <strong>Important:</strong> Eligibility requires scrapping an existing registered vehicle. The scheme has been adjusted multiple times by the government — always verify current rules at the{" "}
-              <a href="https://www.emsd.gov.hk" target="_blank" rel="noopener noreferrer" style={{ color: "#92400e" }}>EMSD website</a> before purchasing.
+            <div style={{ background: "#eff6ff", borderRadius: 8, padding: 12, fontSize: 13, color: "#1e3a5f", lineHeight: 1.6 }}>
+              <strong>Two exceptions.</strong> Electric private cars ordered on or before 25 February 2026 (or already
+              arranged for shipment to Hong Kong for the owner&rsquo;s own use) can still be taxed at the pre-adjustment
+              concession if the application reaches the Transport Department by 24 February 2027 and is approved. And
+              electric <em>commercial</em> vehicles, electric motorcycles and electric motor tricycles keep a full FRT
+              waiver until 31 March 2028. Confirm the position with the{" "}
+              <a href="https://www.td.gov.hk" target="_blank" rel="noopener noreferrer" style={{ color: "#1d4ed8" }}>Transport Department</a> before purchasing.
             </div>
             <div style={{ marginTop: 16 }}>
               <Link to="/hong-kong/ev-guide" style={{ fontSize: 13, color: "#15803d", textDecoration: "none", fontWeight: 600 }}>
-                Full EV guide for Hong Kong — One-for-One explained →
+                Full EV guide for Hong Kong — the post-concession position →
               </Link>
             </div>
           </div>
@@ -216,7 +223,7 @@ function FRTCalculator() {
             <ResultRow
               label="Taxable Value"
               value={fmt(tvNum)}
-              tooltip="The Open Market Value as assessed by the Transport Department."
+              tooltip="The taxable value assessed by the Customs and Excise Department."
             />
             <ResultRow
               label="Total FRT Payable"
@@ -245,7 +252,7 @@ function FRTCalculator() {
             </div>
 
             <div style={{ background: "#fef3c7", borderRadius: 8, padding: 12, marginTop: 16, fontSize: 12, color: "#92400e", lineHeight: 1.6 }}>
-              <strong>Disclaimer:</strong> These estimates are based on the published FRT band schedule. The actual taxable value is determined by the Transport Department and may differ from the dealer's asking price. Verify with the <a href="https://www.td.gov.hk" target="_blank" rel="noopener noreferrer" style={{ color: "#92400e" }}>Transport Department</a> before purchasing.
+              <strong>Disclaimer:</strong> These estimates are based on the published FRT band schedule. The actual taxable value is assessed by the Customs and Excise Department and may differ from the dealer's asking price. Verify with the <a href="https://www.td.gov.hk" target="_blank" rel="noopener noreferrer" style={{ color: "#92400e" }}>Transport Department</a> before purchasing.
             </div>
 
             <div style={{ marginTop: 16, display: "flex", gap: 16, flexWrap: "wrap" }}>
@@ -363,9 +370,9 @@ const HK_LICENCE_DATA = {
   SE: { country: "Sweden", result: "direct", note: "Convert directly." },
   JP: { country: "Japan", result: "direct", note: "Convert directly. Bring official English translation if your licence is not in English." },
   SG: { country: "Singapore", result: "direct", note: "Singapore driving licence converts directly to HK licence." },
-  IN: { country: "India", result: "test", note: "Must pass Hong Kong driving test. Theory and practical required at a TD licensing office." },
-  CN: { country: "China (Mainland)", result: "test", note: "Mainland China driving licence does not convert directly — must sit HK driving test. Theory and practical tests required." },
-  PH: { country: "Philippines", result: "test", note: "Must pass HK driving test. Theory and practical tests required." },
+  IN: { country: "India", result: "direct", note: "India is listed in Schedule 4 of Cap. 374B, so direct issue is available if you meet one of the eligibility limbs." },
+  CN: { country: "China (Mainland)", result: "direct", note: "Mainland licences are listed in Schedule 4 and can be directly issued. Mainland applications are handled at the Hong Kong, Kowloon, Kwun Tong and Sha Tin licensing offices." },
+  PH: { country: "Philippines", result: "test", note: "The Philippines is not listed in Schedule 4 of Cap. 374B — you must pass the Hong Kong driving test. Theory and practical tests required." },
 };
 
 function HKLicenceChecker() {
@@ -378,7 +385,7 @@ function HKLicenceChecker() {
         Licence Eligibility Checker
       </h2>
       <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24 }}>
-        Most Western nationalities can convert directly — no driving test required. A vision test is required at the Transport Department for all conversions. Check your country below.
+        Licences from the countries and places listed in Schedule 4 of the Road Traffic (Driving Licences) Regulations (Cap. 374B) can be directly issued without a driving test. You must also satisfy one of three limbs: the licence was issued during a period of at least six months residence in that country, or you have held it for at least five years, or you hold that country&rsquo;s passport. Check your country below.
       </p>
 
       <div style={{ marginBottom: 24 }}>
@@ -409,10 +416,10 @@ function HKLicenceChecker() {
           {selected.result === "direct" && (
             <div>
               <div style={{ marginTop: 16, fontSize: 13, color: "#374151" }}>
-                <strong>What to bring:</strong> HKID card, original foreign licence (valid), proof of HK address, 2 passport photos. Visit a TD licensing office — no appointment needed for conversion.
+<strong>What to bring:</strong> completed form TD63A, HKID card or passport, your original foreign licence (valid, or expired by no more than three years), supporting documents for the eligibility limb you rely on, and proof of address issued within the last three months.
               </div>
               <div style={{ marginTop: 10, fontSize: 13, color: "#92400e", background: "#fffbeb", borderRadius: 6, padding: "8px 12px" }}>
-                <strong>Note:</strong> A vision test is required at the Transport Department licensing office for all licence conversions — bring glasses or contacts if you wear them.
+<strong>Note:</strong> since 16 March 2026 you <strong>must</strong> book a &ldquo;direct issue&rdquo; appointment online before attending — there is no walk-in or queue-ticket route. A medical examination certificate (TD256) is required only if you are aged 70 or over.
               </div>
             </div>
           )}

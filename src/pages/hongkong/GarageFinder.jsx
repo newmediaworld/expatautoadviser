@@ -50,7 +50,7 @@ const SERVICES = [
   ["Brake pad replacement (front axle)", "HKD $800–$1,800 (independent)"],
   ["Battery replacement", "HKD $600–$1,200 fitted"],
   ["Wheel alignment & balancing", "HKD $400–$700"],
-  ["Annual inspection (TD examination, 7+ year cars)", "HKD $200–$300 (examination fee)"],
+  ["Annual examination (designated car testing centre, cars 6+ years old)", "HKD $585 (re-check within 14 days: $180)"],
   ["Windscreen replacement", "HKD $2,500–$6,000"],
   ["Minor bodywork (small dent, single panel)", "HKD $1,500–$4,000"],
 ];

@@ -218,7 +218,7 @@ const META = {
       },
       {
         q: `How much does a car cost per month in Hong Kong?`,
-        a: `Expect to pay HKD 12,000 to 20,000 per month all-in for a leased car. Buying is also expensive due to the First Registration Tax which can add 40 to 100 percent to the vehicle price.`,
+        a: `Expect to pay HKD 12,000 to 20,000 per month all-in for a leased car. Buying is also expensive because of the First Registration Tax, charged on the taxable value in marginal bands from 46 to 132 percent.`,
       },
       {
         q: `Is leasing or buying better for expats in Hong Kong?`,
@@ -293,7 +293,7 @@ const META = {
     faq: [
       {
         q: `Is there a car inspection requirement in Hong Kong?`,
-        a: `Yes. Vehicles in Hong Kong must pass periodic vehicle examination at government-authorised centres. The frequency depends on vehicle age, with older vehicles requiring more frequent checks.`,
+        a: `Yes. A private car must pass an annual examination at a Transport Department designated car testing centre once it is six years old or more, before its vehicle licence can be renewed. The prescribed fee is HK$585, with a HK$180 re-check within 14 days.`,
       },
       {
         q: `How do I find a trustworthy garage in Hong Kong as an expat?`,
@@ -308,7 +308,7 @@ const META = {
     faq: [
       {
         q: `Which countries can convert their licence directly in Hong Kong?`,
-        a: `Hong Kong has reciprocal licence agreements with many countries including the UK, Australia, and EU member states. Holders of qualifying licences can exchange without sitting a test.`,
+        a: `Licences from the countries and places listed in Schedule 4 of Cap. 374B can be directly issued without a test — including the UK, the United States, Canada, Australia, Mainland China, Singapore, Japan, India and many (but not all) EU states. Poland, Greece and the Philippines are not on the list. You must also have held the licence for five years, hold that country’s passport, or have been issued it during six months residence there.`,
       },
       {
         q: `How long can I drive in Hong Kong on a foreign licence?`,
@@ -328,7 +328,7 @@ const META = {
     faq: [
       {
         q: `Are electric cars popular in Hong Kong?`,
-        a: `Yes. Hong Kong has one of the highest EV adoption rates in Asia, driven by FRT concessions and a dense public charging network. Tesla is particularly popular among expats.`,
+        a: `Yes. Hong Kong has one of the highest EV adoption rates in Asia, built on years of FRT concessions and a dense public charging network. Note that the FRT concession for private electric cars ended on 31 March 2026; commercial EVs keep a full waiver until 31 March 2028. Tesla is particularly popular among expats.`,
       },
       {
         q: `Where can I charge an EV in Hong Kong?`,
@@ -491,20 +491,20 @@ const META = {
   },
   '/hong-kong/tunnel-tolls-explained': {
     title: `Hong Kong Tunnel Tolls 2026: HK$20 Off-Peak to HK$60 Peak`,
-    desc: `Hong Kong tunnel tolls in 2026: HK$20-25 off-peak, HK$40 at the Cross-Harbour and Eastern crossings, HK$60 Western. Monthly cost by commute route.`,
+    desc: `Hong Kong tunnel tolls in 2026: HK$20 off-peak, HK$30 midday, HK$40 peak at the Cross-Harbour and Eastern crossings, HK$60 Western. Monthly cost by commute route.`,
     type: `article`,
     faq: [
       {
         q: `How much do Hong Kong tunnel tolls cost in 2026?`,
-        a: `Under the Time-Varying Tolls system that has been running since December 2023, private-car cross-harbour tolls vary by time of day. At peak (Mon-Fri morning ~7:30-10:15 and evening ~17:00-19:30), expect around HK$40 at the Cross-Harbour Tunnel and Eastern Harbour Crossing, and around HK$60 at the Western Harbour Crossing. Off-peak rates drop to around HK$20-25, and weekend/public-holiday rates are a flat HK$25 across all three. Always verify current rates via the HK Transport Department or HKeToll app.`,
+        a: `Under the Time-Varying Tolls system running since 17 December 2023, private-car cross-harbour tolls vary by time of day. At peak (Mondays to Saturdays, about 07:30-10:14 and 16:30-18:59) the toll is HK$40 at the Cross-Harbour Tunnel and Eastern Harbour Crossing and HK$60 at the Western Harbour Crossing. The midday normal slot is a uniform HK$30 and the off-peak slot a uniform HK$20 at all three. On Sundays and general holidays it is HK$25 between 10:15 and 19:14 and HK$20 the rest of the day; Saturdays are charged as weekdays. Check the live rate on the HKeMobility app.`,
       },
       {
         q: `What is HKeToll and how do I sign up as a new Hong Kong expat?`,
-        a: `HKeToll is the government's licence-plate-recognition tolling system that has replaced toll booths at all government-operated tunnels including the three cross-harbour tunnels, Tate's Cairn, Lion Rock and Aberdeen. Sign up at hketoll.gov.hk using your HK ID and vehicle registration document, link a credit card or bank account for auto-top-up, and add your licence plate. The system then deducts tolls automatically as you drive through. Set this up before taking possession of a car — driving through a government tunnel without an active account triggers HK$50-100 administrative fees on top of the unpaid toll.`,
+        a: `HKeToll is the government's licence-plate-recognition tolling system that has replaced toll booths at all government-operated tunnels including the three cross-harbour tunnels, Tate's Cairn, Lion Rock and Aberdeen. Sign up at hketoll.gov.hk using your HK ID and vehicle registration document, link a credit card or bank account for auto-top-up, and add your licence plate. The system then deducts tolls automatically as you drive through. Set this up before taking possession of a car — tolls must be paid within 14 business days, and late payment attracts a HK$175 surcharge per trip, plus a further HK$350 if it is still unpaid 21 days after the surcharge notice.`,
       },
       {
         q: `Which Hong Kong cross-harbour tunnel should I use for my commute?`,
-        a: `Under Time-Varying Tolls, the Cross-Harbour Tunnel and Eastern Harbour Crossing are now priced identically at every band, and the Western Harbour Crossing carries roughly a HK$20 peak premium. The financial argument for choosing the cheapest tunnel is now weak; the time argument dominates. Most UK expats settle on: WHC for time-critical morning commutes (faster, less congested, worth the premium), CHT or EHC for evening returns (less time pressure), and shifting timing into off-peak windows where possible (a HK$80 round trip drops to ~HK$50). Check Google Maps in real time — the fastest tunnel varies across the four time-of-day bands.`,
+        a: `Under Time-Varying Tolls, the Cross-Harbour Tunnel and Eastern Harbour Crossing are now priced identically at every band, and the Western Harbour Crossing carries roughly a HK$20 peak premium. The financial argument for choosing the cheapest tunnel is now weak; the time argument dominates. Most UK expats settle on: WHC for time-critical morning commutes (faster, less congested, worth the premium), CHT or EHC for evening returns (less time pressure), and shifting timing into off-peak windows where possible (an HK$80 peak round trip at the CHT drops to HK$60 midday and HK$40 off-peak). Check Google Maps in real time — the fastest tunnel varies through the day.`,
       },
     ],
   },

@@ -24,8 +24,8 @@ export default function HKMOTMaintenance() {
         </div>
 
         <h2 style={h2}>Approved inspection centres</h2>
-        <p style={body}>Inspections must be carried out at a Transport Department-approved Vehicle Examination Centre. There are centres across HK Island, Kowloon, and the New Territories. Book in advance — popular centres fill up weeks ahead.</p>
-        <p style={body}>Find the current list of approved centres at <strong>td.gov.hk</strong> (search "Vehicle Examination Centre"). The inspection itself costs approximately <strong>HKD $200–300</strong> and typically takes 45–90 minutes.</p>
+        <p style={body}>Annual examinations for private cars are carried out at Transport Department designated car testing centres. There are centres across HK Island, Kowloon, and the New Territories. Book in advance — popular centres fill up weeks ahead.</p>
+        <p style={body}>Find the current list of designated centres at <strong>td.gov.hk</strong> (search "designated car testing centre"). The prescribed examination fee for a private car is <strong>HKD $585</strong>, with a re-check within 14 calendar days charged at <strong>HKD $180</strong>. Allow 45–90 minutes.</p>
 
         <h2 style={h2}>What gets checked</h2>
         <div style={{background:"white",border:"1px solid #e5e7eb",borderRadius:10,padding:24,margin:"16px 0 28px"}}>

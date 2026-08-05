@@ -18,22 +18,24 @@ These are the tunnels that carry the bulk of expat tunnel exposure because most 
 
 When the WHC reverted to government control in August 2023, the government took the opportunity to align all three cross-harbour tunnels under a single unified pricing structure designed to redistribute traffic.
 
-The first phase ran from August to December 2023 — the "933" plan, which set all three tunnels at the same flat HK$30 rate for private cars during peak. The second phase, **Time-Varying Tolls (TVT)**, launched in mid-December 2023 and is the system in operation today.
+The first phase ran from 2 August to 16 December 2023: a flat toll plan that put private cars at HK$30 at the Cross-Harbour and Eastern crossings and HK$60 at the Western Harbour Crossing. The second phase, **Time-Varying Tolls (TVT)**, started at 5am on 17 December 2023 and is the system in operation today.
 
-Under TVT, private-car tolls vary by time of day across four bands. The exact figures change with policy reviews, but the structural shape in 2026 is roughly:
+Under TVT, private-car tolls vary by time of day across three charging slots, with short transition slots in between where the toll moves by up to HK$2 every two minutes. The published schedule, which has not changed since launch:
 
-- **Peak periods** (Mon-Fri morning ~7:30-10:15, evening ~17:00-19:30): the highest rate. Currently around HK$40 at the CHT and EHC; around HK$60 at the WHC.
-- **Mid-peak** (the shoulders around peak): mid-tier rate. Currently around HK$25 at CHT and EHC; around HK$40 at WHC.
-- **Off-peak** (most of the day outside peak/mid-peak): the cheapest tier. Currently around HK$20 at CHT and EHC; around HK$25 at WHC.
-- **Weekend/public holiday** (all day): a flat rate, currently HK$25 across all three tunnels.
+- **Peak** (Mondays to Saturdays excluding general holidays — roughly 07:30-10:14 in the morning and 16:30-18:59 in the evening, including the transitions): **HK$40** at the CHT and EHC; **HK$60** at the WHC.
+- **Normal / daytime slot** (about 10:15-16:29 on those same days): a uniform **HK$30** across all three tunnels.
+- **Off-peak** (the rest of the day — broadly before 07:30 and after about 19:20): a uniform **HK$20** across all three tunnels.
+- **Sundays and general holidays**: a uniform **HK$25** in the normal slot (10:15-19:14) and **HK$20** for the rest of the day. Saturdays are charged as weekdays, not as weekend days — this catches people out.
+
+Motorcycles pay 40% of the private-car toll at every slot. Taxis pay a flat HK$25 all day; goods vehicles, light buses and buses a flat HK$50.
 
 Two practical takeaways from this structure:
 
 **The CHT and EHC are now priced identically at every band.** They were not before. This was a deliberate policy move to discourage drivers from queueing at the CHT to save a couple of dollars when the EHC is uncongested.
 
-**The WHC is still meaningfully more expensive at peak.** It's the fastest of the three for most westerly origin-destination pairs, and the price reflects that — but the gap (HK$20 at peak between WHC and CHT) is much smaller than under the pre-2023 private-operator pricing, when the WHC charged HK$75-90 at peak and the CHT was HK$25.
+**The WHC is still more expensive at peak — but only at peak.** It's the fastest of the three for most westerly origin-destination pairs, and the peak price reflects that. Outside peak the three are identically priced. The HK$20 peak gap is much smaller than under the pre-2023 private-operator pricing, when the WHC charged private cars HK$75 and the CHT charged HK$20.
 
-For the most current rates, check [the HK Transport Department's tunnel toll pages](https://www.td.gov.hk) or the HKeToll app — TVT is reviewed periodically and rates have moved a few dollars at the margins since launch.
+For the live rate at any given minute, check [the HK Transport Department's time-varying toll page](https://www.td.gov.hk/en/transport_in_hong_kong/tunnels_and_bridges_n/tvt/index.html) or the HKeMobility app, which shows real-time and forecast tolls.
 
 > **The 2026 fuel-cost context.** Tolls aren't the only line that's been moving. HK petrol pump prices hit **HK$32.39/L in March 2026 — the highest level since July 2022** — and have stayed at that elevated tier through Q2 2026 (HK$32.84/L as of late May 2026). The government has explicitly declined consumer-side fuel relief: in the 13 May 2026 LCQ13 LegCo reply, the Environment & Ecology Bureau noted that "private vehicles for self-use shall not be considered a primary priority" for cost intervention. The Transport Department's 50% tunnel-toll waiver running 17 May → 16 July 2026 covers commercial vehicles only — buses, minibuses, taxis, goods vehicles. Private cars and motorcycles continue to pay the standard TVT bands above. If you're modelling HK car-ownership cost in 2026, assume sustained high fuel + standard tolls, not a relief package.
 
@@ -41,35 +43,35 @@ For the most current rates, check [the HK Transport Department's tunnel toll pag
 
 Beyond the cross-harbour three, several tunnels affect expat tunnel exposure depending on where you live and where you drive.
 
-**Tai Lam Tunnel (Route 3).** Privately operated until July 2025 and the most expensive tunnel for private cars in Hong Kong — historically HK$48 per crossing. The BOT contract expired and the tunnel returned to government control with revised toll structure. Material for Tuen Mun, Tin Shui Wai and northern New Territories expats commuting south.
+**Tai Lam Tunnel (Route 3).** Privately operated until 31 May 2025, when the government took it over and cut the tolls sharply. The old flat private-car toll was HK$58. It now runs its own time-varying schedule: **HK$45** at peak, **HK$30** in the normal slot (roughly 09:45-17:15) and **HK$18** off-peak, Mondays to Saturdays, with a flat **HK$18** all day on Sundays and general holidays. Still the priciest single crossing for a peak-hour commuter, and material for Tuen Mun, Tin Shui Wai and northern New Territories expats commuting south.
 
-**Tate's Cairn Tunnel.** Connects Sha Tin to Kowloon East. Returned to government in 2018; private-car toll is currently around HK$24. Important for Sha Tin, Ma On Shan and northern New Territories expats.
+**Tate's Cairn Tunnel.** Connects Sha Tin to Kowloon East. Returned to government in 2018; the private-car toll is a flat HK$20 (HK$24 is the light-goods-vehicle rate). Important for Sha Tin, Ma On Shan and northern New Territories expats.
 
-**Lion Rock Tunnel.** Sha Tin to Kowloon Central. Government-owned, low toll (~HK$8). The cheapest tunnel between New Territories and Kowloon.
+**Lion Rock Tunnel.** Sha Tin to Kowloon Central. Government-owned, flat HK$8 for private cars. The cheapest tolled tunnel between the New Territories and Kowloon — Shing Mun and the Tsing Sha tunnels are also HK$8.
 
-**Aberdeen Tunnel.** Hong Kong Island only — Wong Chuk Hang to Happy Valley. Toll around HK$5. Negligible cost layer but a daily fixture for southern Hong Kong Island residents commuting to Central or Causeway Bay.
+**Aberdeen Tunnel.** Hong Kong Island only — Wong Chuk Hang to Happy Valley. Flat HK$8 for private cars. A small cost layer but a daily fixture for southern Hong Kong Island residents commuting to Central or Causeway Bay.
 
-**Cheung Tsing / Tsing Sha / Tsing Ma.** Various Tsing Yi corridor tunnels and bridges. Minor for most expat use but matter if you live in Discovery Bay, Lantau or commute to the airport regularly.
+**Cheung Tsing / Tsing Sha.** The Cheung Tsing Tunnel is toll-free. The Tsing Sha Control Area tunnels (Eagle's Nest, Sha Tin Heights, Tai Wai) are HK$8. Minor for most expat use but relevant if you commute to the airport or across the Tsing Yi corridor regularly.
 
-**Cross Bay Link / TKO Tunnel.** Tseung Kwan O area. Important for the growing Lohas Park / TKO South Horizons / Sai Kung residential expat population.
+**Cross Bay Link / TKO tunnels.** The Tseung Kwan O Tunnel and the Tseung Kwan O–Lam Tin Tunnel are both toll-free, which makes the Tseung Kwan O corridor cheaper to drive than most people assume. Relevant for the growing Lohas Park / TKO / Sai Kung residential expat population.
 
 ## How Daily Tunnel Exposure Stacks Up
 
 The biggest determinant of your monthly tunnel bill is where you live versus where you work. A few representative cases for a UK expat doing a weekday commute, modelled at peak rates:
 
-**Mid-Levels (HK Island) → Central office.** Zero tunnel exposure. Cross by Pok Fu Lam Road or Aberdeen Tunnel locally. ~HK$5/day exposure if Aberdeen-routed.
+**Mid-Levels (HK Island) → Central office.** Zero cross-harbour exposure. Cross by Pok Fu Lam Road or Aberdeen Tunnel locally. HK$16/day round trip if Aberdeen-routed.
 
 **Mid-Levels → Kowloon East office (Kwun Tong, Quarry Bay-side).** WHC or CHT both routes work. Round trip at peak: roughly HK$80-120/day depending on which tunnel. Monthly: HK$1,600-2,400.
 
-**Sai Kung → Central.** TKO Tunnel + EHC + Aberdeen Tunnel = roughly HK$50-70/day round trip at peak. Monthly: HK$1,000-1,400.
+**Sai Kung → Central.** The TKO tunnels are toll-free, so the bill is the EHC (HK$40 each way at peak) plus Aberdeen (HK$8 each way) = about HK$96/day round trip at peak. Monthly: roughly HK$1,900.
 
-**Tuen Mun → Central.** Tai Lam + WHC = HK$100-130/day round trip at peak. Monthly: HK$2,000-2,600 — meaningfully the most expensive expat tunnel commute pattern.
+**Tuen Mun → Central.** Tai Lam (HK$45) + WHC (HK$60) each way at peak = about HK$210/day round trip. Monthly: roughly HK$4,200 — comfortably the most expensive expat tunnel commute pattern. Tuen Mun Road is the toll-free alternative if you can absorb the time.
 
-**Sha Tin → Central.** Tate's Cairn + CHT = HK$60-70/day round trip at peak. Monthly: HK$1,200-1,400.
+**Sha Tin → Central.** Tate's Cairn (HK$20) + CHT (HK$40) each way at peak = about HK$120/day round trip. Monthly: roughly HK$2,400. Routing via the Lion Rock Tunnel instead of Tate's Cairn saves HK$12 a day.
 
 **Discovery Bay → Central.** Bus + ferry only — no driving option. (DB residents who want to drive cars use them only for off-island use; cars cannot be brought onto Discovery Bay roads.)
 
-The same commute can cost dramatically less if you can shift your timing into off-peak windows. A commute that runs HK$120/day at peak typically falls to HK$60-80/day in off-peak — a ~HK$1,000/month saving for an early-bird or late-shifter.
+The same commute can cost dramatically less if you can shift your timing. A cross-harbour round trip that costs HK$120/day at the WHC at peak falls to HK$60 in the midday slot and HK$40 off-peak — a saving of HK$1,200-1,600 a month for an early-bird or late-shifter.
 
 ## Payment Systems: Autotoll and HKeToll
 
@@ -81,24 +83,24 @@ Hong Kong's tunnel payment system is in transition.
 
 **For new expats arriving in Hong Kong in 2026, the practical setup is:**
 
-1. Register for an HKeToll account at hketoll.gov.hk using your HK ID and Emirates-equivalent (vehicle registration document).
+1. Register for an HKeToll account at hketoll.gov.hk using your HK ID and your vehicle registration document.
 2. Link a credit card or HKID-linked bank account for auto-top-up.
 3. Add your vehicle's licence plate to the account.
 4. Drive — the system handles toll deduction at all government tunnels automatically.
 
-The Autotoll tag is still useful for some private-operator tunnels (notably Tai Lam during its transition) and is being kept available for legacy users, but most UK expats arriving today only need HKeToll.
+Autotoll tags remain available for legacy users and for car-park and other private applications, but every government tolled tunnel — including Tai Lam since 31 May 2025 — is now on HKeToll, so most UK expats arriving today only need HKeToll.
 
-A common new-arrival mistake: driving through a tunnel without an HKeToll account active, and then receiving a HK$50-100 administrative fee on top of the unpaid toll. Set up the account before you take possession of a car.
+A common new-arrival mistake: driving through a tunnel without an HKeToll account active. Tolls must be paid within 14 business days; miss that and the Transport Department adds an initial surcharge of **HK$175 per trip**, with a further **HK$350** if it stays unpaid 21 days after the surcharge notice. Evading a toll altogether carries a HK$5,000 fine per trip. Set up the account before you take possession of a car.
 
 ## Routing Decisions Matter
 
-For a UK expat doing a regular weekday tunnel commute, the difference between routing through CHT, EHC and WHC at peak is relatively small in dollar terms (around HK$20-40 per crossing) but can be 10-25 minutes in time terms. The time-varying tolls mean the financial argument for choosing the cheapest tunnel is now weak — the time argument dominates.
+For a UK expat doing a regular weekday tunnel commute, the difference between routing through CHT, EHC and WHC at peak is exactly HK$20 per crossing (the CHT and EHC are identically priced; the WHC is HK$60 against their HK$40) but can be 10-25 minutes in time terms. The time-varying tolls mean the financial argument for choosing the cheapest tunnel is now weak — the time argument dominates.
 
 Practical patterns most expats settle on:
 
 - **Use the WHC for time-critical morning commutes.** It's faster, less congested, and the peak premium over CHT is usually worth it for the consistency.
 - **Use the CHT or EHC for evening returns.** Less time-pressure, take the small saving.
-- **Use off-peak windows actively.** Leaving 30 minutes earlier or later can drop a HK$80 round trip to HK$50.
+- **Use off-peak windows actively.** Leaving before 07:30 or after about 19:20 drops any cross-harbour crossing to HK$20 — an HK$80 CHT round trip becomes HK$40.
 - **Cross-check via Google Maps in real time.** All three cross-harbour tunnels have variable congestion. The "fastest" is rarely the same one across all four times of day.
 
 ## The Residential Decision
@@ -132,7 +134,7 @@ If your package doesn't include a transport allowance and your commute pattern r
 
 **Treating Tai Lam as routine.** Tuen Mun to Central via Tai Lam is the priciest commute pattern in HK. If you live in Tuen Mun, MTR-to-Hong Kong-Station is often a better daily option than driving even if you have a car for weekend use.
 
-**Forgetting weekend tunnels are a flat rate.** Saturday-and-Sunday driving across the harbour is consistently HK$25 across all three cross-harbour tunnels, regardless of time. Useful for weekend-activity routing decisions.
+**Assuming Saturday counts as the weekend.** It does not. Only Sundays and general holidays get the flat HK$25 daytime rate (HK$20 outside 10:15-19:14). Saturdays are charged on the weekday schedule, peak rates included — so a Saturday-morning trip across the harbour at 09:00 costs HK$40 or HK$60, not HK$25.
 
 ---
 
@@ -140,4 +142,4 @@ Tunnel tolls aren't going to make or break Hong Kong car ownership — but they'
 
 ---
 
-*Patrick is the editor of ExpatAutoAdviser. He has helped over 200 UK expat families work through buying, leasing, insuring and selling cars in Singapore and Hong Kong since 2019. Toll figures in this article reflect the Time-Varying Tolls structure as of May 2026; always verify current rates via the HK Transport Department or the HKeToll app, as rates are reviewed periodically.*
+*Patrick is the editor of ExpatAutoAdviser. He has helped over 200 UK expat families work through buying, leasing, insuring and selling cars in Singapore and Hong Kong since 2019. Toll figures in this article were checked against the Transport Department's published Time-Varying Toll and Tai Lam Tunnel toll schedules on 5 August 2026; always verify the live rate via the HKeMobility app, as tolls are reviewed periodically.*

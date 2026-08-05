@@ -4,7 +4,7 @@ This piece is the practical version. What pump prices have actually been doing t
 
 ## The Quick Verdict
 
-HK petrol prices are structurally elevated for the rest of 2026. The Q1 2026 climb to HK$32.39/L was driven by global crude pricing, Asian refining margin tightening, and the Hong Kong-specific 18% petroleum oil tax + 5% MPF levy that lock in a floor under retail prices regardless of what crude does. The government's 13 May 2026 LCQ13 reply to LegCo explicitly stated that "private vehicles for self-use shall not be considered a primary priority" for cost intervention — meaning no consumer fuel subsidy is coming.
+HK petrol prices are structurally elevated for the rest of 2026. The Q1 2026 climb to HK$32.39/L was driven by global crude pricing, Asian refining margin tightening, and the Hong Kong-specific excise duty on unleaded petrol — a flat **HK$6.06 per litre** under the Dutiable Commodities Ordinance — which locks in a floor under retail prices regardless of what crude does. The government's 13 May 2026 LCQ13 reply to LegCo explicitly stated that "private vehicles for self-use shall not be considered a primary priority" for cost intervention — meaning no consumer fuel subsidy is coming.
 
 For UK expats, this matters in three ways: (a) the buy-vs-lease maths on a 5-year posting shifts further toward leasing (lease bundles fuel into a fixed monthly cost that hedges the price), (b) the EV switch becomes more attractive (home charging at HK$1.0-1.4/kWh equivalent for a EV vs ~HK$3.20/km equivalent for petrol), (c) the MTR-vs-drive calculation gets bumped — an active driver running a daily commute pays an extra HK$5,000-8,000/year vs the 2021 baseline.
 
@@ -32,11 +32,11 @@ The 13 May 2026 LegCo Question 13 reply from the Environment and Ecology Bureau 
 
 1. **Private cars are not a priority.** "Private vehicles for self-use shall not be considered a primary priority for fuel cost intervention." Commercial vehicles get the targeted relief (current tunnel-toll waiver); private drivers absorb the price increase.
 
-2. **The 50% tunnel-toll waiver (17 May → 16 July 2026) is the entire relief package.** It applies only to buses, minibuses, taxis, goods vehicles. Private cars cross the cross-harbour and Tai Lam tunnels at standard TVT bands during this period (HK$8-60 depending on time, route, vehicle class).
+2. **The 50% tunnel-toll waiver (17 May → 16 July 2026) is the entire relief package.** It applies only to buses, minibuses, taxis, goods vehicles. Private cars cross the cross-harbour and Tai Lam tunnels at standard time-varying rates during this period (HK$18-60 depending on time and route).
 
-3. **EV adoption is the long-run lever.** The Bureau reiterated the 2030 cleaner-energy target (new diesel registrations already stopped in 2025; full ICE phase-out target is 2040). The signal is consistent: petrol-vehicle owners are expected to migrate to EVs over the coming decade, and fuel-cost pressure is part of the mechanism.
+3. **EV adoption is the long-run lever.** Hong Kong's Roadmap on Popularisation of Electric Vehicles — first published in 2021 and updated on 12 February 2026 — targets ceasing new registration of fuel-propelled private cars, hybrids included, in **2035 or earlier**, on the way to zero vehicular emissions before 2050. The signal is consistent: petrol-vehicle owners are expected to migrate to EVs over the coming decade, and fuel-cost pressure is part of the mechanism.
 
-4. **Petroleum oil tax (HK$6.06/L) is not under review.** The HK petrol pump price is roughly HK$6.06/L tax plus HK$26-27/L wholesale, retail margin, and the 5% MPF transport-network levy. Of the HK$32.84 pump price in May, roughly HK$8 is government-imposed and HK$25 is wholesale + retail + margin.
+4. **The duty on unleaded petrol (HK$6.06/L) is not under review.** It is a specific duty per litre, not a percentage, so it does not rise with crude. Of the HK$32.84 pump price in May, HK$6.06 is duty and roughly HK$26.80 is wholesale cost, retail margin and distribution. Hong Kong has no VAT or GST, so duty is the whole of the government take at the pump.
 
 Put together: the price floor is policy-anchored, the consumer relief route is closed, and the migration path is EV. UK expats planning ≥3 years in HK should treat petrol prices in the HK$31-34/L range as the new operating baseline through 2027.
 
@@ -125,7 +125,7 @@ For the full HK car-ownership cost stack including FRT, insurance, parking, tunn
 
 ### Are HK petrol prices going to keep rising in 2026?
 
-The structural floor (HK$8/L of government tax + the 5% MPF levy + wholesale + retail margin) makes a return to pre-2022 pricing unlikely. Whether the line keeps climbing depends on global crude pricing and Asian refining capacity — both of which have been at multi-year highs and are unlikely to ease materially in 2026. Plan for HK$31-34/L baseline through 2027.
+The structural floor (HK$6.06/L of duty plus wholesale and retail margin) makes a return to pre-2022 pricing unlikely. Whether the line keeps climbing depends on global crude pricing and Asian refining capacity — both of which have been at multi-year highs and are unlikely to ease materially in 2026. Plan for HK$31-34/L baseline through 2027.
 
 ### Will the government extend the tunnel-toll waiver?
 

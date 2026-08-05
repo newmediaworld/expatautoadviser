@@ -50,14 +50,14 @@ You pay HK$560,000 in tax on a HK$600,000 car. The out-the-door price before ins
 
 Some worked examples based on typical Hong Kong dealer prices (early 2026):
 
-| Car | Approx. taxable value | FRT approx. | All-in price approx. |
+| Car | Approx. taxable value | FRT | All-in price (taxable value + FRT) |
 |---|---|---|---|
-| Honda Fit / Jazz | HK$180,000 | HK$95,000 | HK$295,000 |
-| Toyota RAV4 | HK$320,000 | HK$221,000 | HK$570,000 |
-| Tesla Model Y | HK$450,000 | HK$369,000 | HK$850,000 |
-| BMW 3 Series | HK$480,000 | HK$403,000 | HK$900,000 |
-| Mercedes GLC | HK$550,000 | HK$504,000 | HK$1,080,000 |
-| Range Rover Sport | HK$1,000,000 | HK$1,164,000 | HK$2,200,000 |
+| Honda Fit / Jazz | HK$180,000 | HK$94,800 | HK$274,800 |
+| Toyota RAV4 | HK$320,000 | HK$221,000 | HK$541,000 |
+| Tesla Model Y | HK$450,000 | HK$370,500 | HK$820,500 |
+| BMW 3 Series | HK$480,000 | HK$405,000 | HK$885,000 |
+| Mercedes GLC | HK$550,000 | HK$464,000 | HK$1,014,000 |
+| Range Rover Sport | HK$1,000,000 | HK$1,088,000 | HK$2,088,000 |
 
 Rough, but indicative. Every car costs more than you'd expect.
 
@@ -104,8 +104,8 @@ This is why the Hong Kong used car market is active. A 3-year-old Toyota RAV4 ca
 
 FRT is the big one, but there are smaller charges:
 
-- **Registration fee:** HK$1,000 (flat, one-off)
-- **Annual vehicle licence fee:** typically HK$3,929–HK$11,329 depending on engine size (petrol cars) or gross vehicle weight (EVs). This is paid every year.
+- **Registration fee:** HK$100 (flat, one-off). Note this is not the transfer fee — transferring ownership of a car already registered in Hong Kong costs HK$1,000.
+- **Annual vehicle licence fee:** for petrol private cars, HK$5,074 (up to 1,500cc) to HK$14,694 (over 4,500cc), by engine cylinder capacity. Pure electric private cars are charged on rated power instead, HK$1,614 (up to 75kW) to HK$5,114 (over 225kW). Both figures include the Traffic Accident Victims Assistance Fund levy, and both are paid every year.
 
 These are manageable relative to FRT but shouldn't be forgotten.
 
@@ -117,7 +117,7 @@ The following is an illustrative planning range for a hypothetical expat family 
 |---|---|
 | Car + FRT | HK$600,000–HK$900,000 |
 | Insurance (comprehensive, expat-rated) | HK$15,000–HK$25,000 |
-| Annual licence | HK$5,000–HK$8,000 |
+| Annual licence | HK$7,500–HK$9,900 (2.0–3.5L petrol) |
 | Monthly parking (Central/Mid-Levels) | HK$4,000–HK$8,000/month |
 | Fuel / electricity | HK$1,500–HK$3,000/month |
 
@@ -135,7 +135,7 @@ _**Affiliate disclosure:** We work with a small number of vetted partners whose 
 No. It's a statutory tax. The taxable value is set by the Transport Department based on published retail price and can be challenged on technical grounds, but the rate itself is fixed.
 
 **Does FRT apply to motorcycles?**
-Yes, at lower rates: 35% on the first HK$150,000, 70% above. Still substantial.
+Yes. Motor cycles and motor tricycles are taxed at a flat 35% of taxable value — there are no bands, unlike private cars.
 
 **Can I finance FRT?**
 Most Hong Kong auto loans cover the all-in price including FRT. LTV caps are less restrictive than Singapore's — typically 60–70% of the all-in price, subject to affordability checks.
@@ -150,4 +150,4 @@ Diplomatic and consular vehicles have exemptions under specific circumstances. C
 
 *Related guides: Buying a Car in Hong Kong as an Expat | Car Insurance in Hong Kong for Expats | Converting Your Overseas Driving Licence in Hong Kong*
 
-*Last updated: April 2026 | FRT rates verified against Hong Kong Transport Department March 2026*
+*Last updated: August 2026 | FRT rates, registration fee and vehicle licence fees verified against Transport Department sources (TD341 Rev. 2/2026 and the FRT rate table in the TD importation guidelines), 5 August 2026*
