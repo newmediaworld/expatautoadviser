@@ -13,7 +13,7 @@ const HERO_IMG = "https://images.unsplash.com/photo-1483389127117-b6a2102724ae?w
 const faqItems = [
   { q: "Do I need a car when I first move to Hong Kong?", a: "Not immediately. Hong Kong's MTR, trams, buses, and minibuses are excellent in urban areas. Most new expats find public transport plus occasional taxis works fine for the first few months." },
   { q: "When should I consider getting a car in Hong Kong?", a: "Once you've settled where you'll live. If you end up in the New Territories, Sai Kung, or Clear Water Bay, a car becomes much more useful. If you're in Central, Wan Chai, or Causeway Bay, you probably won't need one." },
-  { q: "Is leasing or buying better for new arrivals in Hong Kong?", a: "Leasing is almost always better. Hong Kong's FRT (First Registration Tax) of 100\u2013115% makes new cars extremely expensive. Leasing lets you avoid that risk and gives you flexibility." },
+  { q: "Is leasing or buying better for new arrivals in Hong Kong?", a: "Leasing is almost always better. Hong Kong's First Registration Tax runs in marginal bands from 46% to 132% of a car's taxable value, which makes new cars extremely expensive. Leasing lets you avoid that risk and gives you flexibility." },
   { q: "How much will a lease cost me per month?", a: "Full-service operating leases typically range from HKD $7,000/month (economy) to HKD $18,000+ (mid-range). Add parking (HKD $3,000\u2013$8,000/month), fuel (~HKD $4,000), and tolls (~HKD $1,000)." },
 ];
 
@@ -47,7 +47,7 @@ export default function HKNewArrival() {
       <p style={body}><strong>You probably don't need a car if:</strong> You're in Central, Wan Chai, Causeway Bay, Admiralty, or any dense urban MTR-connected area.</p>
 
       <h2 style={h2}>The FRT trap: why leasing beats buying</h2>
-      <p style={body}>Hong Kong's First Registration Tax (FRT) adds 46&ndash;132% to the cost of any new car. A HKD $200,000 car costs HKD $400,000&ndash;$430,000 all-in. This is why almost no expats buy new cars &mdash; they lease.</p>
+      <p style={body}>Hong Kong's First Registration Tax (FRT) adds 46&ndash;132% to the taxable value of any new car, in marginal bands. A car with a taxable value of HKD $200,000 attracts HKD $112,000 of tax &mdash; HKD $312,000 all-in &mdash; and the effective rate climbs steeply from there. This is why almost no expats buy new cars &mdash; they lease. <a href="/hong-kong/first-registration-tax-calculator" style={{ color: "#0d9488", textDecoration: "none", fontWeight: 600 }}>Run your own car through the FRT calculator &rarr;</a></p>
 
       <h2 style={h2}>Quick reading order for new arrivals</h2>
       <div style={{ background: "white", border: "1px solid #e5e7eb", borderRadius: 10, padding: "20px 24px", margin: "24px 0" }}>
@@ -55,7 +55,8 @@ export default function HKNewArrival() {
           <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong>This page</strong> &mdash; give yourself 2&ndash;3 months to settle before deciding.</li>
           <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong><a href="/hong-kong/should-i-get-a-car" style={{ color: "#0d9488", textDecoration: "none", fontWeight: 600 }}>Should I Get a Car?</a></strong> &mdash; use this framework once you know your location</li>
           <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong><a href="/hong-kong/frt-tax-explained" style={{ color: "#0d9488", textDecoration: "none", fontWeight: 600 }}>FRT &amp; Tax Explained</a></strong> &mdash; understand why FRT is such a big deal</li>
-          <li style={{ color: "#374151", lineHeight: 1.75 }}><strong><a href="/hong-kong/calculators" style={{ color: "#0d9488", textDecoration: "none", fontWeight: 600 }}>Cost Calculator</a></strong> &mdash; plug in your numbers and see the real monthly cost</li>
+          <li style={{ marginBottom: 12, color: "#374151", lineHeight: 1.75 }}><strong><a href="/hong-kong/first-registration-tax-calculator" style={{ color: "#0d9488", textDecoration: "none", fontWeight: 600 }}>FRT Calculator</a></strong> &mdash; get the tax on a specific car, from its taxable value or the dealer's price</li>
+          <li style={{ color: "#374151", lineHeight: 1.75 }}><strong><a href="/hong-kong/calculators" style={{ color: "#0d9488", textDecoration: "none", fontWeight: 600 }}>Lease vs Buy Calculator</a></strong> &mdash; plug in your numbers and see the real monthly cost</li>
         </ol>
       </div>
 

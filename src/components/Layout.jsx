@@ -32,12 +32,13 @@ const HK_LINKS = [
   { label: 'Buying Guide', to: '/hong-kong/buying-guide' },
   { label: 'Leasing Guide', to: '/hong-kong/leasing-guide' },
   { label: 'FRT Explained', to: '/hong-kong/frt-tax-explained' },
+  { label: 'FRT Calculator', to: '/hong-kong/first-registration-tax-calculator' },
   { label: 'Insurance Guide', to: '/hong-kong/insurance-guide' },
   { label: 'EV Guide', to: '/hong-kong/ev-guide' },
   { label: 'Licence Conversion', to: '/hong-kong/licence-conversion' },
   { label: 'MOT & Maintenance', to: '/hong-kong/mot-maintenance' },
   { label: 'Selling Your Car', to: '/hong-kong/selling-guide' },
-  { label: 'Calculators & Tools', to: '/hong-kong/calculators' },
+  { label: 'Lease vs Buy Calculator', to: '/hong-kong/calculators' },
   { label: 'Garage Finder', to: '/hong-kong/garage-finder' },
 ];
 

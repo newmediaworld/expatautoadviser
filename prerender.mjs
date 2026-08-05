@@ -206,7 +206,7 @@ const META = {
     faq: [
       {
         q: `What is First Registration Tax in Hong Kong?`,
-        a: `First Registration Tax (FRT) is a tax levied on all newly registered vehicles in Hong Kong. It ranges from 40 to 115 percent of the taxable value of the vehicle, making new cars extremely expensive.`,
+        a: `First Registration Tax (FRT) is a one-off tax levied when a vehicle is first registered in Hong Kong. For private cars it is charged on the taxable value in four marginal bands — 46% on the first HK$150,000, 86% on the next HK$150,000, 115% on the next HK$200,000 and 132% above HK$500,000 — which makes new cars extremely expensive.`,
       },
       {
         q: `Can foreigners buy a car in Hong Kong?`,
@@ -310,9 +310,36 @@ const META = {
     ],
   },
   '/hong-kong/calculators': {
-    title: `Hong Kong Car Cost Calculator — Lease vs Buy`,
-    desc: `Use our free calculator to compare the true cost of leasing vs buying a car in Hong Kong. Includes FRT, insurance, and running costs.`,
+    title: `Hong Kong Lease vs Buy Car Calculator (2026)`,
+    desc: `Free calculator comparing the cost of leasing vs buying a car in Hong Kong over your posting, plus lease price estimates and licence-conversion checks.`,
     type: `website`,
+  },
+  '/hong-kong/first-registration-tax-calculator': {
+    title: `Hong Kong First Registration Tax Calculator (2026)`,
+    desc: `Free Hong Kong first registration tax calculator. Enter a taxable value or a dealer price and see FRT across the 46%, 86%, 115% and 132% bands instantly.`,
+    type: `website`,
+    faq: [
+      {
+        q: `How do you calculate first registration tax in Hong Kong?`,
+        a: `FRT is charged on the vehicle's taxable value in four marginal bands: 46% on the first HK$150,000, 86% on the next HK$150,000, 115% on the next HK$200,000, and 132% on anything above HK$500,000. Each rate applies only to the slice of value inside that band, so a car with a taxable value of HK$236,500 pays HK$69,000 on the first band plus HK$74,390 on the second — HK$143,390 in total.`,
+      },
+      {
+        q: `Is the dealer's price in Hong Kong before or after first registration tax?`,
+        a: `Hong Kong distributors quote FRT-inclusive prices, so the figure on the price list is already taxable value plus FRT. That is why this calculator works in both directions: enter a taxable value to get the tax, or enter the dealer's all-in price to see how much of it is tax.`,
+      },
+      {
+        q: `Do electric cars still get an FRT concession in Hong Kong in 2026?`,
+        a: `Not for private cars. The 2026-27 Budget, announced on 25 February 2026, confirmed the FRT concessions for electric private cars — including the One-for-One Replacement Scheme — would not be extended beyond their expiry on 31 March 2026. First-registration applications submitted on or after 1 April 2026 pay full FRT. Electric commercial vehicles, electric motorcycles and electric motor tricycles keep a full FRT waiver until 31 March 2028.`,
+      },
+      {
+        q: `Do you pay first registration tax on a used car in Hong Kong?`,
+        a: `No. FRT is a one-off charge levied at first registration. A car already registered in Hong Kong has had its FRT paid, and no further FRT is due when it changes hands. That is the main reason the Hong Kong used-car market is so active among expats on short postings.`,
+      },
+      {
+        q: `What counts towards the taxable value of a car in Hong Kong?`,
+        a: `For a car bought from a Hong Kong distributor, the taxable value is based on the published retail price, with the provisional taxable value assessed by the Customs and Excise Department. For a car you import yourself, Customs builds the value up from the purchase price plus insurance, freight, brokerage or agency fees and any repair charges. Accessories fitted within six months of first registration can also be taxed.`,
+      },
+    ],
   },
   '/hong-kong/garage-finder': {
     title: `Expat-Friendly Garages in Hong Kong`,
@@ -349,7 +376,7 @@ const META = {
       },
       {
         q: `Should I lease or buy a car in Hong Kong as an expat?`,
-        a: `Leasing is generally better for expats on 1 to 3 year assignments. Buying involves First Registration Tax of 40 to 115 percent on top of the vehicle price, making it only worthwhile for longer stays.`,
+        a: `Leasing is generally better for expats on 1 to 3 year assignments. Buying new involves First Registration Tax charged in marginal bands from 46 to 132 percent of the car's taxable value, making it only worthwhile for longer stays.`,
       },
     ],
   },

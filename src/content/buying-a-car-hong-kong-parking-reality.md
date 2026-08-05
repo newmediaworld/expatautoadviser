@@ -30,7 +30,7 @@ Worked through, that means the FRT alone roughly equals or exceeds the pre-tax c
 
 So a HK$200k taxable value lands around 1.6× sticker once FRT is added. An HK$800k car effectively doubles. This is before parking, before insurance, before depreciation, and before the annual licence fee. It is the single biggest reason most expats lease rather than buy, and why **used HK-registered cars** — where FRT was paid by a previous owner and is already baked into the resale price — often represent materially better value than buying new.
 
-For the full FRT mechanism, including how taxable value is calculated and the EV concession that expired in March 2026, see our [First Registration Tax guide](/hong-kong/frt-tax-explained).
+To get the number for a specific car, use our [Hong Kong First Registration Tax calculator](/hong-kong/first-registration-tax-calculator) — it takes either a taxable value or a dealer's Hong Kong price and shows the split band by band. For the full mechanism, including how taxable value is calculated and the EV concession that expired in March 2026, see our [First Registration Tax guide](/hong-kong/frt-tax-explained).
 
 ## The Parking Problem
 

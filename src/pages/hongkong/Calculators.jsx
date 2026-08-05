@@ -2,33 +2,12 @@ import { useState, useMemo } from "react";
 import Layout from "../../components/Layout";
 import { Link } from "react-router-dom";
 import EmailCapture from "../../components/EmailCapture";
+// FRT arithmetic lives in one place — src/lib/frt.js — and is shared with the
+// dedicated /hong-kong/first-registration-tax-calculator page so the two can
+// never drift apart. Do not re-implement the bands here.
+import { calcFRT, frtBandBreakdown, fmtHKD } from "../../lib/frt";
 
 /* ─── Hong Kong Calculators Page ────────────────────────────────────────── */
-
-// ── FRT calculation helpers ──────────────────────────────────────────────
-function calcFRT(taxableValue) {
-  // FRT bands (HKD):
-  // First $150,000 @ 46%
-  // Next $150,000 @ 86%
-  // Next $200,000 @ 115%
-  // Remainder @ 132%
-  if (taxableValue <= 0) return 0;
-  let frt = 0;
-  const t1 = Math.min(taxableValue, 150000);
-  frt += t1 * 0.46;
-  if (taxableValue > 150000) {
-    const t2 = Math.min(taxableValue - 150000, 150000);
-    frt += t2 * 0.86;
-  }
-  if (taxableValue > 300000) {
-    const t3 = Math.min(taxableValue - 300000, 200000);
-    frt += t3 * 1.15;
-  }
-  if (taxableValue > 500000) {
-    frt += (taxableValue - 500000) * 1.32;
-  }
-  return Math.round(frt);
-}
 
 // FRT deregistration rebate (sliding scale)
 // Full rebate for cars 0–3 years old, tapers to 0 at ~10 years
@@ -44,9 +23,7 @@ function calcFRTRebate(frt, yearsOld) {
   return Math.round(frt * factor);
 }
 
-function fmt(n) {
-  return "HK$" + Math.round(n).toLocaleString("en-HK");
-}
+const fmt = fmtHKD;
 
 // ── Tooltip component ────────────────────────────────────────────────────
 function Tooltip({ text }) {
@@ -122,25 +99,16 @@ function FRTCalculator() {
     return { isEV: false, frt, totalOnRoad, frtRate, rebate, yearsOld, taxableValue: tvNum };
   }, [tvNum, vehicleType, yearsOld]);
 
-  // Show FRT band breakdown
-  const bandBreakdown = useMemo(() => {
-    if (tvNum <= 0) return [];
-    const bands = [];
-    const t1 = Math.min(tvNum, 150000);
-    bands.push({ range: "First HK$150,000", rate: "46%", tax: Math.round(t1 * 0.46), applicable: tvNum > 0 });
-    if (tvNum > 150000) {
-      const t2 = Math.min(tvNum - 150000, 150000);
-      bands.push({ range: "Next HK$150,000", rate: "86%", tax: Math.round(t2 * 0.86), applicable: true });
-    }
-    if (tvNum > 300000) {
-      const t3 = Math.min(tvNum - 300000, 200000);
-      bands.push({ range: "Next HK$200,000", rate: "115%", tax: Math.round(t3 * 1.15), applicable: true });
-    }
-    if (tvNum > 500000) {
-      bands.push({ range: "Remainder", rate: "132%", tax: Math.round((tvNum - 500000) * 1.32), applicable: true });
-    }
-    return bands;
-  }, [tvNum]);
+  // Show FRT band breakdown (shared helper — see src/lib/frt.js)
+  const bandBreakdown = useMemo(
+    () =>
+      frtBandBreakdown(tvNum).map((b) => ({
+        range: b.shortLabel,
+        rate: b.ratePct,
+        tax: b.tax,
+      })),
+    [tvNum]
+  );
 
   const inputStyle = {
     width: "100%", padding: "10px 12px", borderRadius: 8,
@@ -153,10 +121,15 @@ function FRTCalculator() {
   return (
     <div>
       <h2 style={{ fontSize: 22, fontWeight: 700, color: "#1a1a2e", marginBottom: 8 }}>
-        FRT On-Road Price Calculator
+        FRT Quick Check
       </h2>
-      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24, lineHeight: 1.6 }}>
+      <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 12, lineHeight: 1.6 }}>
         Enter a vehicle's taxable value to see how much First Registration Tax applies and what the total on-road price will be. Results update as you type.
+      </p>
+      <p style={{ fontSize: 13, marginBottom: 24 }}>
+        <Link to="/hong-kong/first-registration-tax-calculator" style={{ color: "#dc2626", fontWeight: 600, textDecoration: "none" }}>
+          Full First Registration Tax calculator — reverse from a dealer price, worked examples, 2026 EV rules →
+        </Link>
       </p>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 16, marginBottom: 24 }}>
@@ -614,13 +587,14 @@ function HKBuyVsLease() {
 
 // ── Main Page ─────────────────────────────────────────────────────────────
 const TABS = [
-  { id: "frt", label: "FRT Calculator" },
-  { id: "lease", label: "Lease Estimator" },
   { id: "buyvslease", label: "Buy vs Lease" },
+  { id: "lease", label: "Lease Estimator" },
   { id: "licence", label: "Licence Eligibility" },
+  { id: "frt", label: "FRT Quick Check" },
 ];
 
 const relatedLinks = [
+  { to: "/hong-kong/first-registration-tax-calculator", label: "FRT Calculator" },
   { to: "/hong-kong/frt-tax-explained", label: "FRT Explained" },
   { to: "/hong-kong/leasing-guide", label: "Leasing Guide" },
   { to: "/hong-kong/buying-guide", label: "Buying Guide" },
@@ -630,7 +604,7 @@ const relatedLinks = [
 const HERO_IMG = "https://images.unsplash.com/photo-1542189412744-bfabf27522ee?w=1200&q=80";
 
 export default function Calculators() {
-  const [activeTab, setActiveTab] = useState("frt");
+  const [activeTab, setActiveTab] = useState("buyvslease");
 
   return (
     <Layout city="hongkong" relatedLinks={relatedLinks}>
@@ -646,11 +620,30 @@ export default function Calculators() {
           Hong Kong
         </div>
         <h1 style={{ fontSize: 32, fontWeight: 800, color: "#1a1a2e", marginBottom: 12 }}>
-          Hong Kong Car Calculators &amp; Tools
+          Hong Kong Lease vs Buy Calculator &amp; Running Costs
         </h1>
-        <p style={{ color: "#4b5563", fontSize: 16, marginBottom: 32, lineHeight: 1.7 }}>
-          Four tools to work out the full FRT cost, compare leasing vs buying, estimate lease costs, and check if your foreign licence converts directly in Hong Kong.
+        <p style={{ color: "#4b5563", fontSize: 16, marginBottom: 24, lineHeight: 1.7 }}>
+          Work out whether leasing or buying is cheaper over your Hong Kong posting, estimate a monthly full-service
+          lease, and check whether your foreign licence converts without a test.
         </p>
+
+        {/* Pointer to the dedicated FRT tool */}
+        <div style={{ background: "#fffbeb", border: "1px solid #fcd34d", borderRadius: 10, padding: "16px 20px", marginBottom: 32 }}>
+          <p style={{ margin: "0 0 6px", fontSize: 15, fontWeight: 700, color: "#92400e" }}>
+            Just want the First Registration Tax on a specific car?
+          </p>
+          <p style={{ margin: "0 0 10px", fontSize: 14, color: "#78350f", lineHeight: 1.6 }}>
+            Use the dedicated tool. It works in both directions &mdash; enter a taxable value, or enter the
+            dealer&rsquo;s Hong Kong price and see how much of it is tax &mdash; with the full band breakdown, worked
+            examples and the 2026 EV position.
+          </p>
+          <Link
+            to="/hong-kong/first-registration-tax-calculator"
+            style={{ display: "inline-block", background: "#92400e", color: "#fff", padding: "10px 18px", borderRadius: 8, fontSize: 14, fontWeight: 700, textDecoration: "none" }}
+          >
+            Hong Kong First Registration Tax Calculator →
+          </Link>
+        </div>
 
         {/* Tab nav */}
         <div style={{ display: "flex", gap: 0, borderBottom: "2px solid #e5e7eb", marginBottom: 32, overflowX: "auto" }}>

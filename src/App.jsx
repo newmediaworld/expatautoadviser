@@ -22,6 +22,7 @@ import HKLicenceConversion from './pages/hongkong/LicenceConversion';
 import HKEVGuide from './pages/hongkong/EVGuide';
 import HKPetrolPrices2026 from './pages/hongkong/PetrolPrices2026';
 import HKCalculators from './pages/hongkong/Calculators';
+import HKFRTCalculator from './pages/hongkong/FRTCalculator';
 import HKGarageFinder from './pages/hongkong/GarageFinder';
 import SGLeaseChecker from './pages/singapore/LeaseChecker';
 import HKLeaseChecker from './pages/hongkong/LeaseChecker';
@@ -158,6 +159,7 @@ export function AppRoutes() {
       <Route path="/hong-kong/ev-guide" element={<HKEVGuide />} />
       <Route path="/hong-kong/petrol-prices-2026-update" element={<HKPetrolPrices2026 />} />
       <Route path="/hong-kong/calculators" element={<HKCalculators />} />
+      <Route path="/hong-kong/first-registration-tax-calculator" element={<HKFRTCalculator />} />
       <Route path="/hong-kong/garage-finder" element={<HKGarageFinder />} />
       <Route path="/hong-kong/lease-checker" element={<HKLeaseChecker />} />
       <Route path="/hong-kong/new-arrival" element={<HKNewArrival />} />

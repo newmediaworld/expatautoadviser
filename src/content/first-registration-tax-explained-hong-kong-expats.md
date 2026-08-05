@@ -5,6 +5,8 @@
 
 **Quick answer:** Hong Kong's First Registration Tax is a one-off tax you pay the first time a vehicle is registered with the Transport Department. It's calculated on the vehicle's taxable value (broadly, the published retail price, not necessarily the invoice price) and runs on a steep progressive scale: 46% on the first HK$150,000, rising to 132% above HK$500,000. For a typical imported family SUV, the FRT can materially exceed the pre-tax price of the car itself. This is the single biggest reason cars are expensive in Hong Kong.
 
+**➜ Want the number for a specific car?** Use our free [Hong Kong First Registration Tax calculator](/hong-kong/first-registration-tax-calculator). Enter a taxable value — or the dealer's Hong Kong price, and it works backwards to show you how much of that price is tax.
+
 ---
 
 When I explain Hong Kong's First Registration Tax to newly arrived expats, I'm usually met with the same look: disbelief, followed by a slightly grim laugh. "So the government charges me more in tax than the car costs?" Yes. Often exactly that.
