@@ -156,7 +156,7 @@ export default function HKLeaseChecker() {
               <h2 style={{ fontSize: 16, fontWeight: 700, color: '#1e3a5f', margin: '0 0 20px' }}>Your details</h2>
               <div>
                 <label style={labelStyle}>Email address <span style={{ color: '#0d9488' }}>*</span></label>
-                <input style={{ ...inputStyle, borderColor: errors.email ? '#0d9488' : '#d1d5db' }} type="email" placeholder="you@example.com" value={form.email} style={{ ...inputStyle, fontSize: 16, borderColor: errors.email ? '#e8341c' : '#d1d5db' }} onChange={e => set('email', e.target.value)} />
+                <input style={{ ...inputStyle, fontSize: 16, borderColor: errors.email ? '#dc2626' : '#d1d5db' }} type="email" placeholder="you@example.com" value={form.email} onChange={e => set('email', e.target.value)} />
                 {errors.email && <p style={{ ...hintStyle, color: '#dc2626' }}>{errors.email}</p>}
                 <p style={hintStyle}>Your report will also be emailed to you.</p>
               </div>
