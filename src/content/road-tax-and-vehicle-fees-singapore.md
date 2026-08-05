@@ -10,18 +10,18 @@ Road tax in Singapore is based on engine size for petrol and diesel cars, and on
 
 The petrol-car formula uses a sliding scale: small engines pay relatively little, and the rate per cc rises in higher tiers. As a rough working guide for 2026 conditions:
 
-| Engine size (rough) | Approx annual road tax (petrol) |
+| Engine size | Approx annual road tax (petrol) |
 |---|---|
-| 1.0L (1,000cc) | ~S$250 |
-| 1.6L compact saloon | ~S$740-760 |
-| 2.0L mid-size saloon | ~S$900-950 |
-| 2.5L SUV | ~S$1,400-1,500 |
-| 3.0L executive | ~S$2,100-2,200 |
-| 4.0L+ luxury | S$3,000+ |
+| 1.0L (1,000cc) | ~S$391 |
+| 1.6L compact saloon (1,598cc) | ~S$742 |
+| 2.0L mid-size saloon (1,998cc) | ~S$1,210 |
+| 2.5L SUV (2,494cc) | ~S$1,792 |
+| 3.0L executive (2,996cc) | ~S$2,380 |
+| 4.0L luxury (4,000cc) | ~S$3,949 |
 
-These are illustrative ranges only — the actual figure is engine-cc-precise and recalculated annually by LTA. You can pull the exact number for any specific car from the OneMotoring road tax calculator.
+The formula LTA publishes is a 6-monthly one, multiplied by a standing 0.782 factor: for the 1,600–3,000cc band it is [S$475 + S$0.75 × (cc − 1,600)] × 0.782 every six months. The figures above are that formula doubled to an annual number. You can pull the exact figure for any specific car from the OneMotoring road tax calculator.
 
-For most UK expat picks (1.6-2.5L family saloons or compact SUVs), road tax sits in the S$700-1,500/year range. Material but not transformative within the wider cost-of-ownership picture.
+For most UK expat picks (1.6-2.5L family saloons or compact SUVs), road tax sits in the S$740-1,800/year range. Material but not transformative within the wider cost-of-ownership picture.
 
 ## The Diesel Surcharge — Why Most Expats Don't Buy Diesel
 
@@ -35,17 +35,18 @@ Singapore is structured to push owners toward petrol, hybrid and electric over d
 
 ## Electric Vehicles: A Different Formula
 
-Electric vehicles are taxed based on motor power output rating in kW rather than engine displacement. The structure is similar in shape to the petrol formula — a sliding scale with higher tiers paying more per kW.
+Electric vehicles are taxed based on motor power output rating in kW rather than engine displacement. The structure is similar in shape to the petrol formula — a sliding scale with higher tiers paying more per kW — but with one addition most guides miss: an **Additional Flat Component (AFC) of S$350 every six months, S$700 a year**, charged on every fully electric car regardless of power. LTA's stated rationale is that EVs pay no fuel excise duty, so the AFC stands in as the usage tax. Any EV road-tax figure that doesn't include it understates the bill by S$700.
 
-For typical EVs UK expats actually buy:
+For typical EVs UK expats actually buy (road tax plus AFC):
 
-- 90-110 kW (e.g. base BYD Atto 3, smaller Hyundai/Kia EVs): roughly S$700-900/year
-- 130-160 kW (Tesla Model 3 Long Range, BMW iX1): roughly S$1,400-1,800/year
-- 200+ kW (Tesla Model Y Performance, BMW i4 M50): S$2,500+/year
+- 90-110 kW (e.g. base BYD Atto 3, smaller Hyundai/Kia EVs): roughly S$1,440-1,560/year
+- 130-160 kW (BMW iX1, mid-power SUVs): roughly S$1,680-1,850/year
+- 200-230 kW: roughly S$2,090-2,260/year
+- 324 kW (Tesla Model 3 Long Range AWD): roughly S$4,555/year — above 230 kW the formula steps up sharply to [S$1,525 + S$10 × (kW − 230)] × 0.782 per six months
 
 EVs in Singapore also benefit from the EV Early Adoption Incentive (EEAI), which delivers up to 45% off the Additional Registration Fee (ARF) at first registration. The cap is now **S$7,500** for cars registered on or after 1 January 2026 — halved from the previous S$15,000 ceiling under the tier-shift announced in 2025. This is a one-off saving rather than a recurring rebate, but the smaller cap still moves the ownership maths in favour of EVs over comparable petrol cars (and the gap closes further once you factor in lower road tax and VES rebates).
 
-EVs also avoid Special Tax surcharges and typically benefit from VES banding rebates (see next section). Net annual recurring cost for an EV is generally below the equivalent petrol on road tax alone — and well below diesel.
+EVs also avoid Special Tax surcharges and typically benefit from VES banding rebates (see next section). But note the road-tax picture is not the saving many expect: once the S$700 AFC is added, a modest EV pays roughly what a 2.0L petrol pays, and a high-powered one pays substantially more. The EV case in Singapore rests on the registration-stage rebates and the fuel-versus-electricity gap, not on road tax.
 
 ## The Vehicle Emissions Scheme (VES)
 
@@ -91,7 +92,7 @@ For a 1.6L petrol saloon (Toyota Corolla, Mazda 3, Honda Civic) bought new with 
 | LTA fees (sundry) | ~S$50 |
 | **Annual recurring total (years 3-10)** | **~S$2,236** |
 
-For a 2.5L petrol SUV with the same ownership profile, annual recurring rises to approximately S$3,200-3,600. For a 2.0L diesel SUV (the worst-case structure), expect S$8,000+ in recurring annual costs even before fuel. For a Tesla Model 3 Long Range EV, recurring is roughly S$2,800-3,000/year — broadly in line with the 1.6L petrol despite the much higher purchase price, because the ongoing tax and fuel structure are favourable.
+For a 2.5L petrol SUV with the same ownership profile, annual recurring rises to approximately S$3,200-3,600. For an old pre-Euro IV 2.0L diesel SUV (the worst-case structure), expect S$8,000+ in recurring annual costs even before fuel. For a Tesla Model 3 Long Range EV, recurring is closer to S$6,000-6,500/year, because its 324 kW motor puts it in the top road-tax band at roughly S$4,555/year including the AFC — a reminder that EV road tax in Singapore is not automatically cheaper. The EV savings show up in fuel and at registration, not here.
 
 This recurring layer matters more on a 3-year expat ownership window than people realise. On a S$120,000 mid-tier car bought in year 1 and sold in year 4, ~S$7,000-9,000 of cumulative recurring costs is real cash that's separate from depreciation, fuel, and ERP charges.
 
@@ -101,9 +102,9 @@ ERP (Electronic Road Pricing) gantries charge variable fees during peak periods 
 
 Season parking (where applicable): HDB season parking is around S$110-130/month for a covered space; private condos vary widely (often free for 1 vehicle/unit, S$200-500/month for additional units); CBD office parking S$300-500/month.
 
-Petrol: prevailing pump prices in Singapore have fluctuated but typically S$2.80-3.20/L for 95-octane in 2026. A 12,000 km/year driver of a 1.6L saloon spends ~S$2,000/year on fuel.
+Petrol: prevailing pump prices in Singapore have fluctuated but list prices in mid-2026 sit around S$3.35-3.40/L for RON95, with pump discounts typically taking 5% off that. A 12,000 km/year driver of a 1.6L saloon spends roughly S$2,600/year on fuel.
 
-Add it all up and the realistic annual all-in for a 1.6L expat saloon doing CBD commuting is roughly **S$5,500-7,000/year** in recurring + variable costs. For most UK expats this is a significant under-estimate vs the headline they had in mind when they bought the car.
+Add it all up and the realistic annual all-in for a 1.6L expat saloon doing CBD commuting is roughly **S$6,500-8,000/year** in recurring + variable costs. For most UK expats this is a significant under-estimate vs the headline they had in mind when they bought the car.
 
 ## What This Means for Choosing a Car
 
@@ -111,7 +112,7 @@ Three practical implications for UK expats considering car ownership:
 
 **Diesel is no longer an option on a new car.** New registrations of diesel cars have been barred since 1 January 2025, and on the used market Special Tax plus a poor VES band make diesel structurally uneconomic for most expat use cases anyway. If you're moving from a diesel UK car, expect to switch to petrol, hybrid or EV.
 
-**The recurring-cost gap between EV and equivalent petrol is smaller than headlines suggest.** EV running costs (electricity vs petrol) are genuinely cheaper, but the road-tax saving is modest, not transformative. The bigger EV economic case is the EEAI rebate at registration plus VES rebate, both one-off — not the recurring layer.
+**The recurring-cost gap between EV and equivalent petrol is smaller than headlines suggest.** EV running costs (electricity vs petrol) are genuinely cheaper, but there is no road-tax saving at all once the S$700 Additional Flat Component is counted — and on a high-powered EV the road tax is materially worse than petrol. The EV economic case is the EEAI rebate at registration plus the VES rebate, both one-off, not the recurring layer.
 
 **Year-10 decision aside, recurring fees are very predictable.** Unlike the COE-driven depreciation lottery, road tax, inspection and insurance are stable line items you can model with confidence at the buy decision. Build them in.
 

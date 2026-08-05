@@ -128,7 +128,7 @@ Similar to Singapore: GBP→HKD via Wise typically completes same-day; UK bank S
 For personal accounts, Wise can handle large transfers (well above £100,000 in a single transfer) but may request source-of-funds documentation for amounts above roughly £30,000–£50,000. This is standard AML procedure — provide a payslip or contract showing the GBP source and the transfer proceeds normally.
 
 **Should I take a Singapore car loan instead of transferring all the cash?**
-Often yes for cash-flow reasons. UK expats with valid Employment Pass and a few months of Singapore salary history can typically borrow 50–60% LTV against the OMV + ARF + COE total via Singapore banks. This reduces the upfront GBP transfer; you service the SGD loan from your Singapore salary going forward. See our [car loans for expats guide](/singapore/car-loans) for the MAS LTV rules.
+Often yes for cash-flow reasons. UK expats with valid Employment Pass and a few months of Singapore salary history can typically borrow up to the MAS cap via Singapore banks — 70% of the purchase price where the car's OMV is S$20,000 or below, 60% where it is above, over a maximum seven-year tenure. This reduces the upfront GBP transfer; you service the SGD loan from your Singapore salary going forward. See our [car loans for expats guide](/singapore/car-loans) for the MAS LTV rules.
 
 **Should I do the same for Hong Kong?**
 Hong Kong has no MAS-equivalent LTV cap for car loans. HSBC HK, BOCHK, Hang Seng all offer auto loans for residence-pass holders, typically with shorter tenors (3–5 years) and rates around 2.5–4% APR. Same logic applies: borrowing locally reduces the upfront GBP transfer, you service the HKD loan from your HK salary.

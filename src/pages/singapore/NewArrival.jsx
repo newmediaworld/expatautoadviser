@@ -40,7 +40,7 @@ export default function SGNewArrival() {
       <div style={good}><strong>The new arrival strategy:</strong> Spend your first 1&ndash;3 months using Grab and the MRT. Get to know your neighbourhood, your commute, and where your kids' school is. Then decide.</div>
 
       <h2 style={h2}>Your first month: use Grab and the MRT</h2>
-      <p style={body}>Grab is everywhere in Singapore, reliable, and cheap. The MRT is air-conditioned, clean, and covers 97% of the island. MRT monthly pass: SGD $128. Grab for occasional trips: SGD $200&ndash;400. Total: SGD $330&ndash;530 vs SGD $3,500+ for a leased car.</p>
+      <p style={body}>Grab is everywhere in Singapore, reliable, and cheap. The MRT is air-conditioned, clean, and reaches most built-up parts of the island. MRT monthly pass: SGD $128. Grab for occasional trips: SGD $200&ndash;400. Total: SGD $330&ndash;530 vs SGD $3,500+ for a leased car.</p>
 
       <h2 style={h2}>Month 2&ndash;3: assess your real situation</h2>
       <p style={body}>By month 2, you'll know where you're living relative to the MRT, your commute pattern, and whether you have school-age kids. These are the three factors that determine whether you need a car.</p>

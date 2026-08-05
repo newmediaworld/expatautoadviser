@@ -92,7 +92,7 @@ Cross-border motoring to Malaysia (Johor Bahru, Melaka, KL for a weekend) is sta
 
 **Leased-car complication:** if you lease your Singapore car, the leasing company typically requires written notification (sometimes a formal permission letter) before you take the car into Malaysia. Some leases explicitly prohibit cross-border driving; others charge a SGD 50-100 per-trip administration fee. Check the lease before you plan the first Malaysia trip. See our [Singapore Leasing Guide](/singapore/leasing-guide) for the full lease-cover picture.
 
-**Malaysia road tax and insurance disc:** if you drive frequently across the border, you may need a Malaysian Vehicle Entry Permit (VEP) — a RFID sticker required for all foreign vehicles entering Malaysia. This is a Malaysian JPJ requirement separate from your Singapore insurance. Budget RM10 admin fee for VEP, valid 5 years, and complete the online application at [vep.jpj.gov.my](https://vep.jpj.gov.my) before your first trip.
+**Malaysia road tax and insurance disc:** if you drive frequently across the border, you may need a Malaysian Vehicle Entry Permit (VEP) — a RFID sticker required for all foreign vehicles entering Malaysia. This is a Malaysian JPJ requirement separate from your Singapore insurance. Online registration at [vep.jpj.gov.my](https://vep.jpj.gov.my) is free, but the RFID tag itself costs RM10 in processing plus an RM29.50 collection-agent service fee (and courier if posted) — budget around RM40 all-in. The tag is valid 5 years from activation. Separately, foreign private cars pay a **Road Charge of RM20 per entry**, payable only by Touch 'n Go card or TNG eWallet. Driving in without a valid VEP is an offence under the Road Transport Act 1987.
 
 ## Excess, deductibles and driver conditions
 

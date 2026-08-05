@@ -30,7 +30,7 @@ const insuranceFAQ = [
   },
   {
     q: "What if I need to arrange my own insurance (buying rather than leasing)?",
-    a: "Get quotes from at least 3 insurers. DirectAsia, NTUC Income, Tokio Marine and AXA are the main players. With no SG NCD history, expect to pay roughly SGD $1,500–$3,000/year for comprehensive cover on an economy car. Present your overseas NCD letter to each insurer — it can knock 30–50% off the premium.",
+    a: "Get quotes from at least 3 insurers. DirectAsia, Income Insurance (formerly NTUC Income), MSIG and Tokio Marine are the main players — note AXA no longer writes motor cover in Singapore under that name, having been acquired by HSBC and rebranded HSBC Life in February 2023. With no SG NCD history, expect to pay roughly SGD $1,500–$3,000/year for comprehensive cover on an economy car. Present your overseas NCD letter to each insurer.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function SGInsuranceGuide() {
         </div>
 
         <h2 style={h2}>If your lease doesn't include insurance</h2>
-        <p style={body}>Major Singapore insurers include DirectAsia, NTUC Income, Tokio Marine, and AXA. Expect to pay roughly <strong>SGD $1,500–$3,000/year</strong> for comprehensive coverage on an economy car with no SG NCD history. Submit your overseas NCD letter to each insurer for an accurate quote — it can reduce the premium by 30–50%.</p>
+        <p style={body}>Major Singapore insurers include DirectAsia, Income Insurance (the rebranded NTUC Income), MSIG and Tokio Marine. Expect to pay roughly <strong>SGD $1,500–$3,000/year</strong> for comprehensive coverage on an economy car with no SG NCD history. Submit your overseas NCD letter to each insurer for an accurate quote.</p>
 
         <AffiliateBox
           city="sg"

@@ -2,7 +2,7 @@
 
 ---
 
-**Quick answer:** "Under S$100,000" is now structurally impossible for a new family car in Singapore — COE alone is ~S$120-125k in 2026. Realistic family-car budget tiers for UK expats are **S$160-200k** (small SUVs and saloons like Honda HR-V, Toyota Corolla Cross, Honda Civic), **S$200-260k** (mid-size SUVs like Toyota RAV4, Mazda CX-5, Honda CR-V, Hyundai Tucson), and **S$260-340k** (premium SUVs and 7-seaters like BMW X3, Mercedes GLB, Volvo XC60, Toyota Alphard). Used cars 3+ years old can shave 30-50% off, with the trade-off of less remaining COE life.
+**Quick answer:** "Under S$100,000" is now structurally impossible for a new family car in Singapore — COE alone closed at S$126,000 for Cat A and S$129,890 for Cat B in the July 2026 second bidding exercise. Realistic family-car budget tiers for UK expats are **S$160-200k** (small SUVs and saloons like Honda HR-V, Toyota Corolla Cross, Honda Civic), **S$200-260k** (mid-size SUVs like Toyota RAV4, Mazda CX-5, Honda CR-V, Hyundai Tucson), and **S$260-340k** (premium SUVs and 7-seaters like BMW X3, Mercedes GLB, Volvo XC60, Toyota Alphard). Used cars 3+ years old can shave 30-50% off, with the trade-off of less remaining COE life.
 
 ---
 
@@ -44,9 +44,9 @@ Direct competitor. Slightly larger boot than HR-V, slightly less stylish interio
 
 **Honest weakness:** the petrol-only Corolla Cross is also sold in SG and is S$10K cheaper, but the fuel economy gap (~7.5L/100km vs 4.8 for hybrid) erases the saving inside two years for a typical commuting family.
 
-### Honda Civic (Sedan) — S$165-178K all-in
+### Honda Civic (Sedan) — Cat B, and dearer than you'd think
 
-Worth flagging for families who don't need the SUV ride height. Bigger boot than the HR-V, tighter handling, more rear legroom. Cat A category. Same 1.5L hybrid powertrain in some trims.
+Worth flagging for families who don't need the SUV ride height. Bigger boot than the HR-V, tighter handling, more rear legroom. But check the category before you budget: the 2.0 e:HEV sold here is 1,993cc and 149kW, which puts it firmly in **Category B**, and LTA's own Car Cost Update for cars registered in June 2026 shows it at a distributor price of **S$239,999** — well outside this tier.
 
 **Honest weakness:** ground clearance is low — speed bumps in older HDB carparks are an irritation; ramps at private condos are usually fine.
 
@@ -158,7 +158,7 @@ The 2026 SG family-car market has a few traps worth flagging.
 
 ## A note on COE timing
 
-The all-in prices in this article are based on the 22 April 2026 COE round (Cat A: S$123,010; Cat B: S$121,001). COE prices change every two weeks at the LTA bidding. They have ranged in 2026 from a low of ~S$108K to a high of ~S$135K within the same year.
+The all-in prices in this article are based on the 22 April 2026 COE round (Cat A: S$123,010; Cat B: S$121,001). COE prices change every two weeks at the LTA bidding. Category A has ranged in 2026 from a low of S$102,009 (January, first bidding) to a high of S$129,000 (July, first bidding).
 
 If you're not in a rush, watching for a COE soft round can save S$10-15K on the all-in price of any car here. Most dealers will allow a "wait for next round" instruction on your bid, with refund if you change your mind. For the strategy mechanics — "Top of Market", "At Last Round", "Speculative Below" — see our [COE bidding strategy guide](/singapore/coe-bidding-strategy).
 

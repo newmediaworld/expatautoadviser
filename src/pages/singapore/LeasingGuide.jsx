@@ -51,7 +51,7 @@ export default function SGLeasingGuide() {
         </p>
 
         <h2 style={h2}>Why lease rather than buy?</h2>
-        <p style={body}>Buying a car in Singapore requires a Certificate of Entitlement (COE) — a government-issued permit that lets you own a car for 10 years. The price is set by open bidding and currently sits at <strong>SGD $95,000–$115,000</strong> for a normal car. That's before you've paid for the car itself.</p>
+        <p style={body}>Buying a car in Singapore requires a Certificate of Entitlement (COE) — a government-issued permit that lets you own a car for 10 years. The price is set by open bidding and moves every fortnight — in the July 2026 second bidding exercise it closed at <strong>SGD $126,000 for Category A and SGD $129,890 for Category B</strong>. That's before you've paid for the car itself.</p>
         <p style={body}>For a typical expat on a 2–3 year assignment, buying exposes you to significant COE resale risk: if COE prices fall before you leave, your car's value drops sharply. Leasing sidesteps this entirely. You pay a fixed monthly rate, hand the car back, and walk away.</p>
 
         <h2 style={h2}>What's typically bundled in a Singapore lease?</h2>

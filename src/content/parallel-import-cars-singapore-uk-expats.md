@@ -50,7 +50,7 @@ For a 2-3 year expat assignment where you'll sell before warranty would have lap
 
 ### 2. Financing: Mostly Fine, with Exceptions
 
-UK expats financing through Singapore banks (DBS, OCBC, UOB, Standard Chartered) can typically get a car loan against a PI car in the same way as an AD car. MAS LTV rules apply identically — 50-60% maximum loan-to-value for cars with OMV above S$20,000.
+UK expats financing through Singapore banks (DBS, OCBC, UOB, Standard Chartered) can typically get a car loan against a PI car in the same way as an AD car. MAS LTV rules apply identically — 70% of the purchase price for cars with an OMV of S$20,000 or below, 60% for cars above it, over a maximum seven-year tenure.
 
 Where financing wobbles is at the niche end: very small PIs without strong relationships, or used PI cars with patchy paperwork. Major-brand PI new cars financed through tier-1 banks: no issue.
 
@@ -120,7 +120,7 @@ Total timeline from deposit to driving home: 3-6 weeks, similar to AD.
 
 ## Why Due-Diligence on the PI Matters (the Concordway Case)
 
-In April 2026, LTA and Singapore Customs jointly announced one of the largest parallel-import enforcement actions in recent memory. Concordway Pte Ltd's sole director, Subash Indrajith, was charged with nine counts under the Customs Act covering 34 vehicles imported between October 2018 and February 2024, with suppressed-value declarations and undeclared "commission" fees of S$3,000-S$4,000 per vehicle. He pleaded guilty on 24 April 2026 and was fined a combined S$1.068 million, with a 25 May 2026 payment deadline — failing which a 12-month custodial sentence kicks in.
+In April 2026, LTA and Singapore Customs jointly announced one of the largest parallel-import enforcement actions in recent memory. Concordway Pte Ltd's sole director, Subash Indrajith, was charged with nine counts under the Customs Act covering 34 vehicles imported between October 2018 and February 2024, with suppressed-value declarations and undeclared "commission" fees of S$3,000-S$4,000 per vehicle. He pleaded guilty on 24 April 2026 and was fined a combined S$1,068,000, with a 25 May 2026 payment deadline — failing which a default sentence of 12 months and two weeks' imprisonment kicks in. He also received two months' jail under the Road Traffic Act for under-declaring values to LTA, and the court ordered repayment of a S$1,069,595 ARF shortfall.
 
 What does this mean for you as a buyer? Two things:
 

@@ -40,7 +40,7 @@ The two bits to get right:
 
 Why does this matter to you as a buyer?
 
-**A 5-year-old PARF car** has a rebate of roughly 50% of the original ARF sitting waiting when you eventually deregister it. That's often S$10,000–S$25,000 of value.
+**A 5-year-old PARF car** — one registered around 2021, so on the schedule in force before February 2023 — has a rebate of 75% of the original ARF sitting waiting when you eventually deregister it, uncapped. That's often S$15,000–S$30,000 of value. Check the registration date, though: cars registered with COEs from the second February 2026 bidding exercise onwards are on a much thinner schedule — 30% of ARF at five years, capped at S$30,000, stepping down to 5% by year ten. Two otherwise identical cars can carry very different rebates depending on which side of that line they were registered.
 
 **A 5-year-old non-PARF car** has no rebate. It's cheaper to buy, but you recover nothing at the end.
 
@@ -100,7 +100,7 @@ A car with 4+ previous owners in under 5 years is a red flag. So is an encumbran
 
 ## Loan Considerations for Used Cars
 
-MAS LTV rules still apply, but with a wrinkle: loans on cars over 10 years old are not permitted, and loans on cars with less than 2 years of COE remaining are rarely approved.
+MAS LTV rules still apply, but with a wrinkle: in practice lenders will not write a loan on a car over 10 years old, and loans on cars with less than 2 years of COE remaining are rarely approved. Both are lender policy rather than a MAS rule.
 
 Effective financing windows:
 

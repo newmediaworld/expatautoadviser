@@ -511,22 +511,27 @@ function COEBuyVsLease() {
 }
 
 // ── Licence Eligibility Checker ──────────────────────────────────────────
+// Singapore has NO test-free conversion route for any country. Traffic Police
+// require every foreign licence holder to pass the Basic Theory Test before a
+// conversion application can be submitted; whether a Practical Driving Test is
+// also required is assessed case by case.
+// Source: police.gov.sg — Singapore Driving Licence (Traffic Police)
 const LICENCE_DATA = {
-  UK: { country: "United Kingdom", result: "direct", note: "Convert directly at Traffic Police — no test required. Book via OneMotoring." },
-  AU: { country: "Australia", result: "direct", note: "Convert directly. Bring original licence, passport, pass, and 2 photos." },
-  NZ: { country: "New Zealand", result: "direct", note: "Convert directly. Same process as Australian licence." },
-  US: { country: "United States", result: "direct", note: "Convert directly. State licence accepted — international driving permit not required." },
-  CA: { country: "Canada", result: "direct", note: "Convert directly. Provincial licence accepted." },
-  IE: { country: "Ireland", result: "direct", note: "Convert directly. EU licences accepted." },
-  DE: { country: "Germany", result: "direct", note: "Convert directly — EU licence." },
-  FR: { country: "France", result: "direct", note: "Convert directly — EU licence." },
-  NL: { country: "Netherlands", result: "direct", note: "Convert directly — EU licence." },
-  SE: { country: "Sweden", result: "direct", note: "Convert directly — EU licence." },
-  JP: { country: "Japan", result: "direct", note: "Convert directly. Must include official translation if not in English." },
-  IN: { country: "India", result: "test", note: "Must pass Singapore driving test. Theory and practical required." },
-  CN: { country: "China", result: "test", note: "Must pass Singapore driving test. Theory and practical required." },
-  PH: { country: "Philippines", result: "test", note: "Must pass Singapore driving test. Theory and practical required." },
-  ID: { country: "Indonesia", result: "test", note: "Must pass Singapore driving test. Theory and practical required." },
+  UK: { country: "United Kingdom", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. Traffic Police then decide case by case whether a practical test is also needed." },
+  AU: { country: "Australia", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. Bring original licence, passport, pass, and a passport photo." },
+  NZ: { country: "New Zealand", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. Same process as an Australian licence." },
+  US: { country: "United States", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. State licences are accepted for conversion." },
+  CA: { country: "Canada", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. Provincial licences are accepted." },
+  IE: { country: "Ireland", result: "btt", note: "Pass the Basic Theory Test, then apply to convert." },
+  DE: { country: "Germany", result: "btt", note: "Pass the Basic Theory Test, then apply to convert." },
+  FR: { country: "France", result: "btt", note: "Pass the Basic Theory Test, then apply to convert." },
+  NL: { country: "Netherlands", result: "btt", note: "Pass the Basic Theory Test, then apply to convert." },
+  SE: { country: "Sweden", result: "btt", note: "Pass the Basic Theory Test, then apply to convert." },
+  JP: { country: "Japan", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. Include an official English translation of the licence." },
+  IN: { country: "India", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. A practical driving test is more commonly required for licences from this country." },
+  CN: { country: "China", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. A practical driving test is more commonly required for licences from this country." },
+  PH: { country: "Philippines", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. A practical driving test is more commonly required for licences from this country." },
+  ID: { country: "Indonesia", result: "btt", note: "Pass the Basic Theory Test, then apply to convert. A practical driving test is more commonly required for licences from this country." },
 };
 
 function LicenceChecker() {
@@ -535,9 +540,9 @@ function LicenceChecker() {
 
   return (
     <div>
-      <h2 style={{ fontSize: 22, fontWeight: 700, color: "#1a1a2e", marginBottom: 8 }}>Licence Eligibility Checker</h2>
+      <h2 style={{ fontSize: 22, fontWeight: 700, color: "#1a1a2e", marginBottom: 8 }}>Licence Conversion Checker</h2>
       <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24 }}>
-        Direct conversion without any test is only available for specific approved countries. Select yours below — if it's not listed, Singapore's full driving test applies.
+        Singapore has no test-free conversion route for any country. Every foreign licence holder must pass the Basic Theory Test first; Traffic Police then assess case by case whether a practical driving test is also required. Select your licence country for the specifics.
       </p>
 
       <div style={{ marginBottom: 24 }}>
@@ -555,26 +560,24 @@ function LicenceChecker() {
       {country === "OTHER" ? (
         <div style={{ background: "#fef3c7", borderRadius: 12, padding: 20, border: "1px solid #fcd34d" }}>
           <p style={{ fontSize: 14, color: "#92400e", margin: 0 }}>
-            Your country isn't in our list. Check the <a href="https://onemotoring.lta.gov.sg" target="_blank" rel="noopener noreferrer" style={{ color: "#92400e" }}>LTA's OneMotoring website</a> for the full current list of recognised countries. If your country isn't listed, you'll need to sit the Singapore driving test.
+            Your country isn't in our list, but the requirement is the same for everyone: pass the Basic Theory Test, then submit a conversion application to Traffic Police, who decide whether a practical driving test is also needed. Check the <a href="https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence" target="_blank" rel="noopener noreferrer" style={{ color: "#92400e" }}>Traffic Police licence page</a> for the current process.
           </p>
         </div>
       ) : selected ? (
-        <div style={{ background: selected.result === "direct" ? "#f0fdf4" : "#fef2f2", borderRadius: 12, padding: 24, border: `1px solid ${selected.result === "direct" ? "#86efac" : "#fca5a5"}` }}>
-          <div style={{ fontSize: 24, marginBottom: 8 }}>{selected.result === "direct" ? "✅" : "⚠️"}</div>
-          <h3 style={{ fontSize: 17, fontWeight: 700, color: selected.result === "direct" ? "#15803d" : "#dc2626", marginBottom: 8 }}>
-            {selected.result === "direct" ? "Direct licence exchange — no driving test required" : "Driving test required"}
+        <div style={{ background: "#fffbeb", borderRadius: 12, padding: 24, border: "1px solid #fcd34d" }}>
+          <div style={{ fontSize: 24, marginBottom: 8 }}>📋</div>
+          <h3 style={{ fontSize: 17, fontWeight: 700, color: "#92400e", marginBottom: 8 }}>
+            Basic Theory Test required — no test-free exchange
           </h3>
           <p style={{ fontSize: 14, color: "#374151", marginBottom: 0 }}>{selected.note}</p>
-          {selected.result === "direct" && (
-            <div>
-              <div style={{ marginTop: 16, fontSize: 13, color: "#374151" }}>
-                <strong>What to bring:</strong> Passport, valid work/dependent pass, original foreign licence, 2 passport photos, ~S$50 fee. Book at <a href="https://onemotoring.lta.gov.sg" target="_blank" rel="noopener noreferrer" style={{ color: "#15803d" }}>OneMotoring</a>.
-              </div>
-              <div style={{ marginTop: 10, fontSize: 13, color: "#92400e", background: "#fffbeb", borderRadius: 6, padding: "8px 12px" }}>
-                <strong>Note:</strong> A basic vision test is conducted at the Traffic Police counter during conversion. Bring glasses or contacts if you wear them.
-              </div>
+          <div>
+            <div style={{ marginTop: 16, fontSize: 13, color: "#374151" }}>
+              <strong>What to bring:</strong> Passport, valid work/dependent pass, original foreign licence (with certified English translation if not in English), a passport photo, and the S$50 conversion fee. The Basic Theory Test itself costs S$7.20 (from 13 March 2026). Apply via the <a href="https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence" target="_blank" rel="noopener noreferrer" style={{ color: "#92400e" }}>Traffic Police e-Services portal</a>.
             </div>
-          )}
+            <div style={{ marginTop: 10, fontSize: 13, color: "#92400e", background: "#fff7ed", borderRadius: 6, padding: "8px 12px" }}>
+              <strong>Note:</strong> A basic vision test is conducted at the Traffic Police counter during conversion. Bring glasses or contacts if you wear them.
+            </div>
+          </div>
         </div>
       ) : null}
 

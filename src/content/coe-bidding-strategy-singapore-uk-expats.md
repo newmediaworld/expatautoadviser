@@ -10,7 +10,7 @@ This is the practical strategy guide. How the auction actually works, the three 
 
 ## How COE Bidding Actually Works
 
-Singapore's Land Transport Authority runs the COE auction on the **first and third Wednesday of each month**. Bids are submitted by **registered bidders** (your dealer or, occasionally, a banker) on your behalf. The auction is a **sealed-bid uniform-price auction**: everyone submits a private bid, the auction closes, and the price everyone pays equals the **lowest successful bid** (the "cut-off" or COE price for that round).
+Singapore's Land Transport Authority runs two COE bidding exercises a month. Each **opens at 12 noon on the first and third Monday of the month, runs for three working days, and closes at 4pm on the Wednesday of the same week**. Bids are submitted by **registered bidders** (your dealer or, occasionally, a banker) on your behalf. The auction is a **sealed-bid uniform-price auction**: everyone submits a private bid, the auction closes, and the price everyone pays equals the **lowest successful bid** (the "cut-off" or COE price for that round).
 
 This means: you don't pay your bid. You pay whatever the lowest successful bid was. So if you bid S$130,000 and the cut-off price for that round is S$118,000, you pay S$118,000 — the bid amount above is just your maximum threshold.
 
@@ -30,8 +30,8 @@ April 2026 reference (LTA's 22 April 2nd bidding):
 
 ### The auction mechanics
 
-1. **Open**: typically Tuesday afternoon before the bidding date, dealers can submit bids via LTA's e-system.
-2. **Close**: typically Wednesday at 4pm SGT.
+1. **Open**: 12 noon on the first or third Monday of the month — dealers submit bids via LTA's e-system from then on.
+2. **Close**: 4pm SGT on the Wednesday of the same week (three working days later; a public holiday in between pushes it back).
 3. **Result**: published Wednesday evening; you find out a few hours after close whether your dealer's bid won or lost.
 4. **If you won**: dealer registers your car within ~10 working days, you take delivery, you start using the COE.
 5. **If you lost**: your bid amount is refunded to the dealer; dealer offers to bid again in the next round (typically 2 weeks later) at a revised amount.
@@ -82,7 +82,7 @@ Each works for different situations. The "right" choice depends on your urgency,
 
 COE prices follow predictable patterns and unpredictable shocks. The patterns:
 
-**Quota cycles**: LTA announces quotas on a 6-monthly basis, typically in January-February (covering Feb-Apr), April-May (May-Jul), July-August (Aug-Oct), October-November (Nov-Jan). Larger quotas → lower COE; smaller quotas → higher COE. Watching the quota announcement is more reliable than watching individual round prices.
+**Quota cycles**: LTA announces the vehicle quota **quarterly** — typically in January-February (covering Feb-Apr), April-May (May-Jul), July-August (Aug-Oct) and October-November (Nov-Jan). Larger quotas → lower COE; smaller quotas → higher COE. Watching the quota announcement is more reliable than watching individual round prices.
 
 **De-registration timing**: cars de-registered (after 10-year COE expiry) free up "replacement" COEs for new cars. Larger de-registration cycles in some quarters reduce supply pressure.
 
@@ -142,7 +142,7 @@ For the broader buying-process picture (dealer choice, financing, paperwork), se
 ## Frequently Asked Questions
 
 **How does COE bidding work in Singapore?**
-The Land Transport Authority runs a sealed-bid uniform-price auction twice a month (first and third Wednesday). Your dealer bids on your behalf with their LTA-registered bidder ID. The lowest successful bid sets the cut-off price; everyone who won pays that price (not their actual bid). Bidding closes Wednesday 4pm; results published the same evening.
+The Land Transport Authority runs a sealed-bid uniform-price auction twice a month. Bidding opens at 12 noon on the first and third Monday and closes at 4pm on the Wednesday of the same week. Your dealer bids on your behalf with their LTA-registered bidder ID. The lowest successful bid sets the cut-off price; everyone who won pays that price, not their actual bid. Results are published the same evening.
 
 **What's the difference between Cat A and Cat B COE?**
 Cat A is for cars with engine ≤ 1,600cc AND power ≤ 130bhp (Corolla, Mazda 3, Vezel, Atto 3). Cat B is for everything else (BMW 3-Series, Mercedes C-Class, Tesla Model 3 Long Range). Historically Cat B traded at a S$10k-S$25k premium over Cat A; in 2026 the categories have converged, occasionally with Cat A above Cat B.

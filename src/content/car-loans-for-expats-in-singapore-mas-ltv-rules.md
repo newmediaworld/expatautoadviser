@@ -7,7 +7,7 @@
 
 *Typical lender practice:* Individual banks add their own requirements on top — commonly proof of income, bank statements, a healthy Total Debt Servicing Ratio (TDSR), and a reasonable run of Employment Pass validity. Some lenders expect around 12 months of EP remaining, but this is a bank heuristic, not a MAS rule. A guarantor is sometimes required for newcomer expats with thin Singapore credit history.
 
-Cash needed at the dealership is also more than just the loan deposit — you'll fund COE, ARF, GST, registration fees, and first-year insurance from your own pocket too. For the insurance side, most expats end up with AXA, NTUC Income, or FWD — [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-car-loans-for-expats-in-singapore-mas-ltv-rules) quotes the main expat-friendly insurers in parallel from a single form.
+Cash needed at the dealership is also more than just the loan deposit — you'll fund COE, ARF, GST, registration fees, and first-year insurance from your own pocket too. For the insurance side, most expats end up with Income Insurance (formerly NTUC Income), MSIG or FWD — [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-car-loans-for-expats-in-singapore-mas-ltv-rules) quotes the main expat-friendly insurers in parallel from a single form.
 
 _This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
 
@@ -28,7 +28,7 @@ MAS introduced the current LTV caps in May 2016 and they have been in place sinc
 
 Maximum loan tenure: **7 years**. No exceptions.
 
-The Open Market Value (OMV) is the price LTA assessed the vehicle at for tax purposes — it's essentially the cost of the car before Singapore's COE, ARF, and GST. A typical Category A family sedan (Honda Civic, Toyota Corolla Altis) sits below the S$20,000 OMV threshold. Most European cars, large SUVs, and luxury marques are above it.
+The Open Market Value (OMV) is the value Singapore Customs assesses the vehicle at for tax purposes — it's essentially the cost of the car before Singapore's COE, ARF, and GST. Fewer cars sit below the S$20,000 threshold than expats assume: LTA's Car Cost Update for cars registered in June 2026 puts the Toyota Vios Hybrid at S$21,505 and the Honda Civic 2.0 e:HEV at S$35,555. Check the actual OMV for your model rather than assuming a mainstream badge means the 70% band.
 
 You can find a vehicle's OMV on the LTA One Motoring website under "Buying a Vehicle" — just enter the make and model.
 
@@ -40,8 +40,8 @@ Let me walk through a few loan-side scenarios. **Note:** the purchase prices bel
 
 | Car | Approx. price | OMV band | Max loan | Minimum cash deposit |
 |---|---|---|---|---|
-| Toyota Vios | S$120,000 | ≤ S$20k | 70% = S$84,000 | S$36,000 |
-| Honda Civic | S$150,000 | ≤ S$20k | 70% = S$105,000 | S$45,000 |
+| Toyota Vios (petrol, sub-S$20k OMV trim) | S$120,000 | ≤ S$20k | 70% = S$84,000 | S$36,000 |
+| Honda Civic 2.0 e:HEV (OMV S$35,555) | S$240,000 | &gt; S$20k | 60% = S$144,000 | S$96,000 |
 | Mazda CX-5 | S$180,000 | > S$20k | 60% = S$108,000 | S$72,000 |
 | BMW 3 Series | S$260,000 | > S$20k | 60% = S$156,000 | S$104,000 |
 

@@ -26,7 +26,7 @@ export default function SGLicenceConversion() {
         <div style={{margin:"16px 0 28px"}}>
           {[
             {title:"Basic Theory Test (BTT) — mandatory for all",desc:"50 multiple-choice questions, 50 minutes, 90% pass mark required (45/50). Covers Singapore road rules, signs, and safe driving behaviour. You must pass this before you can submit a conversion application."},
-            {title:"Practical Driving Test (PDT) — assessed case-by-case",desc:"After your BTT, Traffic Police reviews your foreign licence and driving history. Depending on your licence origin and experience, you may or may not need a PDT. Note: from September 2025, holders of Work Permits or S Passes must complete the PDT for Class 3 (manual) vehicles regardless of their licence country."},
+            {title:"Practical Driving Test (PDT) — assessed case-by-case",desc:"After your BTT, Traffic Police reviews your foreign licence and driving history. Depending on your licence origin and experience, you may or may not need a PDT. Note: Work Permit and S Pass holders are issued a Class 3C (automatic-only) licence on conversion — a practical driving test is required if you want full Class 3."},
           ].map(({title,desc}) => (
             <div key={title} style={{display:"flex",gap:16,marginBottom:20}}>
               <div style={{width:10,height:10,borderRadius:"50%",background:"#e8341c",marginTop:6,flexShrink:0}}></div>
@@ -38,11 +38,11 @@ export default function SGLicenceConversion() {
         <h2 style={h2}>Step-by-step process</h2>
         <div style={{margin:"16px 0 28px"}}>
           {[
-            {n:"1",t:"Book and pass the Basic Theory Test (BTT)",d:"Register via the Traffic Police e-Services portal at police.gov.sg. The BTT is held at approved driving centres such as Bukit Batok Driving Centre (BBDC) and ComfortDelGro Driving Centre (CDC). Fee is approximately SGD $6.50. You need 45 out of 50 (90%) to pass."},
+            {n:"1",t:"Book and pass the Basic Theory Test (BTT)",d:"Register via the Traffic Police e-Services portal at police.gov.sg. The BTT is held at approved driving centres such as Bukit Batok Driving Centre (BBDC) and ComfortDelGro Driving Centre (CDC). The fee rose to SGD $7.20 on 13 March 2026 and rises again to SGD $8.00 on 13 March 2027. You need 45 out of 50 (90%) to pass."},
             {n:"2",t:"Prepare your documents",d:"Valid foreign driving licence (with certified English translation if the licence is not in English), valid passport, Singapore immigration pass (Employment Pass, Dependant's Pass, Long Term Visit Pass, etc.), and a recent passport-sized photo."},
             {n:"3",t:"Submit your conversion application",d:"Apply online via the Traffic Police e-Services portal after passing the BTT. Traffic Police will review your foreign licence and driving history to determine whether a Practical Driving Test (PDT) is also required."},
             {n:"4",t:"Complete Practical Driving Test if required",d:"If TP determines a PDT is needed, you will be directed to book this at an approved driving centre. The test assesses your competency on Singapore roads under local conditions."},
-            {n:"5",t:"Receive your Singapore driving licence",d:"Once all requirements are met, your Singapore driving licence will be issued. The conversion fee is approximately SGD $50. The licence is typically valid for 5 years."},
+            {n:"5",t:"Receive your Singapore driving licence",d:"Once all requirements are met, your Singapore driving licence will be issued. The conversion fee is SGD $50."},
           ].map(({n,t,d}) => (
             <div key={n} style={{display:"flex",gap:16,marginBottom:20}}>
               <div style={{width:32,height:32,borderRadius:"50%",background:"#e8341c",color:"white",display:"flex",alignItems:"center",justifyContent:"center",fontSize:14,fontWeight:700,flexShrink:0}}>{n}</div>
@@ -54,7 +54,7 @@ export default function SGLicenceConversion() {
         <h2 style={h2}>Cost and timing</h2>
         <div style={{background:"white",border:"1px solid #e5e7eb",borderRadius:10,padding:24,margin:"16px 0 28px"}}>
           <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:20}}>
-            {[["BTT fee","~SGD $6.50"],["Conversion fee","~SGD $50"],["BTT pass mark","45/50 (90%)"],["Licence validity","Typically 5 years"]].map(([l,v]) => (
+            {[["BTT fee","SGD $7.20"],["Conversion fee","SGD $50"],["BTT pass mark","45/50 (90%)"],["BTT format","50 questions, 50 minutes"]].map(([l,v]) => (
               <div key={l}><p style={{margin:0,fontSize:13,color:"#6b7280"}}>{l}</p><p style={{margin:"4px 0 0",fontSize:18,fontWeight:700,color:"#1e3a5f"}}>{v}</p></div>
             ))}
           </div>

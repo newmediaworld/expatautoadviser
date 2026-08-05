@@ -90,8 +90,8 @@ If you're already an HSBC Premier customer (£75k UK savings/income threshold), 
 Wise (formerly TransferWise) is the cleanest fit for the typical UK-to-Singapore car transfer. Three reasons:
 
 1. **Mid-market exchange rate** — the actual interbank rate, not a marked-up retail one. The exchange-rate margin you pay traditional banks is fully visible in Wise's pricing as a single transparent fee, not buried in the rate.
-2. **Per-transaction limit up to £1,000,000** for GBP transfers. Big enough for any car purchase.
-3. **Speed:** 70%+ of Wise transfers complete inside 20 seconds. Bank-to-bank options take 1-2 working days at most. Material when you're trying to confirm funds for a dealer.
+2. **Per-transaction limit up to £1,000,000** for a GBP bank-transfer-funded payment (higher again if funded from a Wise balance). Big enough for any car purchase.
+3. **Speed:** Wise's own published figure is that 74% of its transfers arrive in under 20 seconds, and 95% within a day. Bank-to-bank options take 1-2 working days at most. Material when you're trying to confirm funds for a dealer.
 
 **Realistic Wise cost benchmarks (April 2026 pricing):**
 
@@ -135,7 +135,7 @@ You'll need:
 - **Recipient's full name** as it appears on the bank account (matches your passport)
 - **Singapore bank name** in full
 - **Account number** — typically 10-12 digits
-- **Bank code** (3-digit) and **branch code** (3-digit) — DBS branch codes are 7144 / 7174; OCBC is 7339; UOB is 7375; HSBC SG is 7232 (verify yours; these can change for specific branches)
+- **Bank code** (4-digit) and **branch code** (3-digit) — the bank codes are DBS and POSB 7171, OCBC 7339, UOB 7375, HSBC Singapore 7232. The branch code is separate and specific to your branch. Note these codes are for domestic Singapore transfers (FAST/GIRO/MEPS); an inbound international transfer needs the account number plus the SWIFT/BIC, not the bank code
 - **SWIFT/BIC code** for the bank (DBSSSGSG for DBS, OCBCSGSG for OCBC, etc.)
 
 A typo on any of these can hold up the transfer for days while it gets investigated. Triple-check before submitting.
@@ -176,7 +176,7 @@ Plan two to three transfers, not one giant lump. Each can hit Wise's instant-bra
 
 **Not building an SGD buffer.** If you intend to live in Singapore long-term, your incoming Singapore salary will be in SGD anyway — don't try to convert all of your UK savings at once. Send what you need for the car, keep the rest in GBP earning UK interest, transfer in tranches as needed.
 
-**Ignoring the loan option.** UAE and HK rules are stricter, but in Singapore a UK expat with valid Employment Pass and a few months of SG salary history can typically get a 50-60% LTV car loan through a Singapore bank. Reduces the upfront cash you need to transfer; see our [Singapore car loans guide](/singapore/car-loans) for the MAS LTV rules. If the LTV cap leaves a deposit gap that's still too large after the GBP transfer, a Singapore personal loan can sometimes top up — [SingSaver's personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&s2=eaa-funding-car-purchase-singapore-uk-expat) checks approval probability and APR across the main SG bank panel from one form, useful as a deposit-bridge tool rather than primary financing.
+**Ignoring the loan option.** UAE and HK rules are stricter, but in Singapore a UK expat with valid Employment Pass and a few months of SG salary history can typically borrow up to the MAS cap through a Singapore bank — 70% of the purchase price if the car's OMV is S$20,000 or below, 60% if it is above. Reduces the upfront cash you need to transfer; see our [Singapore car loans guide](/singapore/car-loans) for the MAS LTV rules. If the LTV cap leaves a deposit gap that's still too large after the GBP transfer, a Singapore personal loan can sometimes top up — [SingSaver's personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&s2=eaa-funding-car-purchase-singapore-uk-expat) checks approval probability and APR across the main SG bank panel from one form, useful as a deposit-bridge tool rather than primary financing.
 
 ## Should you transfer everything in one go, or split?
 
@@ -223,7 +223,7 @@ The transfer itself isn't taxable — you're moving your own funds across jurisd
 
 ### Should I take a Singapore car loan instead?
 
-Often yes for the cash-flow reasons. UK expats with valid Employment Pass and a few months of Singapore salary can typically borrow 50-60% LTV against the OMV + ARF + COE total. Reduces upfront GBP transfer; you service the loan in SGD from your Singapore salary going forward. Trade-off: SGD car-loan rates run 3-5% in 2026; the maths penciled out for most expats given GBP savings can sit in higher-yielding UK accounts. Our [Singapore car loans guide](/singapore/car-loans) covers the MAS rules in detail.
+Often yes for the cash-flow reasons. UK expats with valid Employment Pass and a few months of Singapore salary can typically borrow up to the MAS cap — 70% of the purchase price if the car's OMV is S$20,000 or below, 60% if it is above, over a maximum seven-year tenure. Note the cap is on the purchase price; the OMV only decides which band you fall into. Reduces upfront GBP transfer; you service the loan in SGD from your Singapore salary going forward. Trade-off: SGD car-loan rates run 3-5% in 2026; the maths penciled out for most expats given GBP savings can sit in higher-yielding UK accounts. Our [Singapore car loans guide](/singapore/car-loans) covers the MAS rules in detail.
 
 ### Can a personal loan help if I'm short on the cash deposit?
 

@@ -66,7 +66,7 @@ Some operators offer "excess reduction" add-ons for an extra S$50–S$100/month,
 
 Let me compare using a Honda Civic — Singapore's quintessential family car — over a 3-year period. **All figures below are illustrative example values, not quotes.** Singapore car prices swing with COE premiums, subscription pricing moves with fleet supply, and the example rests on stated assumptions that you should re-run against live numbers before deciding.
 
-**Assumptions used:** 2026 Category A new-car purchase price of S$150,000 (illustrative); 30% cash deposit; 7-year loan at 2.78% p.a. flat (illustrative market rate); mid-range expat insurance premium; PARF-eligible car; 3-year exit via dealer sale at an illustrative S$95,000 resale. Your actual numbers will differ.
+**Assumptions used:** an illustrative 2026 Category A new-car purchase price of S$150,000 with an OMV at or below S$20,000 (which is what makes the 70% LTV / 30% deposit apply — a Civic 2.0 e:HEV has an OMV of S$35,555 and would fall into the 60% band); 30% cash deposit; 7-year loan at 2.78% p.a. flat (illustrative market rate); mid-range expat insurance premium; PARF-eligible car; 3-year exit via dealer sale at an illustrative S$95,000 resale. Your actual numbers will differ.
 
 **Ownership scenario**
 
@@ -74,15 +74,15 @@ Let me compare using a Honda Civic — Singapore's quintessential family car —
 |---|---|
 | Purchase price | S$150,000 |
 | Cash deposit (30%) | S$45,000 |
-| Loan (S$105k @ 2.78% flat, 7 years) | S$1,473/month |
+| Loan (S$105k @ 2.78% flat, 7 years) | S$1,493/month |
 | Insurance (mid-range expat premium) | S$2,400/year |
 | Road tax | S$750/year |
 | Servicing (basic, annual) | S$900/year |
 | Expected resale at year 3 | S$95,000 |
 
-Total 3-year outflow: roughly S$53,000 in loan payments + S$12,150 in insurance/tax/servicing = **S$65,150**. Plus S$45,000 tied up as deposit. Recoverable on exit: S$95,000 sale − S$64,000 loan balance ≈ S$31,000 back.
+Total 3-year outflow: roughly S$53,750 in loan payments + S$12,150 in insurance/tax/servicing = **S$65,900**. Plus S$45,000 tied up as deposit. Recoverable on exit: S$95,000 sale − S$64,000 loan balance ≈ S$31,000 back.
 
-**Net 3-year cost of ownership: roughly S$79,000.**
+**Net 3-year cost of ownership: roughly S$79,900.**
 
 **Subscription scenario**
 

@@ -3,7 +3,7 @@
 
 ---
 
-**Quick answer:** Singapore law requires every child **below 1.35m in height** (not defined by age) to be properly restrained in an approved child seat or booster suitable for their size. This applies in private cars and in **ride-hailing / private-hire vehicles (Grab, Gojek, TADA, Ryde etc.) — which are not exempt**. **Licensed taxis are the exception** and are exempt from the child-restraint requirement. Penalty for non-compliance in a light vehicle is a **S$150 composition fine** and 3 demerit points (raised from S$120 with effect from 1 April 2019). ISOFIX is a fitting system, not a legal requirement, but it's widely used by i-Size seats and reduces installation error.
+**Quick answer:** Singapore law requires every child **below 1.35m in height** (not defined by age) to be properly restrained in an approved child seat or booster suitable for their size. This applies in private cars and in **ride-hailing / private-hire vehicles (Grab, Gojek, TADA, Ryde etc.) — which are not exempt**. **Licensed taxis are the exception** and are exempt from the child-restraint requirement. Penalty for non-compliance in a light vehicle is a **S$150 composition fine** and 3 demerit points (S$200 for a heavy vehicle). ISOFIX is a fitting system, not a legal requirement, but it's widely used by i-Size seats and reduces installation error.
 
 ---
 
@@ -21,7 +21,7 @@ The Road Traffic Act (Motor Vehicles, Wearing of Seat Belts Rules) requires that
 
 The 1.35m threshold is **measured by height, not age** — this is the single most important point for parents to grasp. Typical children reach 1.35m somewhere around 9–10 years old, but that's an approximate indicator, not a legal one. A tall 7-year-old may be legally out of a booster; a short 11-year-old may legally still need one. Measure the child.
 
-Penalty for non-compliance in light vehicles: **S$150 composition fine + 3 demerit points per offence** (rate set from 1 April 2019). An officer seeing multiple unrestrained children in one car will typically write it up as multiple offences.
+Penalty for non-compliance in light vehicles: **S$150 composition fine + 3 demerit points per offence**; S$200 in a heavy vehicle. An officer seeing multiple unrestrained children in one car will typically write it up as multiple offences.
 
 ## Approved Standards Singapore Recognises
 
@@ -34,7 +34,7 @@ Singapore doesn't mandate a single national standard — instead, it accepts res
 - **BS 3254 Part 2:1988** — United Kingdom.
 - **JIS D0401-1990** — Japan.
 
-Children's restraints meeting any of those standards remain legal to use. **From 31 December 2030**, however, Singapore will require restraints to meet the newer standards — older BS / JIS / early ECE seats are being phased out. If you're buying new today, prefer ECE R129 (i-Size) or current FMVSS 213 to avoid needing to replace before the deadline.
+Children's restraints meeting any of those standards remain legal to use. There is one phase-out to know about: the British standards (B.S. 3254 Part 2:1988, B.S. AU 202a:1988, B.S. AU 185:1983) and the Japanese standard JIS D0401-1990 **cease to be approved on 1 January 2031**, so owners have until 31 December 2030 to replace seats certified only to those. ECE R44 is *not* on the phase-out list and remains approved. If you're buying new today, prefer ECE R129 (i-Size) or current FMVSS 213 anyway.
 
 Practical note on physical fit: Australian (AS 1754) seats use a top-tether anchor point that many Singapore-market cars don't have fitted. Check the car before shipping a seat over.
 

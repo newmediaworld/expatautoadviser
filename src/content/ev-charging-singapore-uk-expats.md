@@ -10,7 +10,7 @@ If you have committed home or condo charging, EV is the right call for most expa
 
 ## Singapore's Public Charging Network
 
-As of mid-2026, Singapore has over 11,000 public charging points across the island — up from roughly 3,000 in early 2023. The major operators:
+As of March 2026 Singapore had **30,500 EV charging points deployed nationally**, of which roughly half are publicly accessible — up from just over 3,000 public points in late 2022. The national target is 60,000 by 2030. The major operators:
 
 ### SP Group (SP Mobility)
 
@@ -50,7 +50,7 @@ Originally a car-sharing service; the charging network it deployed (~1,500 point
 
 ### Tesla Supercharger
 
-Tesla-only, currently around **6-8 Supercharger stations** in Singapore (Orchard, Marina Bay, Changi, several malls). 250 kW peak.
+Tesla-only, currently **15 Supercharger stations** in Singapore (Orchard Central, Marina/Millenia Walk, Changi City Point, Raffles City, Causeway Point, Westgate, Waterway Point and others). 250 kW peak.
 
 - Tariff: SGD $0.55-0.70/kWh (Tesla pricing varies by demand)
 - Reserved for Tesla owners; non-Teslas can't charge here
@@ -66,9 +66,9 @@ A Tesla Model 3 Long Range has a usable battery of ~75 kWh and a real-world rang
 | Home charging (peak tariff ~$0.42/kWh) | SGD $7.00 | SGD $840 |
 | Public AC charging (SP Group, $0.55/kWh avg) | SGD $9.20 | SGD $1,100 |
 | Public DC fast (Shell Recharge, $0.85/kWh) | SGD $14.20 | SGD $1,700 |
-| Petrol equivalent (BMW 320i at 7L/100km, $3.20/L) | SGD $22.40 | SGD $2,690 |
+| Petrol equivalent (BMW 320i at 7L/100km, $3.37/L) | SGD $23.60 | SGD $2,830 |
 
-So the EV savings vs petrol scale from ~$990/year (worst case, all DC fast) to ~$2,050/year (best case, all home charging). The actual savings most expats realise sit around **SGD $1,500-1,800/year** with a mixed home + occasional public charging pattern.
+So the EV savings vs petrol scale from ~$1,130/year (worst case, all DC fast) to ~$2,190/year (best case, all home charging). The actual savings most expats realise sit around **SGD $1,500-1,800/year** with a mixed home + occasional public charging pattern.
 
 ## Home Charging — The Real Variable
 
@@ -76,7 +76,7 @@ This is where the EV decision actually gets decided for expats in Singapore. Thr
 
 ### HDB residents
 
-HDB has rolled out charging at over 1,500 carpark sites since 2022 under the EV-Common Charger Grant programme. As of mid-2026, roughly **80% of HDB carparks have at least some public AC chargers**.
+HDB carpark charging has been rolled out steadily since 2022 under the EV-Common Charger Grant programme. As of October 2025 there were **more than 7,500 charging points across about 85% of HDB carparks**, with LTA targeting at least one fast-charging hub in every HDB town by end-2027.
 
 What that means in practice:
 - You don't install a private charger at an HDB — you use the carpark's shared chargers
@@ -123,11 +123,11 @@ This shift moved a typical mid-range EV from being roughly cost-parity with petr
 
 ### Vehicle Emissions Scheme (VES) Bands
 
-The VES rebate sits **on top of EEAI** and is awarded on a per-vehicle basis based on emissions performance. Top-band A1 EVs (Tesla, BYD, Hyundai EVs) get the full SGD $22,500 rebate at registration. Below-band bands get progressively less or pay surcharges.
+The VES rebate sits **on top of EEAI** and is awarded on a per-vehicle basis based on emissions performance. From 1 January 2026 the old A1/A2/B/C1/C2 structure was replaced by A/B/C1/C2/C3, and only fully electric cars now earn a rebate — hybrids no longer do. Band A EVs (Tesla, BYD, Hyundai EVs) get the full SGD $22,500 rebate at registration. Band B is neutral; C1, C2 and C3 pay surcharges of S$7,500, S$22,500 and S$35,000 respectively in 2026.
 
 For most expat-target EVs (Tesla Model 3/Y, BYD Atto 3/Seal, Hyundai Ioniq 5/6, Kia EV6, BMW iX1/iX3), A1 banding is the norm. Combined EEAI + VES rebate = up to SGD $30,000 off ARF for a new EV.
 
-Annual road tax also benefits EVs: based on motor kW rating rather than CC displacement, EV road tax for typical models sits at SGD $700-1,500/year — broadly similar to a 1.6-2.0L petrol.
+Annual road tax does **not** benefit EVs, contrary to a widespread assumption. It is based on motor kW rating rather than cc displacement, and every fully electric car also pays a S$700/year Additional Flat Component standing in for the fuel excise duty it never pays. A 100 kW EV lands around S$1,550/year and a 150 kW one around S$1,795 — above a 1.6L petrol and roughly level with a 2.0L. A 324 kW Tesla Model 3 Long Range pays about S$4,555/year.
 
 ## Which EVs UK Expats Actually Buy
 

@@ -10,21 +10,28 @@ This guide is the six-week plan I use with departing expat clients. It covers wh
 
 Two separate refunds. Both calculated automatically by LTA, both paid by bank transfer.
 
-**PARF rebate** (Preferential Additional Registration Fee). This applies if you deregister the car before its 10th birthday. It's a percentage of the ARF (Additional Registration Fee) you originally paid when the car was first registered — not when you bought it second-hand. The percentage steps down by age:
+**PARF rebate** (Preferential Additional Registration Fee). This applies if you deregister the car before its 10th birthday. It's a percentage of the ARF (Additional Registration Fee) you originally paid when the car was first registered — not when you bought it second-hand.
 
-- Up to 5 years: 75% of ARF
-- 5 to 6 years: 70%
-- 6 to 7 years: 65%
-- 7 to 8 years: 60%
-- 8 to 9 years: 55%
-- 9 to 10 years: 50%
-- After 10 years: zero — the PARF rebate is gone
+Which percentage you get depends on when the car was registered, and this changed sharply in February 2026. There are three schedules running in parallel:
 
-So if the original ARF was S$30,000 and you deregister at 6 years 3 months, you get back 65% of S$30,000 = S$19,500. The age tiers are calculated on the registration date, not the calendar date — and they tip over on the day, not the month. A car registered on 15 March 2020 deregistered on 14 March 2026 is still in the 5-6 year band; deregister it on 16 March 2026 and you've dropped to 6-7 years and lost 5% of ARF. For a S$30,000 ARF that's S$1,500 — not a rounding error.
+| Age at deregistration | Registered before 15 Feb 2023 | Registered 15 Feb 2023 – 12 Feb 2026 | COEs from the 2nd Feb 2026 bidding onwards |
+|---|---|---|---|
+| Up to 5 years | 75% of ARF | 75% | **30%** |
+| 5 to 6 years | 70% | 70% | **25%** |
+| 6 to 7 years | 65% | 65% | **20%** |
+| 7 to 8 years | 60% | 60% | **15%** |
+| 8 to 9 years | 55% | 55% | **10%** |
+| 9 to 10 years | 50% | 50% | **5%** |
+| After 10 years | zero | zero | zero |
+| Cap | none | S$60,000 | **S$30,000** |
+
+So if you bought a car in 2022 with an original ARF of S$30,000 and you deregister it at 6 years 3 months, you get back 65% of S$30,000 = S$19,500. Buy the equivalent new car today and the same deregistration returns 20%, or S$6,000. That difference is the single biggest change to Singapore expat car economics in years, and most advice online has not caught up.
+
+The age tiers are calculated on the registration date, not the calendar date — and they tip over on the day, not the month. A car registered on 15 March 2020 deregistered on 14 March 2026 is still in the 5-6 year band; deregister it on 16 March 2026 and you've dropped to 6-7 years and lost 5% of ARF. For a S$30,000 ARF on the older schedule that's S$1,500 — not a rounding error.
 
 **COE rebate** (Certificate of Entitlement). The unused portion of the 10-year COE is refunded pro-rata, but only on the original Quota Premium (QP) — the COE price at first registration. Not what you paid for it second-hand, not the current COE. If the QP was S$80,000 and you deregister with 4 years 3 months left on the COE (51 months out of 120), you get back 51/120 × S$80,000 = S$34,000.
 
-For a typical 5-year-old expat car with S$30,000 ARF and S$80,000 QP, total rebate at year 5 is roughly S$22,500 (PARF 75% × S$30,000) + S$40,000 (COE 60/120 × S$80,000) = **S$62,500 paid into your bank by LTA**, on top of whatever a buyer pays for the vehicle itself. This is the number that makes the maths work for expat ownership.
+For a typical 5-year-old expat car — registered in 2021, so on the pre-February-2023 schedule — with S$30,000 ARF and S$80,000 QP, total rebate at year 5 is roughly S$22,500 (PARF 75% × S$30,000) + S$40,000 (COE 60/120 × S$80,000) = **S$62,500 paid into your bank by LTA**, on top of whatever a buyer pays for the vehicle itself. This is the number that made the maths work for expat ownership. Check your own car's registration date against the table above before assuming it — a car registered from 13 February 2026 would return S$9,000 of PARF on the same ARF, not S$22,500.
 
 You can model your specific car at the [LTA's PARF and COE Rebate calculator](https://onemotoring.lta.gov.sg) — punch in the registration date and original ARF/QP and it spits the number back. The original ARF and QP are on the V05 (vehicle log card) you should already have.
 
@@ -46,7 +53,7 @@ There's a fourth, narrower channel for older cars: **export to motor traders** w
 
 If you go the dealer or instant-offer route, *they* deregister the car — you sign forms authorising it, they handle LTA. If you sell privately, the buyer might keep the car on the road (no deregistration), or you might deregister it yourself before scrapping/exporting (rare for an expat selling a working car).
 
-The mechanical bit: deregistration cancels the vehicle's road registration permanently. The PARF + COE rebates are released by LTA within 7-14 working days of deregistration. The car must then physically leave Singapore (export) or be scrapped at an LTA-authorised facility within one month, or the rebate is clawed back. Dealers handle this end of the chain — that's what their margin pays for.
+The mechanical bit: deregistration cancels the vehicle's road registration permanently. The PARF + COE rebates are released by LTA within 7-14 working days of deregistration. You then have **one month from the deregistration date** to dispose of the car — export it or scrap it at an LTA-authorised facility — and submit the disposal documents to LTA. Missing that is an offence under the Road Traffic Act, not merely an administrative slip: LTA can prosecute, with a maximum fine of S$2,000 or three months' imprisonment. Separately, the rebates themselves are only valid for **12 months** from the deregistration date, so they do eventually lapse if unclaimed. Dealers handle this end of the chain — that's what their margin pays for.
 
 ## Six-week countdown
 

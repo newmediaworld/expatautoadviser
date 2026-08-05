@@ -15,7 +15,7 @@ Here's how it actually works.
 
 ## What Is a COE and Why Does Singapore Have It?
 
-Singapore is a tiny island. 728 square kilometres. In the 1990s, traffic was becoming a serious problem — not future-problem serious, but gridlock-now serious. The government's solution was characteristically direct: limit the number of cars that can exist on the road at any one time.
+Singapore is a tiny island. About 736 square kilometres. In the 1990s, traffic was becoming a serious problem — not future-problem serious, but gridlock-now serious. The government's solution was characteristically direct: limit the number of cars that can exist on the road at any one time.
 
 The COE system was introduced in 1990. It works like this:
 
@@ -43,7 +43,7 @@ For most expats, Category A is the practical choice. The cars are reliable, prac
 
 This is where expats get a shock.
 
-As of early 2025, COE prices for Category A were sitting in the range of **S$85,000–S$100,000**. Category B was higher — often S$100,000–S$120,000.
+Through 2026 Category A has traded between **S$102,009** (January, first bidding) and **S$129,000** (July, first bidding). Category B has run at a similar level — the two categories have converged, and Cat A has closed *above* Cat B in several rounds.
 
 These prices fluctuate significantly based on supply and quota allocations. In 2020, during COVID, COE prices dropped to S$30,000–S$40,000 for Category A. By 2023 they had surged above S$100,000. The market moves.
 
@@ -89,7 +89,7 @@ That said, if you have young children, live in areas with less MRT coverage (par
 1. **Check your employment pass validity** — Lenders typically want at least 1 year remaining on your pass to approve a car loan. More detail on expat-specific loan rules in our [Singapore car loans + MAS LTV guide](/singapore/car-loans).
 2. **Move your cash into SGD properly** — transfers via UK/US high-street banks often strip S$500–S$1,500 on a typical deposit due to poor FX rates. A specialist FX provider such as Wise is the standard fix for expats funding an SGD deposit or COE bid.
 3. **Choose your car and category** — Test drive at dealerships; Category A for most expats
-4. **Arrange financing** — Singapore banks (DBS, OCBC, UOB) offer car loans up to 60% of purchase price; loan tenure up to 7 years; interest rates approximately 2.5–3% per annum
+4. **Arrange financing** — Singapore banks (DBS, OCBC, UOB) offer car loans up to the MAS cap of 70% of purchase price (OMV ≤ S$20,000) or 60% (OMV above that); loan tenure up to 7 years; flat interest rates typically around 2.5–3.5% per annum
 5. **Dealer submits COE bid** — You'll pay a deposit; the dealer bids on your behalf at the next fortnightly exercise
 6. **COE confirmed** — Collection of vehicle typically within a few weeks of successful bid
 
@@ -101,7 +101,7 @@ That said, if you have young children, live in areas with less MRT coverage (par
 
 **Depreciation is steep.** New cars in Singapore depreciate heavily in the early years. A car bought for S$150,000 today might be worth S$70,000 in five years. Budget for this from day one.
 
-**Loan limits are strict.** As of 2023, LTA regulations cap car loans at 60% of purchase price for cars with OMV below S$20,000, and 40% for higher OMV vehicles. You'll need a significant cash deposit.
+**Loan limits are strict.** MAS — not LTA — caps car loans at 70% of the purchase price for cars with an OMV of S$20,000 or below, and 60% for cars above that, over a maximum seven-year tenure. These caps have been in force since May 2016. You'll need a significant cash deposit.
 
 _**Affiliate disclosure:** We work with a small number of vetted partners whose products we'd genuinely recommend to a friend in the same situation. Commissions help us keep this site free to read and independent of advertiser pressure. We never recommend a product we wouldn't use ourselves, and we update pricing and terms as soon as we find them changed._
 
@@ -126,4 +126,4 @@ Yes — all vehicles in Singapore require a COE. Motorcycles (Category D) and co
 
 *Related guides: Car Insurance for Expats in Singapore | Converting Your Foreign Driving Licence | Should Expats Buy or Lease a Car in Singapore?*
 
-*Last updated: March 2025 | Prices verified March 2025*
+*Last updated: August 2026 | COE figures verified against LTA bidding results, 5 August 2026*

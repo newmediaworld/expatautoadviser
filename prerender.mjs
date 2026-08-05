@@ -131,13 +131,13 @@ const META = {
     ],
   },
   '/singapore/licence-conversion': {
-    title: `Convert UK Driving Licence to Singapore 2026 (No Retest)`,
-    desc: `Convert your UK driving licence to a Singapore licence in 2026 — which licences qualify, the SGD cost, paperwork, and the no-retest pathway.`,
+    title: `Convert UK Driving Licence to Singapore 2026 (BTT Required)`,
+    desc: `Convert your UK driving licence to a Singapore licence in 2026 — the mandatory Basic Theory Test, the SGD cost, paperwork, and how long it takes.`,
     type: `article`,
     faq: [
       {
-        q: `Which countries have reciprocal licence agreements with Singapore?`,
-        a: `Singapore has reciprocal agreements with Australia, New Zealand, the UK, Ireland, and several other countries, allowing direct conversion without a driving test.`,
+        q: `Can I convert my UK licence in Singapore without taking a test?`,
+        a: `No. Singapore has no test-free conversion route for any country, including the UK, Australia, New Zealand, Ireland and the EU. Every foreign licence holder must pass the Basic Theory Test (S$7.20 from 13 March 2026) before submitting a conversion application. Traffic Police then assess case by case whether a practical driving test is also required. The conversion fee itself is S$50.`,
       },
       {
         q: `How long does licence conversion take in Singapore?`,
@@ -458,7 +458,7 @@ const META = {
     faq: [
       {
         q: `How does COE bidding work in Singapore?`,
-        a: `LTA runs a sealed-bid uniform-price auction twice a month (first and third Wednesday). Your dealer bids on your behalf. The lowest successful bid sets the cut-off price; everyone who won pays that price (not their actual bid). Bidding closes Wednesday 4pm; results published the same evening.`,
+        a: `LTA runs a sealed-bid uniform-price auction twice a month. Bidding opens at 12 noon on the first and third Monday of the month and runs for three working days, closing at 4pm on the Wednesday of the same week. Your dealer bids on your behalf. The lowest successful bid sets the cut-off price; everyone who won pays that price, not their actual bid. Results are published the same evening.`,
       },
       {
         q: `What's the difference between Cat A and Cat B COE in Singapore?`,
@@ -472,12 +472,12 @@ const META = {
   },
   '/singapore/selling-guide': {
     title: `Selling Your Car Leaving Singapore 2026: Claim PARF + COE`,
-    desc: `Departing UK expats Singapore 2026 — claim PARF and COE rebates worth S$20-40k, dealer vs instant-offer vs private sale, deadline traps that cost four-figure refunds.`,
+    desc: `Departing UK expats Singapore 2026 — claim your PARF and COE rebates, dealer vs instant-offer vs private sale, and the deadline traps that cost four-figure refunds.`,
     type: `article`,
     faq: [
       {
         q: `How is the PARF rebate calculated when selling a car in Singapore?`,
-        a: `PARF rebate is a percentage of the original ARF (Additional Registration Fee) paid when the car was first registered, stepping down by age: 75% if deregistered up to 5 years, 70% (5-6yr), 65% (6-7yr), 60% (7-8yr), 55% (8-9yr), 50% (9-10yr), zero after 10 years. The age bands tip over on the registration date itself, not the calendar month — deregistering one day late can drop you a 5% tier and cost four figures.`,
+        a: `PARF rebate is a percentage of the original ARF (Additional Registration Fee) paid when the car was first registered, and which schedule applies depends on when the car was registered. Cars registered with COEs from the second February 2026 bidding exercise onwards get 30% of ARF if deregistered within 5 years, then 25% (5-6yr), 20% (6-7yr), 15% (7-8yr), 10% (8-9yr) and 5% (9-10yr), capped at S$30,000 and zero after 10 years. Cars registered between 15 February 2023 and 12 February 2026 keep the older 75% / 70% / 65% / 60% / 55% / 50% schedule capped at S$60,000, and cars registered before 15 February 2023 get those same percentages with no cap at all. The age bands tip over on the registration date itself, not the calendar month — deregistering one day late can drop you a tier and cost four figures.`,
       },
       {
         q: `What's the difference between PARF rebate and COE rebate?`,
@@ -515,15 +515,15 @@ const META = {
     faq: [
       {
         q: `How much is road tax for a typical car in Singapore?`,
-        a: `For a typical UK expat car of 1.6L-2.5L petrol, road tax sits in the S$700-1,500/year range. A 1.6L compact saloon runs roughly S$740-760/year; a 2.0L mid-size saloon ~S$900-950; a 2.5L SUV ~S$1,400-1,500; a 3.0L executive ~S$2,100-2,200. The exact figure is engine-cc-precise — pull it from the LTA OneMotoring road tax calculator for your specific vehicle.`,
+        a: `For a typical UK expat car of 1.6L-2.5L petrol, road tax sits in the S$740-1,800/year range. A 1.6L compact saloon (1,598cc) runs about S$742/year; a 2.0L mid-size saloon (1,998cc) about S$1,210; a 2.5L SUV (2,494cc) about S$1,792; a 3.0L executive (2,996cc) about S$2,380. The exact figure is engine-cc-precise — pull it from the LTA OneMotoring road tax calculator for your specific vehicle.`,
       },
       {
         q: `Why is diesel road tax so much higher in Singapore?`,
-        a: `Diesel cars pay six times the standard cc-based road tax plus an additional Special Tax surcharge calculated per cc per year. A 2.0L diesel SUV that would cost ~S$925 as a petrol equivalent runs closer to S$5,500-6,000/year as a diesel — a ~S$50,000 swing over 10 years on tax alone, before VES banding penalties. Singapore's tax structure is designed to push owners toward petrol, hybrid and EV.`,
+        a: `Diesel cars pay the ordinary cc-based road tax plus a Special Tax on top, and the size of that Special Tax depends entirely on the car's emission standard. LTA's 6-monthly rates are: pre-Euro IV, six times the road tax of an equivalent petrol car less S$100; Euro IV, S$0.625 per cc less S$100 (minimum S$525); Euro V or JPN2009, S$0.20 per cc less S$100 (minimum S$100). So a 2.0L Euro V diesel adds about S$300 per 6 months to the ~S$1,210/year petrol-equivalent road tax, while an old pre-Euro IV car of the same size pays several thousand a year. New diesel car registrations have been barred in Singapore since 1 January 2025, so this only matters on the used market.`,
       },
       {
         q: `What happens to road tax when a Singapore COE is renewed at year 10?`,
-        a: `Renewed-COE cars pay a 10% annual road-tax surcharge on top of the standard formula for years 11-20. Renewing the COE also forfeits the PARF rebate permanently — you can never claim it once you renew. For most UK expats this decision falls to the next owner because year 10 is past their typical departure date, but if you're considering a longer Singapore stay (8+ years), the year-10 fork is worth modelling at purchase.`,
+        a: `Cars past 10 years old pay a road-tax surcharge that steps up with age: 10% over 10 years, 20% over 11, 30% over 12, 40% over 13 and 50% over 14, where it stops — it does not keep climbing. Renewing the COE also forfeits the PARF rebate permanently — you can never claim it once you renew. For most UK expats this decision falls to the next owner because year 10 is past their typical departure date, but if you're considering a longer Singapore stay (8+ years), the year-10 fork is worth modelling at purchase.`,
       },
     ],
   },
@@ -649,7 +649,7 @@ const META = {
       },
       {
         q: `Will my Singapore bank finance a parallel-imported car?`,
-        a: `Generally yes for new cars from major brands through major PIs. DBS, OCBC, UOB and Standard Chartered all finance PI cars at the same MAS LTV rates as AD cars (50-60% maximum loan-to-value). Niche brands or very small PIs may face stricter scrutiny.`,
+        a: `Generally yes for new cars from major brands through major PIs. DBS, OCBC, UOB and Standard Chartered all finance PI cars at the same MAS LTV rates as AD cars — 70% of the purchase price where the car's OMV is S$20,000 or below, 60% where it is above. Niche brands or very small PIs may face stricter scrutiny.`,
       },
     ],
   },
@@ -668,7 +668,7 @@ const META = {
       },
       {
         q: `Should I take a Singapore car loan instead of transferring all the cash?`,
-        a: `Often yes for cash-flow reasons. UK expats with valid Employment Pass and a few months of Singapore salary history can typically borrow 50-60% LTV against the OMV + ARF + COE total via Singapore banks. Reduces upfront GBP transfer; you service the SGD loan from your Singapore salary going forward.`,
+        a: `Often yes for cash-flow reasons. UK expats with valid Employment Pass and a few months of Singapore salary history can typically borrow up to the MAS cap — 70% of the purchase price if the car's OMV is S$20,000 or below, 60% if it is above, over a maximum seven-year tenure. Reduces upfront GBP transfer; you service the SGD loan from your Singapore salary going forward.`,
       },
     ],
   },
@@ -702,7 +702,7 @@ const META = {
       },
       {
         q: `Can I drive in Singapore on a foreign licence as a new arrival?`,
-        a: `Yes — for the first 12 months. After that you must convert to a Singapore licence. Most UK, Australian, NZ, and EU licences qualify for direct conversion without sitting a test, but you do need to apply within 12 months of becoming a resident.`,
+        a: `Yes — for the first 12 months, provided you also carry an International Driving Permit or an official English translation of your licence. After that you must convert to a Singapore licence, and conversion is not test-free: every foreign licence holder, UK and EU included, has to pass Singapore's Basic Theory Test first, after which Traffic Police decide whether a practical test is also needed.`,
       },
       {
         q: `What's the cheapest way to get on the road as a new expat in Singapore?`,
