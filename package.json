@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "gen:vercel": "node scripts/gen-vercel-config.mjs",
+    "prebuild": "node scripts/gen-vercel-config.mjs --check",
     "build": "vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node prerender.mjs",
     "preview": "vite preview",
     "verify-deploy": "bash scripts/verify-deploy.sh",

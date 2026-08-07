@@ -59,8 +59,13 @@ export default function EmailCapture({
     submittingRef.current = true;
     setStatus('loading');
 
+    // The response is now inspected. Until 2026-08-06 this was a bare
+    // `await fetch(...)` followed by setStatus('done'), so the form showed
+    // "You're in!" even when the API returned 500 (Brevo env missing) or 502
+    // (Brevo rejected the request) and nothing had been stored.
+    // (Plumbing audit 2026-08-06, finding A3.)
     try {
-      await fetch('/api/subscribe', {
+      const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -73,14 +78,63 @@ export default function EmailCapture({
           guideTopic,
         }),
       });
-    } catch (err) {
-      // Silent fail — we still show success to the user to avoid
-      // punishing them for transient network issues. Server logs + Brevo
-      // dashboard are the source of truth.
+
+      // A non-2xx that still carries contactCreated means the subscriber IS
+      // stored and only the magnet email failed — the API retries that, so
+      // showing success is honest. Anything else is a real failure.
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok && data.contactCreated !== true) {
+        setStatus('error');
+        submittingRef.current = false;
+        return;
+      }
+    } catch {
+      setStatus('error');
+      submittingRef.current = false;
+      return;
     }
 
     setStatus('done');
   };
+
+  if (status === 'error') {
+    return (
+      <div
+        style={{
+          background: '#fef2f2',
+          border: '1.5px solid #fca5a5',
+          borderRadius: 12,
+          padding: '24px 28px',
+          margin: '28px 0',
+          textAlign: 'center',
+        }}
+      >
+        <div style={{ fontSize: 32, marginBottom: 8 }}>⚠️</div>
+        <p style={{ fontSize: 16, fontWeight: 700, color: '#991b1b', margin: '0 0 4px' }}>
+          Something went wrong
+        </p>
+        <p style={{ fontSize: 13, color: '#991b1b', margin: '0 0 14px' }}>
+          We could not sign you up just then. Please try again.
+        </p>
+        <button
+          type="button"
+          onClick={() => setStatus('idle')}
+          style={{
+            background: '#991b1b',
+            color: '#fff',
+            border: 'none',
+            borderRadius: 8,
+            padding: '9px 18px',
+            fontSize: 13,
+            fontWeight: 700,
+            cursor: 'pointer',
+          }}
+        >
+          Try again
+        </button>
+      </div>
+    );
+  }
 
   if (status === 'done') {
     return (

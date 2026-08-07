@@ -1,17 +1,22 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parseRoutes } from './scripts/routes.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BASE = 'https://www.expatautoadviser.com';
 
 /**
- * ROUTES is auto-derived from src/App.jsx at build time so the prerender
- * list cannot drift from the actual route table.
+ * ROUTES is auto-derived from src/App.jsx at build time (via
+ * scripts/routes.mjs) so the prerender list cannot drift from the actual
+ * route table.
  *
  * Pattern: any <Route path="..." element={<X />} /> where the element is NOT
- * a <Navigate ...> redirect. Redirect routes are filtered because they 301
- * to a canonical URL and shouldn't be prerendered or sitemapped separately.
+ * a <Navigate ...> redirect. Redirect routes are filtered because they are
+ * emitted as edge 308s in vercel.json instead — see
+ * scripts/gen-vercel-config.mjs. The `*` catch-all route is filtered too: it
+ * renders the client-side NotFound page and has no prerendered file (the
+ * static 404 is dist/404.html, written at the bottom of this script).
  *
  * If you add a new <Route> in App.jsx, also add a META entry below for the
  * page's title/description/schema. The validation step at the top of this
@@ -19,37 +24,7 @@ const BASE = 'https://www.expatautoadviser.com';
  *
  * (See SHARED/proposals/2026-04-26_seo_postmortem.md for context.)
  */
-function deriveRoutesFromApp() {
-  const appPath = path.join(__dirname, 'src', 'App.jsx');
-  const src = fs.readFileSync(appPath, 'utf-8');
-
-  // Match every <Route path="..." element={<X .../>} />
-  // We need to capture both the path AND the element to filter out Navigate redirects.
-  const routeRegex = /<Route\s+path="([^"]+)"\s+element=\{(<[^/>]+\/?>)/g;
-  const routes = [];
-  const seen = new Set();
-
-  let m;
-  while ((m = routeRegex.exec(src)) !== null) {
-    const [, routePath, element] = m;
-
-    // Skip dynamic segments (no /:slug routes here, but be defensive)
-    if (routePath.includes(':')) continue;
-
-    // Skip <Navigate ...> redirect routes
-    if (/^<Navigate\b/.test(element)) continue;
-
-    // De-dupe (paranoid)
-    if (seen.has(routePath)) continue;
-    seen.add(routePath);
-
-    routes.push(routePath);
-  }
-
-  return routes;
-}
-
-const ROUTES = deriveRoutesFromApp();
+const ROUTES = parseRoutes().pages;
 
 const META = {
   '/': {
@@ -914,4 +889,110 @@ const sitemapXml = [
 
 fs.writeFileSync(path.join(__dirname, 'dist', 'sitemap.xml'), sitemapXml);
 console.log(`Sitemap generated: ${ROUTES.length} URLs`);
+
+/* ── dist/404.html ────────────────────────────────────────────────────────
+ * Vercel serves this file, with a real HTTP 404 status, for any request that
+ * matches no static file, no serverless function and no redirect. Before
+ * 2026-08-06 vercel.json rewrote `/(.*)` → `/index.html`, so those requests
+ * got an HTTP 200 carrying the homepage prerender and the homepage canonical
+ * — a soft 404 on every typo'd or retired URL. See scripts/routes.mjs.
+ *
+ * This page deliberately ships NO application JavaScript. The Vite bundle
+ * hydrates #root against the current URL; on an unknown URL React Router
+ * would match the `*` catch-all and replace whatever was in #root, so
+ * reusing the SPA template here would fight itself. A self-contained static
+ * page also means the 404 keeps working if the bundle ever fails to load.
+ * GA4 is kept so broken inbound links stay visible in analytics.
+ */
+const notFoundHtml = `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, follow" />
+    <title>Page not found — ExpatAutoAdviser</title>
+    <meta name="description" content="That page doesn't exist on ExpatAutoAdviser." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-361S2D3P8X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-361S2D3P8X');
+    </script>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #0a0c12;
+        color: #f8fafc;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        padding: 32px 20px;
+      }
+      .wrap { max-width: 560px; text-align: center; }
+      .brand {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 26px;
+        font-weight: 900;
+        letter-spacing: -0.5px;
+        margin: 0 0 28px;
+      }
+      .brand span { color: #e8341c; }
+      .code {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #e8341c;
+        margin: 0 0 10px;
+      }
+      h1 {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 32px;
+        line-height: 1.2;
+        margin: 0 0 14px;
+      }
+      p { font-size: 15px; line-height: 1.65; color: #9aa5b8; margin: 0 0 28px; }
+      .links { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+      .links a {
+        display: inline-block;
+        padding: 11px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        border: 1.5px solid rgba(255,255,255,0.16);
+        color: #f8fafc;
+      }
+      .links a.primary { background: #e8341c; border-color: #e8341c; color: #fff; }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <p class="brand">Expat<span>Auto</span>Adviser</p>
+      <p class="code">Error 404</p>
+      <h1>That page doesn't exist</h1>
+      <p>
+        The link may be mistyped, or the guide may have moved. Everything we
+        publish for Singapore and Hong Kong is one click away below.
+      </p>
+      <div class="links">
+        <a class="primary" href="/">Home</a>
+        <a href="/singapore">Singapore guides</a>
+        <a href="/hong-kong">Hong Kong guides</a>
+      </div>
+    </main>
+  </body>
+</html>
+`;
+
+fs.writeFileSync(path.join(__dirname, 'dist', '404.html'), notFoundHtml);
+console.log('Wrote dist/404.html (served with a real 404 status by Vercel)');
+
 console.log('Pre-rendering complete!');

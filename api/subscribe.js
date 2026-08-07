@@ -87,11 +87,20 @@ export default async function handler(req, res) {
     const pendingListId = Number(process.env.BREVO_EAA_PENDING_LIST_ID || 0);
 
     if (!apiKey || !pendingListId) {
-      // Don't expose infra state to the client, but log loudly.
+      // Hard fail. This used to return 200 {ok:true}: the form showed a
+      // success message while the subscriber was silently discarded, and the
+      // only evidence was a log line nobody reads. A 500 makes the form show
+      // an error and makes the failure visible to uptime monitoring.
+      // (Plumbing audit 2026-08-06, finding A3.)
       console.error(
-        'Brevo env missing: BREVO_API_KEY or BREVO_EAA_PENDING_LIST_ID'
+        '[subscribe] CONFIG_ERROR: Brevo env missing — subscriber discarded.',
+        `BREVO_API_KEY=${apiKey ? 'set' : 'MISSING'}`,
+        `BREVO_EAA_PENDING_LIST_ID=${pendingListId ? 'set' : 'MISSING'}`
       );
-      return res.status(200).json({ ok: true });
+      return res.status(500).json({
+        error: 'Something went wrong. Please try again.',
+        code: 'CONFIG_ERROR',
+      });
     }
 
     // Ensure new attributes exist in Brevo schema (idempotent, cached).
@@ -122,9 +131,23 @@ export default async function handler(req, res) {
       }),
     });
 
+    // Brevo returns 201 on create and 204 on update (updateEnabled: true),
+    // so anything outside 2xx is a genuine failure — including a 401 from a
+    // rotated/revoked key and a 400 from a rejected payload. Previously this
+    // was logged and then execution carried on to return {ok:true}, i.e. a
+    // 4xx from Brevo was reported to the user as success.
+    // (Plumbing audit 2026-08-06, finding A3.)
     if (!brevoRes.ok) {
       const errText = await brevoRes.text().catch(() => '');
-      console.error('Brevo subscribe failed:', brevoRes.status, errText);
+      console.error(
+        '[subscribe] BREVO_CONTACT_FAILED:',
+        brevoRes.status,
+        errText.slice(0, 500)
+      );
+      return res.status(502).json({
+        error: 'Something went wrong. Please try again.',
+        code: 'BREVO_CONTACT_FAILED',
+      });
     }
 
     // Decide which email to send:
@@ -183,23 +206,28 @@ export default async function handler(req, res) {
         });
         if (!emailRes.ok) {
           const errText = await emailRes.text().catch(() => '');
-          console.error('Brevo email failed:', emailRes.status, errText);
+          // Detail stays server-side: Brevo error bodies can echo request
+          // content and auth state, and this response reaches the browser.
+          console.error(
+            '[subscribe] BREVO_SEND_FAILED:',
+            emailRes.status,
+            errText.slice(0, 500)
+          );
           // Surface as 502 — contact already created above so the
           // form UX can still say "you're subscribed". Previously a
           // silent skip + ok:true that took Brevo dashboard inspection
           // to detect. Pattern: SHARED/lessons.md 2026-06-21.
           return res.status(502).json({
             error: 'Subscribed but magnet delivery failed — we will retry.',
-            detail: `BREVO_SEND_FAILED:${emailRes.status}:${errText.slice(0, 200)}`,
+            code: 'BREVO_SEND_FAILED',
             contactCreated: true,
           });
         }
       } catch (emailErr) {
-        console.error('Brevo email exception:', emailErr);
-        const msg = emailErr instanceof Error ? emailErr.message : String(emailErr);
+        console.error('[subscribe] BREVO_SEND_EXCEPTION:', emailErr);
         return res.status(502).json({
           error: 'Subscribed but magnet delivery failed — we will retry.',
-          detail: `BREVO_SEND_EXCEPTION:${msg.slice(0, 200)}`,
+          code: 'BREVO_SEND_EXCEPTION',
           contactCreated: true,
         });
       }
@@ -207,26 +235,26 @@ export default async function handler(req, res) {
       // Unknown magnet key — caller bug. Return 400 with structured
       // detail. Previously a silent warn + ok:true; only visible by
       // checking Brevo dashboard for an absent send.
-      console.warn(
-        `No magnet config found for key: ${emailMagnetKey}. Email not sent.`
+      console.error(
+        `[subscribe] UNKNOWN_MAGNET_KEY: ${emailMagnetKey}. Email not sent.`
       );
       return res.status(400).json({
-        error: 'Unknown magnet key',
-        detail: `UNKNOWN_MAGNET_KEY:${emailMagnetKey}`,
+        error: 'Something went wrong. Please try again.',
+        code: 'UNKNOWN_MAGNET_KEY',
         contactCreated: true,
       });
     }
 
     return res.status(200).json({ ok: true });
   } catch (err) {
-    console.error('Subscribe error:', err);
     // Bug-class catch: bubble to 500. Returning ok:true here was
     // actively deceptive — programmer errors and network failures
     // looked successful. SHARED/lessons.md 2026-06-21.
-    const msg = err instanceof Error ? err.message : String(err);
+    // The message itself stays in the log; it can contain internals.
+    console.error('[subscribe] UNHANDLED:', err);
     return res.status(500).json({
       error: 'Something went wrong. Please try again.',
-      detail: msg.slice(0, 200),
+      code: 'UNHANDLED',
     });
   }
 }

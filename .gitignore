@@ -3,6 +3,9 @@ dist/
 .vite/
 .ssr/
 .env*
+# ...but the documentation template must be tracked. It contains variable
+# names and comments only, never values.
+!.env.example
 .DS_Store
 
 # OS / editor artifacts

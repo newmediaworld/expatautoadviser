@@ -213,12 +213,16 @@ export default function Home() {
   const [email, setEmail] = useState("");
   const [nlCity, setNlCity] = useState("sg");
   const [nlSubmitted, setNlSubmitted] = useState(false);
+  const [nlFailed, setNlFailed] = useState(false);
 
   async function handleNewsletterSubmit(e) {
     e.preventDefault();
     if (!email) return;
+    setNlFailed(false);
+    // Response inspected as of 2026-08-06 — this used to swallow every
+    // outcome and always claim success. See plumbing audit finding A3.
     try {
-      await fetch("/api/subscribe", {
+      const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -231,7 +235,17 @@ export default function Home() {
           guideTopic: "newsletter",
         }),
       });
-    } catch {}
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok && data.contactCreated !== true) {
+        setNlFailed(true);
+        setTimeout(() => setNlFailed(false), 5000);
+        return;
+      }
+    } catch {
+      setNlFailed(true);
+      setTimeout(() => setNlFailed(false), 5000);
+      return;
+    }
     setNlSubmitted(true);
     setTimeout(() => setNlSubmitted(false), 3000);
     setEmail("");
@@ -321,9 +335,14 @@ export default function Home() {
             required
           />
           <button type="submit" className="nl-btn">
-            {nlSubmitted ? "✓ CHECK YOUR INBOX" : "SUBSCRIBE"}
+            {nlSubmitted ? "✓ CHECK YOUR INBOX" : nlFailed ? "⚠ TRY AGAIN" : "SUBSCRIBE"}
           </button>
         </form>
+        {nlFailed && (
+          <p role="alert" style={{ margin: '8px 0 0', fontSize: '0.75rem', color: '#ffb4b4' }}>
+            That didn&apos;t go through. Please try again in a moment.
+          </p>
+        )}
       </div>
       {/* Footer */}
       <footer style={{ borderTop: '1px solid #e5e7eb', background: '#fff', padding: '32px 20px', textAlign: 'center' }}>

@@ -52,6 +52,7 @@ import Terms from './pages/legal/Terms';
 import Cookies from './pages/legal/Cookies';
 import AffiliateDisclosure from './pages/legal/AffiliateDisclosure';
 import Contact from './pages/legal/Contact';
+import NotFound from './pages/NotFound';
 import CookieConsent from './components/CookieConsent';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -65,6 +66,7 @@ export function ExitIntent() {
   useEffect(() => { setShow(true); }, []);
   const [email, setEmail] = useState('');
   const [done, setDone] = useState(false);
+  const [failed, setFailed] = useState(false);
   const { pathname } = useLocation();
 
   async function subscribe(e) {
@@ -72,8 +74,10 @@ export function ExitIntent() {
     if (!email) return;
     const path = pathname || '';
     const city = path.startsWith('/hong-kong') || path.startsWith('/hongkong') ? 'hk' : 'sg';
+    // Response inspected as of 2026-08-06 — this used to swallow every
+    // outcome and always claim success. See plumbing audit finding A3.
     try {
-      await fetch('/api/subscribe', {
+      const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -86,7 +90,15 @@ export function ExitIntent() {
           guideTopic: 'general',
         }),
       });
-    } catch {}
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok && data.contactCreated !== true) {
+        setFailed(true);
+        return;
+      }
+    } catch {
+      setFailed(true);
+      return;
+    }
     setDone(true);
     setTimeout(() => setShow(false), 2000);
   }
@@ -102,6 +114,8 @@ export function ExitIntent() {
       <img src={PATRICK_IMG} alt="Patrick" style={{ width: 30, height: 30, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />
       {done ? (
         <span style={{ fontSize: 14, fontWeight: 600 }}>{"✓ You're in! Check your inbox for your starter guide."}</span>
+      ) : failed ? (
+        <span style={{ fontSize: 14, fontWeight: 600, color: '#ffb4b4' }}>{"⚠ That didn't go through. Please try again in a moment."}</span>
       ) : (
         <>
           <span style={{ fontSize: 13, flexShrink: 0 }}>New expat car guides and market updates — straight to your inbox</span>
@@ -190,6 +204,12 @@ export function AppRoutes() {
       <Route path="/hongkong/calculators" element={<Navigate to="/hong-kong/calculators" replace />} />
       <Route path="/hongkong/garage-finder" element={<Navigate to="/hong-kong/garage-finder" replace />} />
       <Route path="/hongkong/lease-checker" element={<Navigate to="/hong-kong/lease-checker" replace />} />
+
+      {/* Client-side 404. Only reachable via an in-app <Link> to a bad path —
+          a direct request for an unknown URL is answered by Vercel with
+          dist/404.html and a real 404 status. Excluded from prerendering and
+          the sitemap by scripts/routes.mjs. */}
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }

@@ -1,7 +1,74 @@
 {
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/:path*" },
-    { "source": "/magnets/:path*", "destination": "/magnets/:path*" },
-    { "source": "/(.*)", "destination": "/index.html" }
+  "redirects": [
+    {
+      "source": "/hongkong",
+      "destination": "/hong-kong",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/should-i-get-a-car",
+      "destination": "/hong-kong/should-i-get-a-car",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/buying-guide",
+      "destination": "/hong-kong/buying-guide",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/leasing-guide",
+      "destination": "/hong-kong/leasing-guide",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/frt-tax-explained",
+      "destination": "/hong-kong/frt-tax-explained",
+      "permanent": true
+    },
+    {
+      "source": "/hong-kong/frt-explained",
+      "destination": "/hong-kong/frt-tax-explained",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/frt-explained",
+      "destination": "/hong-kong/frt-tax-explained",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/insurance-guide",
+      "destination": "/hong-kong/insurance-guide",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/mot-maintenance",
+      "destination": "/hong-kong/mot-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/licence-conversion",
+      "destination": "/hong-kong/licence-conversion",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/ev-guide",
+      "destination": "/hong-kong/ev-guide",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/calculators",
+      "destination": "/hong-kong/calculators",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/garage-finder",
+      "destination": "/hong-kong/garage-finder",
+      "permanent": true
+    },
+    {
+      "source": "/hongkong/lease-checker",
+      "destination": "/hong-kong/lease-checker",
+      "permanent": true
+    }
   ]
 }
