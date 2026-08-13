@@ -72,7 +72,7 @@ The Singapore motor insurance market has 15+ licensed insurers writing private m
 
 **Not usually best-price for UK expats in 2026:** Allianz Singapore, FWD, Singlife (formerly Aviva), Chubb — competitive on other lines but their motor products aren't consistently sharp for the UK-expat profile.
 
-Get three quotes minimum. Use an online comparator like [SingSaver](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-singapore-motor-insurance-2026-uk-expats) to see the market spread quickly — the comparison typically covers Income, MSIG, AIG, Etiqa and a couple more, all quoted on your specific car and driver profile. Then approach the top 2-3 direct for a final negotiation.
+Get three quotes minimum. Use an online comparator like [SingSaver](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-singapore-motor-insurance-2026-uk-expats) to see the market spread quickly — the comparison typically covers Income, MSIG, AIG, Etiqa and a couple more, all quoted on your specific car and driver profile. Then approach the top 2-3 direct for a final negotiation.
 
 ## Comprehensive vs third-party — the honest maths
 
@@ -156,7 +156,7 @@ Not legally — the Motor Vehicles Third-Party Risks and Compensation Act only r
 
 ### Which Singapore insurer is cheapest for UK expats?
 
-There is no single answer — Income Insurance is competitive for straightforward family-car profiles, DirectAsia is aggressive for young low-risk drivers, MSIG is well-priced for newer cars. Use a comparator like [SingSaver](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-singapore-motor-insurance-2026-uk-expats) to see three quotes in 5 minutes, then approach the top 1-2 direct.
+There is no single answer — Income Insurance is competitive for straightforward family-car profiles, DirectAsia is aggressive for young low-risk drivers, MSIG is well-priced for newer cars. Use a comparator like [SingSaver](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-singapore-motor-insurance-2026-uk-expats) to see three quotes in 5 minutes, then approach the top 1-2 direct.
 
 ### Is my Singapore car insurance valid in Malaysia?
 

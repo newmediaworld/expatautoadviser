@@ -324,7 +324,7 @@ export default function SGLeaseChecker() {
               type="insurance"
               title="Compare car insurance before you sign"
               partners={[
-                { name: 'SingSaver — Compare All Insurers', badge: 'Compare', desc: 'See quotes from the major Singapore car insurers side-by-side (NTUC Income, AIG, FWD, Direct Asia). Takes 2 minutes.', url: 'https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-sg-lease-checker' },
+                { name: 'SingSaver — Compare All Insurers', badge: 'Compare', desc: 'See quotes from the major Singapore car insurers side-by-side (NTUC Income, AIG, FWD, Direct Asia). Takes 2 minutes.', url: 'https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-sg-lease-checker' },
               ]}
             />
 

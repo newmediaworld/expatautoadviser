@@ -689,7 +689,7 @@ export default function Calculators() {
           type="insurance"
           title="Ready to get insured? Compare Singapore car insurance"
           partners={[
-            { name: 'SingSaver — Compare All Insurers', badge: 'Compare', desc: 'Quotes from the main expat-friendly Singapore insurers (NTUC Income, AIG, FWD, Direct Asia) side-by-side. Free, takes 2 minutes.', url: 'https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-sg-calculators' },
+            { name: 'SingSaver — Compare All Insurers', badge: 'Compare', desc: 'Quotes from the main expat-friendly Singapore insurers (NTUC Income, AIG, FWD, Direct Asia) side-by-side. Free, takes 2 minutes.', url: 'https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-sg-calculators' },
           ]}
         />
 

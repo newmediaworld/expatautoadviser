@@ -40,7 +40,16 @@ export function detectAffiliateProgramme(url) {
       return { programme: 'optimise', clickref: mid || `PID=${pid}` };
     }
     if (host === 'awin1.com') return { programme: 'awin', clickref: p.get('clickref') };
-    if (host === 'apply.creatory.singsaver.com.sg') return { programme: 'creatory_singsaver', clickref: p.get('s2') || `o=${p.get('o')}` };
+    // Creatory (MoneyHero Group) runs on Scaleo. Its sub-ID slots are
+    // sub_id1..sub_id5 — NOT s2, which is Optimise's param. Every link shipped
+    // before 13 Aug 2026 used &s2=, which Scaleo silently discards, so the 63
+    // clicks recorded in the first fortnight arrived with no placement
+    // attribution at all. Corrected to sub_id1; s2 still read as a fallback so
+    // any cached/aggregator copies of the old links keep reporting.
+    // SG offers resolve on apply.creatory.singsaver.com.sg, HK offers on
+    // apply.creatory.moneyhero.com.hk — same affiliate id (a=3247).
+    if (host === 'apply.creatory.singsaver.com.sg') return { programme: 'creatory_singsaver', clickref: p.get('sub_id1') || p.get('s2') || `o=${p.get('o')}` };
+    if (host === 'apply.creatory.moneyhero.com.hk') return { programme: 'creatory_moneyhero_hk', clickref: p.get('sub_id1') || p.get('s2') || `o=${p.get('o')}` };
     // Amazon Associates. Gated on the tag= param deliberately: an untagged
     // amazon.* link earns nothing, so firing affiliate_click on it would
     // inflate the count. Same guard pattern as safetywing/referenceID.

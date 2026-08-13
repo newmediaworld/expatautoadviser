@@ -7,7 +7,7 @@
 
 *Typical lender practice:* Individual banks add their own requirements on top — commonly proof of income, bank statements, a healthy Total Debt Servicing Ratio (TDSR), and a reasonable run of Employment Pass validity. Some lenders expect around 12 months of EP remaining, but this is a bank heuristic, not a MAS rule. A guarantor is sometimes required for newcomer expats with thin Singapore credit history.
 
-Cash needed at the dealership is also more than just the loan deposit — you'll fund COE, ARF, GST, registration fees, and first-year insurance from your own pocket too. For the insurance side, most expats end up with Income Insurance (formerly NTUC Income), MSIG or FWD — [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-car-loans-for-expats-in-singapore-mas-ltv-rules) quotes the main expat-friendly insurers in parallel from a single form.
+Cash needed at the dealership is also more than just the loan deposit — you'll fund COE, ARF, GST, registration fees, and first-year insurance from your own pocket too. For the insurance side, most expats end up with Income Insurance (formerly NTUC Income), MSIG or FWD — [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-car-loans-for-expats-in-singapore-mas-ltv-rules) quotes the main expat-friendly insurers in parallel from a single form.
 
 _This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
 
@@ -53,7 +53,7 @@ Expats arriving with UK or US expectations of 10–20% deposit get a shock. The 
 
 If you've moved your cash but the deposit gap is still a stretch — particularly for the OMV>S$20k segment where you need 40% cash, not 30% — a Singapore personal loan can fill the gap. Personal loans aren't subject to the 60/70% MAS car-loan LTV cap (they're an unsecured product), so they're sometimes used to bridge the cash deposit on a higher-OMV vehicle without exceeding TDSR.
 
-Comparison sites that quote multiple SG banks at once cover most of the realistic options for expats — DBS, OCBC, UOB, Standard Chartered, HSBC and the major non-bank licensed lenders. [SingSaver's Singapore personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&s2=eaa-car-loans-for-expats-in-singapore-mas-ltv-rules) returns approval probability and indicative APR across the panel from a single application.
+Comparison sites that quote multiple SG banks at once cover most of the realistic options for expats — DBS, OCBC, UOB, Standard Chartered, HSBC and the major non-bank licensed lenders. [SingSaver's Singapore personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&sub_id1=eaa-car-loans-for-expats-in-singapore-mas-ltv-rules) returns approval probability and indicative APR across the panel from a single application.
 
 A few practical caveats: personal-loan APRs (effective 7–14% in 2026) run materially higher than car-loan flat rates, the tenure is shorter (1–5 years typically), and lenders apply their own TDSR check on top of any existing car loan. Useful as a deposit-top-up tool, less useful as a primary financing route.
 

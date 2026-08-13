@@ -98,7 +98,7 @@ If you installed the seat yourself, get it checked. The rate of incorrect instal
 
 _This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
 
-**On the insurance side:** a properly fitted seat reduces serious-injury risk, but doesn't change premium. What *does* affect premiums for families is declared drivers, parking location, and mileage. If you've just registered a family car and are shopping cover, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-child-car-seats-isofix-laws-singapore) quotes the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) in parallel from one form.
+**On the insurance side:** a properly fitted seat reduces serious-injury risk, but doesn't change premium. What *does* affect premiums for families is declared drivers, parking location, and mileage. If you've just registered a family car and are shopping cover, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-child-car-seats-isofix-laws-singapore) quotes the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) in parallel from one form.
 
 ## Private Hire and Chauffeur Services for School Runs
 

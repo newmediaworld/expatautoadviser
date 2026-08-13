@@ -36,7 +36,7 @@ This is where most comparisons — including an earlier version of this page —
 
 The practical move on arrival in either market is therefore the same: budget as if you will get 0%, ask three brokers to quote with your UK NCD certificate attached, and make each one state on the quote document what NCD they are applying. The variance between insurers is large enough to be worth several hundred pounds a year, and a figure given over the phone is not a figure.
 
-For the Singapore side specifically, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-car-insurance-singapore-vs-hong-kong-uk-expats) returns parallel quotes from the major expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) from one form — useful for the three-quote sweep without phoning each individually.
+For the Singapore side specifically, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-car-insurance-singapore-vs-hong-kong-uk-expats) returns parallel quotes from the major expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) from one form — useful for the three-quote sweep without phoning each individually.
 
 ## Risk loadings: where the markets price differently
 

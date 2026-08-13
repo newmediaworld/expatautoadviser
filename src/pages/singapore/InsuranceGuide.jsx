@@ -7,7 +7,7 @@ const insurancePartners = [
     name: "SingSaver — Compare All Insurers",
     desc: "Parallel quotes from the main expat-friendly Singapore insurers (NTUC Income, AIG, FWD, Direct Asia) from one form. Free, takes about 2 minutes.",
     badge: "Compare",
-    url: "https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-sg-insurance-guide",
+    url: "https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-sg-insurance-guide",
   },
 ];
 

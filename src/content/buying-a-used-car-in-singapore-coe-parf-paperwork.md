@@ -108,7 +108,7 @@ Effective financing windows:
 - COE remaining 3–5 years: available but tenure often limited to remaining COE
 - COE remaining < 3 years: cash purchase most likely
 
-Interest rates on used car loans are typically 0.5%–1.0% higher than new car loans. If you're funding the purchase with cash moved from the UK/AU/US, don't send it on a high-street SWIFT wire — a specialist FX provider such as Wise can move S$40,000–S$80,000 at near mid-market rates with a transparent flat fee, rather than the 2–3% spread most retail banks take. For the insurance side, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&s2=eaa-buying-a-used-car-in-singapore-coe-parf-paperwork) quotes the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) in parallel from one form.
+Interest rates on used car loans are typically 0.5%–1.0% higher than new car loans. If you're funding the purchase with cash moved from the UK/AU/US, don't send it on a high-street SWIFT wire — a specialist FX provider such as Wise can move S$40,000–S$80,000 at near mid-market rates with a transparent flat fee, rather than the 2–3% spread most retail banks take. For the insurance side, [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-buying-a-used-car-in-singapore-coe-parf-paperwork) quotes the main expat-friendly insurers (NTUC Income, AIG, FWD, Direct Asia) in parallel from one form.
 
 ## Common Used Car Scams and Traps
 
