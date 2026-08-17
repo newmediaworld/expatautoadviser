@@ -123,6 +123,8 @@ Subscription insurance is group policy — the operator holds the policy, you dr
 
 If you're an expat planning to buy in year 3 of your Singapore stay, subscribing for years 1–2 costs you the NCD you'd have built up by owning from day one. In insurance terms, that's roughly 5–10% higher premiums in year 3.
 
+Worth pricing that gap before you commit rather than after. Running your details through [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-car-subscription-vs-ownership-singapore) as a zero-NCD driver shows what year-3 ownership actually costs you, which is the number that decides whether two years of subscription convenience is worth it.
+
 ## How to Choose a Subscription Operator
 
 Check these specific things:

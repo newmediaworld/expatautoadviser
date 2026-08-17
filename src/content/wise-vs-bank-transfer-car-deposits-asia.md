@@ -91,6 +91,16 @@ Step by step, what to actually do:
 
 8. **Confirm receipt with the dealer in writing** the moment the SGD/HKD lands in your local account. Don't rely on the dealer monitoring their account.
 
+### If the timing doesn't work, don't force a bad exchange rate
+
+The most expensive mistake in this whole process is moving a large sum at a rate you didn't choose because a dealer deadline arrived first. If you're a few thousand short for the deposit and the rate is against you, bridging the gap in Singapore dollars is usually cheaper than converting £40k at a bad moment — a personal loan isn't subject to the MAS car-loan LTV caps, since it's an unsecured product.
+
+[SingSaver's Singapore personal loan comparison](https://apply.creatory.singsaver.com.sg/click?o=675&a=3247&sub_id1=eaa-wise-vs-bank-transfer-car-deposits-asia) quotes the main SG banks and licensed lenders from a single application, which is enough to see whether the interest on a short bridge costs less than the FX spread you'd eat by converting on the dealer's timetable.
+
+Two caveats. Personal-loan APRs run 7–14% effective in 2026, materially above car-loan flat rates, so this is a timing tool and not a financing strategy. And lenders apply their own TDSR check on top of any car loan you're already taking — so a bridge that looks affordable in isolation can push the main loan out of reach. Model both together before committing to either.
+
+_This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
+
 ## Common Mistakes
 
 - **Funding a Wise transfer with a credit card to "earn points".** The card surcharge typically wipes out the points value. Use bank-funded for large transfers.

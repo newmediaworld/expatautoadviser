@@ -118,6 +118,10 @@ The COE bidding process is identical: the dealer bids on your behalf in the next
 
 Total timeline from deposit to driving home: 3-6 weeks, similar to AD.
 
+One thing worth settling before registration rather than after: insurance. Parallel imports are not treated identically to AD cars by every insurer — some price the same model differently depending on import route, and a few are fussier about non-authorised workshops for repairs, which interacts directly with the warranty point above. Quote the exact variant you're buying across several insurers before you commit; [SingSaver's Singapore car insurance comparison](https://apply.creatory.singsaver.com.sg/click?o=680&a=3247&sub_id1=eaa-parallel-import-cars-singapore-uk-expats) returns the main expat-friendly insurers from one form, which makes it quick to see whether the PI saving survives the premium difference.
+
+_This article contains affiliate links. If you click through and buy or sign up, we may earn a small commission at no extra cost to you. We only recommend tools and services we'd suggest to a friend._
+
 ## Why Due-Diligence on the PI Matters (the Concordway Case)
 
 In April 2026, LTA and Singapore Customs jointly announced one of the largest parallel-import enforcement actions in recent memory. Concordway Pte Ltd's sole director, Subash Indrajith, was charged with nine counts under the Customs Act covering 34 vehicles imported between October 2018 and February 2024, with suppressed-value declarations and undeclared "commission" fees of S$3,000-S$4,000 per vehicle. He pleaded guilty on 24 April 2026 and was fined a combined S$1,068,000, with a 25 May 2026 payment deadline — failing which a default sentence of 12 months and two weeks' imprisonment kicks in. He also received two months' jail under the Road Traffic Act for under-declaring values to LTA, and the court ordered repayment of a S$1,069,595 ARF shortfall.
